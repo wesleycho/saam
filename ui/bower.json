@@ -4,7 +4,7 @@
   "dependencies": {
     "angular": "1.2.1",
     "jquery": "2.0.3",
-    "bootstrap-sass": "~2.3.1",
+    "gumby": "2.5.15",
     "angular-resource": "1.2.1",
     "angular-cookies": "1.2.1",
     "angular-sanitize": "1.2.1"
