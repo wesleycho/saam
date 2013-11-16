@@ -1,5 +1,7 @@
 'use strict';
 
+dev = true;
+
 angular.module('SmithsonianApp', [
   'ngCookies',
   'ngResource',
@@ -7,5 +9,8 @@ angular.module('SmithsonianApp', [
   'ngAnimate',
   'ui.router'
 ])
+  .value('route', {
+    api: dev ? 'http://localhost:9000/api' : 'http://localhost:8080/api'
+  })
   .config(function () {
   });
