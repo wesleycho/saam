@@ -5,6 +5,7 @@
     "angular": "1.2.1",
     "jquery": "2.0.3",
     "gumby": "2.5.15",
+    "modernizr": "2.6.3",
     "angular-resource": "1.2.1",
     "angular-cookies": "1.2.1",
     "angular-sanitize": "1.2.1"
