@@ -3,6 +3,6 @@ ui/dist
 ui/.tmp
 ui/.sass-cache
 ui/app/bower_components
-cherrypy/luce_credentials.py*
+cherrypy/luce_credentials*
 *.sw*
 .DS_Store
