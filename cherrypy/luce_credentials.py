@@ -1,5 +1,5 @@
 
 # Change your API credentials for basic auth here
 
-username = ''
-password = ''
+username = 'HACK'
+password = 'hackme2013!'

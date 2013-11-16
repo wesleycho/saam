@@ -39,6 +39,10 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
+.quickMargin {
+margin-left: 0;
+}
+
 /* line 22, ../../../../../../../.rvm/gems/ruby-2.0.0-p247/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1;
