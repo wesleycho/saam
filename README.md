@@ -16,3 +16,7 @@ This is some placeholder text that someone should update
 *    In the command line, run `gem install compass modular-scale`
 *    In another terminal window, navigate to `ui/app/styles` and run `compass watch ./`
 *    If you want to see the page, just run `grunt server` and observe any changes automatically reflected by this browser!
+
+##### Building Deployed Version of UI
+
+*    Run `grunt build`
