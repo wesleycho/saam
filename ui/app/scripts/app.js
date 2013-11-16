@@ -1,17 +1,10 @@
 'use strict';
 
-angular.module('uiApp', [
+angular.module('SmithsonianApp', [
   'ngCookies',
   'ngResource',
-  'ngSanitize'
+  'ngSanitize',
+  'ui.router'
 ])
-  .config(function ($routeProvider) {
-    $routeProvider
-      .when('/', {
-        templateUrl: 'views/main.html',
-        controller: 'MainCtrl'
-      })
-      .otherwise({
-        redirectTo: '/'
-      });
+  .config(function () {
   });
