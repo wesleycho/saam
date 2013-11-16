@@ -11,6 +11,9 @@ class Root(object):
     from luce_index import luce_index as index
     index.exposed = True
 
+    from luce_match import luce_match
+    luce_match.exposed = True
+
 if __name__ == '__main__':
     
     cherrypy.config.update({'server.socket_port': 8080,
