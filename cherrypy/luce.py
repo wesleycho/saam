@@ -29,10 +29,20 @@ class Root(object):
 
 
 if __name__ == '__main__':
-    
+
+    import os.path
+    current_dir = os.path.dirname(os.path.abspath(__file__))
+
     cherrypy.config.update({'server.socket_port': 8080,
                             'server.socket_host': '127.0.0.1',
                             'log.screen': True,
+##                            'tools.staticdir.on': True,
+##                            'tools.staticdir.root': static_dir
                             })
+
+    conf = {'/static': {'tools.staticdir.on': True,
+                      'tools.staticdir.dir': os.path.join(current_dir, 'static'),
+                        }
+            }
     
-    cherrypy.quickstart(Root(), '/')
+    cherrypy.quickstart(Root(), '/', config=conf)
