@@ -11,10 +11,10 @@
         offset: 2, // Optional, the distance between grid items
         itemWidth: 210 // Optional, the width of a grid item
     };
-    var rows = 20;
+    var rows = 30;
     var start = 0;
-    var currentImage;
     var url;
+    var allData = [];
 
     /**
      * When scrolled all the way to the bottom, add more tiles.
@@ -84,29 +84,40 @@
         for (var i = 0; i < docs.length; i++) {
             var descriptiveNonRepeating = docs[i].descriptiveNonRepeating;
             var image = descriptiveNonRepeating.online_media.media[0].content;
+            var thumbnail = descriptiveNonRepeating.online_media.media[0].thumbNail;
             var title = descriptiveNonRepeating.title.content;
-
+            var id = i + start;
             html += '<li>';
 
-            //                         <a class="ajax-popup img-pop" href='image.html'><img src="http://americanart.si.edu/images/1935/1935.13.271_1a.jpg" width="200" height="200">
-
             // Image tag (preview in Wookmark are 200px wide, so we calculate the height based on that).
-            html += '<a class="ajax-popup img-pop" href="image.html"><img src="' + image + '" width="200" height="200"/></a>';
+            html += '<a class="ajax-popup img-pop" href="image.html" data-id="' + id + '">';
+            html += '<img data-id="' + id + '" src="' + image + '" width="200" height="200"/></a>';
 
             // Image title.
             html += '<p>' + title + '</p>';
 
             html += '</li>';
-
         }
+        allData.push(docs);
 
         // Add image HTML to the page.
         $('#tiles').append(html);
 
         $('.img-pop').click(function(e) {
             var srcElement = e.srcElement;
+            var dataArray = allData[0];
+            var id = parseInt(srcElement.dataset.id) - start;
+            var item = dataArray[id];
+
+            var descriptiveNonRepeating = item.descriptiveNonRepeating;
+            var image = descriptiveNonRepeating.online_media.media[0].content;
+            var thumbnail = descriptiveNonRepeating.online_media.media[0].thumbNail;
+            var title = descriptiveNonRepeating.title.content;
+
+            $('#title').text(title);
+
             url = srcElement.src;
-            console.log(url);
+            console.log(item);
             e.preventDefault();
         });
 
