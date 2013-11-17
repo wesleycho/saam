@@ -10026,7 +10026,7 @@ table.rounded > tbody:first-child tr:first-child td {
 }
 
 /* line 40, ../sass/_custom.scss */
-.head {
+.head, .foot {
   background-color: #74c9ab;
 }
 

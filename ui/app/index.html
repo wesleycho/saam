@@ -19,23 +19,28 @@
       <div class="twelve columns">
         <h1>Luce Foundation Center for American Art</h1>
         <nav class="nine columns push_three">
-          <div class="three columns alpha nav skip">
+          <div class="three columns alpha nav">
             <a ng-click="goTo('tour')">Take a tour</a>
           </div>
           <div class="three columns nav">
-            <a href="#/browse">Browse</a>
+            <a ng-click="goTo('browse')">Browse</a>
           </div>
           <div class="three columns nav">
-            <a href="#/collect">Your Collection</a>
+            <a ng-click="goTo('collect')">Your Collection</a>
           </div>
           <div class="three columns nav">
-            <a href="#favorite">Play Art!</a>
+            <a ng-click="goTo('favorite')">Play Art!</a>
           </div>
         </nav>
       </div>
     </div>
   </section>
-  <div ui-view="main"></div>  
+  <div ui-view="main"></div>
+  <section class="foot">
+    <div class="row">
+      <h4>#lucehack | Luce Foundation Hackathon | Team Back Left | <a href="https://github.com/wesleycho/saam">Fork us on GitHub</a></h4>
+    </div>
+  </section>
         <script>
           var dev = true;
         </script>
