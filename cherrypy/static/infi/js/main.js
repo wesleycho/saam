@@ -132,11 +132,18 @@
                     }
                     var descriptiveNonRepeating = item.descriptiveNonRepeating;
                     var image = descriptiveNonRepeating.online_media.media[0].content;
-                    var thumbnail = descriptiveNonRepeating.online_media.media[0].thumbNail;
+                    var thumbnail = descriptiveNonRepeating.online_media.media[0].thumbnail;
+                    console.log(thumbnail);
                     var title = descriptiveNonRepeating.title.content;
                     var freetext = item.freetext;
-                    var date = freetext.date[0].content;
-                    var description = freetext.physicalDescription[0].content;
+                    var date = "No date available."
+                    if (freetext.date !== undefined) {
+                        date = freetext.date[0].content;
+                    }
+                    var description = "No description available";
+                    if (freetext.physicalDescription !== undefined) {
+                        description = freetext.physicalDescription[0].content;
+                    }
 
                     $('#title').text(title);
                     $('#date').text(date);
