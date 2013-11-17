@@ -14,112 +14,7 @@
     <script src="bower_components/modernizr/modernizr.js"></script>
 </head>
 <body>
-  <section class="head">
-    <div class="row">
-      <div class="twelve columns">
-        <h1>Luce Foundation Center for American Art</h1>
-        <nav class="nine columns push_three">
-          <div class="three columns alpha nav">
-            <a href="#tour">Take a tour</a>
-          </div>
-          <div class="three columns nav">
-            <a href="#browse">Browse</a>
-          </div>
-          <div class="three columns nav">
-            <a href="#collect">Your Collection</a>
-          </div>
-          <div class="three columns nav">
-            <a href="#favorite">Pick your favorite</a>
-          </div>
-        </nav>
-      </div>
-    </div>
-  </section>
-  <section class="hero">
-    <div class="row">
-      <div class="four columns introText">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed condimentum tristique ligula sit amet mollis. Vestibulum quis feugiat magna. Donec semper, purus ut fermentum pulvinar, tellus mauris molestie mauris, ac accumsan ante est eget urna. Fusce imperdiet id nisi quis lobortis. </p>
-      </div>
-    </div>
-    <div class="floatRight rightMargin">
-      <p>Title of artwork. Link to object page.</p>
-    </div>
-  </section>
-  <section id="tour">
-    <div class="row">
-      <h1>Take a tour</h1>
-      <div class="four columns alpha">
-        <img src="images/Placer-Mining.jpg">
-        <h3>Mustaches everywhere!</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed condimentum tristique ligula sit amet mollis. Vestibulum quis feugiat magna. Donec semper, purus ut fermentum pulvinar, tellus mauris molestie mauris, ac accumsan ante est eget urna. Fusce imperdiet id nisi quis lobortis. </p>
-        <div class="medium info btn"><a href="#">Take this tour</a></div>
-      </div>
-      <div class="four columns">
-        <img src="images/Placer-Mining2.jpg">
-        <h3>We have fruit</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed condimentum tristique ligula sit amet mollis. Vestibulum quis feugiat magna. Donec semper, purus ut fermentum pulvinar, tellus mauris molestie mauris, ac accumsan ante est eget urna. Fusce imperdiet id nisi quis lobortis. </p>
-        <div class="medium info btn"><a href="#">Take this tour</a></div>
-      </div>
-      <div class="four columns">
-        <img src="images/Placer-Mining.jpg">
-        <h3>Where are you from?</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed condimentum tristique ligula sit amet mollis. Vestibulum quis feugiat magna. Donec semper, purus ut fermentum pulvinar, tellus mauris molestie mauris, ac accumsan ante est eget urna. Fusce imperdiet id nisi quis lobortis. </p>
-        <div class="medium info btn"><a href="#">Take this tour</a></div>
-      </div>
-    </div>
-  </section>
-  <section id="browse">
-    <div class="row">
-      <div class="twelve columns paddingBottom">
-        <h1>Don't want a tour? Dive right in!</h1>
-        <div class="medium info btn"><a href="#">Browse the collection</a></div>
-      </div>
-      <div class="four columns alpha">
-        <img src="images/Placer-Mining.jpg">
-      </div>
-      <div class="four columns">
-        <img src="images/Placer-Mining.jpg">
-      </div>
-      <div class="four columns">
-        <img src="images/Placer-Mining.jpg">
-      </div>
-    </div>
-  </section>
-  <section id="collect">
-    <div class="row">
-      <div class="twelve columns paddingBottom">
-        <h1>Your Collection</h1>
-      </div>
-      <div class="">
-        <p>You can create your own collection here. Click on the 'add to collection' button as your browse. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae odio dapibus, ornare risus et, rhoncus risus. Suspendisse cursus nisi vel dui tincidunt convallis. Mauris at augue facilisis, luctus ante non, congue nibh. Ut sodales eget nibh a tincidunt.</p>
-      </div>
-      <div class="four columns alpha">
-        <img src="images/Placer-Mining.jpg">
-      </div>
-      <div class="four columns">
-        <img src="images/Placer-Mining.jpg">
-      </div>
-      <div class="four columns">
-        <img src="images/Placer-Mining.jpg">
-      </div>
-    </div>
-  </section>
-  <section id="favorite">
-    <div class="row">
-      <div class="twelve columns paddingBottom">
-        <h1>Pick your favorite!</h1>
-      </div>
-      <div class="">
-        <p>Which artwork do you like better? See what everyone thinks <a href="#">here</a>.</p>
-      </div>
-      <div class="six columns alpha">
-        <img src="images/Placer-Mining.jpg">
-      </div>
-      <div class="six columns">
-        <img src="images/Placer-Mining.jpg">
-      </div>
-    </div>
-  </section>
+  <div ui-view="main"></div>
 
         <script>
           var dev = true;
@@ -147,6 +42,7 @@
         <!-- build:js({.tmp,app}) scripts/scripts.js -->
         <script src="scripts/app.js"></script>
         <script src="scripts/controllers/images.js"></script>
+        <script src="scripts/controllers/main.js"></script>
         <script src="scripts/services/collection.js"></script>
         <script src="scripts/services/list.js"></script>
         <!-- endbuild -->

@@ -17,5 +17,15 @@ angular.module('SmithsonianApp', modules)
   .value('route', {
     api: dev ? 'http://localhost:9000/api' : 'http://localhost:8080/api'
   })
-  .config(function () {
+  .config(function ($stateProvider, $urlRouterProvider) {
+    $urlRouterProvider.when('', '/');
+    $stateProvider.state('main', {
+      url: '/',
+      views: {
+        'main': {
+          controller: 'MainCtrl',
+          templateUrl: 'views/main.html'
+        }
+      }
+    });
   });
