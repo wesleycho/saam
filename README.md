@@ -7,6 +7,13 @@ This is some placeholder text that someone should update
 
 ### Technical Details
 
+#### Components
+
+*    Node.js: [MIT License](https://raw.github.com/joyent/node/v0.10.22/LICENSE)
+*    CherryPy: [BSD License](https://bitbucket.org/cherrypy/cherrypy/src/697c7af588b8/cherrypy/LICENSE.txt)
+*    Compass: [Slightly Modified MIT License](https://github.com/chriseppstein/compass/blob/stable/compass/blob/stable/LICENSE.markdown)
+*    Grunt: [MIT License](https://github.com/gruntjs/grunt/blob/master/LICENSE-MIT) 
+
 #### UI
 
 *    Install [Node.js](http://nodejs.org)

@@ -29,6 +29,9 @@ class Root(object):
     from luce_match_score import luce_match_score
     luce_match_score.exposed = True
 
+    from luce_zoom import luce_zoom
+    luce_zoom.exposed = True
+
 if __name__ == '__main__':
 
     import os.path

@@ -1,7 +1,5 @@
 'use strict';
 
-var dev = true;
-
 var modules = [
   'ngCookies',
   'ngResource',

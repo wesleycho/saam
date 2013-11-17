@@ -296,13 +296,21 @@ module.exports = function (grunt) {
     'string-replace': {
       dist: {
         files: {
-          src: ['<%= yeoman.dist %>/index.html'],
-          dest: '<%= yeoman.dist %>/index.html', filter: 'isFile'
+          '<%= yeoman.dist %>/index.html': '<%= yeoman.dist %>/index.html',
+          '<%= yeoman.dist %>/styles/main.css': '<%= yeoman.dist %>/styles/main.css'
         },
         options: {
           replacements: [{
-            pattern: /<!--mock-->.*<!--endmock-->/,
+            pattern: /<!-- mock -->[\s\S]*<!-- endmock -->/g,
             replacement: ''
+          },
+          {
+            pattern: /dev = true/g,
+            replacement: 'dev = false'
+          },
+          {
+            pattern: 'background-image:url(../../images/Construction-of-a-Dam-1_2@2x.jpg);',
+            replacement: "background-image:url(images/Construction-of-a-Dam-1_2@2x.jpg);"
           }]
         }
       }
@@ -338,13 +346,12 @@ module.exports = function (grunt) {
     'autoprefixer',
     'concat',
     'copy:dist',
-    'string-replace:dist',
     'cdnify',
     'ngmin',
     'cssmin',
     'uglify',
-    'rev',
-    'usemin'
+    'usemin',
+    'string-replace:dist'
   ]);
 
   grunt.registerTask('default', [
