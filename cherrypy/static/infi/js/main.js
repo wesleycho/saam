@@ -88,11 +88,10 @@
 
             html += '<li>';
 
-            //                    <a class="ajax-popup" data-url='http://americanart.si.edu/images/1935/1935.13.271_1a.jpg' href='image.html'>Load another content via ajax</a>
+            //                         <a class="ajax-popup img-pop" href='image.html'><img src="http://americanart.si.edu/images/1935/1935.13.271_1a.jpg" width="200" height="200">
 
             // Image tag (preview in Wookmark are 200px wide, so we calculate the height based on that).
-            
-            html += '<img class="ajax-popup" src="' + image + '" width="200" height="200">';
+            html += '<a class="ajax-popup img-pop" href="image.html"><img src="' + image + '" width="200" height="200"/></a>';
 
             // Image title.
             html += '<p>' + title + '</p>';
@@ -108,6 +107,25 @@
             var srcElement = e.srcElement;
             url = srcElement.src;
             console.log(url);
+            e.preventDefault();
+        });
+
+        $('.ajax-popup').magnificPopup({
+            type: 'ajax',
+            closeBtnInside: false,
+            callbacks: {
+                open: function(e) {
+                },
+                ajaxContentAdded: function(e) {
+                    // dynamically load image
+                    var img = document.createElement("img");
+                    img.onload = function(e) {
+                        var container = document.getElementById("imageContainer");
+                        container.appendChild(e.target);
+                    }
+                    img.setAttribute("src", url);
+                }
+            }
         });
 
         // Apply layout.
@@ -115,45 +133,9 @@
     }
     ;
 
-//    $('#tiles').magnificPopup({
-//        delegate: 'img',
-//        type: 'image',
-//        tLoading: 'Loading image #%curr%...',
-//        mainClass: 'mfp-img-mobile',
-//        gallery: {
-//            enabled: true,
-//            navigateByImgClick: true,
-//            preload: [0, 1] // Will preload 0 - before current, and 1 after the current image
-//        },
-//        image: {
-//            tError: '<a href="%url%">The image #%curr%</a> could not be loaded.',
-//            titleSrc: function(item) {
-//                return item.el.attr('title') + '<small>by Marsel Van Oosten</small>';
-//            }
-//        }
-//    });
-
     // Capture scroll event.
     $(document).bind('scroll', onScroll);
 
-    $('.ajax-popup').magnificPopup({
-        type: 'ajax',
-        closeBtnInside: false,
-        callbacks: {
-            open: function(e) {
-            },
-            ajaxContentAdded: function(e) {
-                // dynamically load image
-                var img = document.createElement("img");
-                img.onload = function(e) {
-                    var container = document.getElementById("imageContainer");
-                    container.appendChild(e.target);
-                }
-                img.setAttribute("src", url);
-            }
-        }
-
-    });
     // Load first data from the API.
     loadData();
 })(jQuery);
