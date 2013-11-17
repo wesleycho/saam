@@ -17,7 +17,7 @@ angular.module('SmithsonianApp')
 
         params = _.extend(defaultParams, params);
 
-        if (_.isUndefined(id)) {
+        if (!_.isUndefined(id)) {
           params = _.extend(params, {id: id});
         }
 

@@ -37,7 +37,7 @@ $secondary-color: #79C0CD;
 /***********************************
 // sections
 ************************************/
-.head {
+.head, .foot {
   background-color: $primary-color;
 }
 .hero {
@@ -74,6 +74,7 @@ $secondary-color: #79C0CD;
 // search and browse page
 ************************************/
 .flow {
+  cursor: pointer;
   width: 100%;
   img {
   width: 100%;
