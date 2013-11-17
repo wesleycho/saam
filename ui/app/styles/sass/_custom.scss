@@ -1,1 +1,68 @@
-// Your custom SCSS should be written here...
+/***********************************
+// global
+************************************/
+
+.floatRight {
+  float: right;
+}
+.rightMargin {
+  margin-right: 20px;
+}
+.paddingBottom {
+  margin-bottom: 20px;
+}
+.alpha {
+  margin-left: 0px;
+}
+
+
+/***********************************
+// nav
+************************************/
+.nav {
+  border-bottom: 3px solid $navbar-color;
+  display: block;
+  text-align: center;
+  padding-top: 3px;
+  font-weight:800;
+  &:hover, &:focus {
+    background: lighten($primary-color, 20%);
+    border-bottom: 3px solid lighten($navbar-color, 10%);
+  }
+}
+
+/***********************************
+// sections
+************************************/
+.head {
+  background-color: $primary-color;
+}
+.hero {
+  background-image: url(../../images/Construction-of-a-Dam-1_2@2x.jpg);
+  padding-top: 30px;
+}
+.introText {
+  background-color: $global-bg-color;
+  border: black;
+  margin-top: 20px;
+  padding: 20px;
+}
+#tour, #collect {
+  background-color: $global-bg-color;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  h1 {
+    @include font-size($xlarge);
+  }
+}
+#browse, #favorite {
+  background-color: $secondary-color;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  h1 {
+    @include font-size($xlarge);
+  }
+  h2 {
+    @include font-size($large);
+  }
+}
