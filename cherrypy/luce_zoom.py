@@ -34,29 +34,43 @@ def luce_zoom(self, **kwargs):
 
     page_source = []
 
+    with open('googleanalytics.txt') as header_file:
+        page_source.append(header_file.read())
+
     page_source.append('<title>Identification game</title>')
 
     page_source.append('<link rel="stylesheet" type="text/css" href="/static/main.css"> <link rel="stylesheet" type="text/css" href="/static/gumby.css">')
 
+    page_source.append('<div class="row"> <div class="ten columns" style="text-align: center;">')
     page_source.append('<h2>Hey what is the name of this artwork?</h2>')
+    page_source.append('</div> </div>')
 
+    page_source.append('<div class="row"> <div class="ten columns" style="text-align: center;">')
     page_source.append('Your score: <b>{0}</b>'.format(score))
 
-    page_source.append('<div class="row">')
-    page_source.append('<form method="post" action="luce_zoom_score"><input type="hidden" name="score" value="{0}"><input type="text" name="name" value="Enter your name"><input type="submit" value="End the game and retire in glory"></form><hr>'.format(score))
-    page_source.append('</div>')
-
     if artwork == 'correct':
-        page_source.append('&nbsp; <b> YOU JUST GOT A POINT / WAY TO IDENTIFY ART / LIKE A SUPERSTAR</b> <br> That is a haiku by the way :) :) :) :) :) :) ^')
+        page_source.append('&nbsp; <b> YOU JUST GOT A POINT / WAY TO IDENTIFY ART / LIKE A SUPERSTAR</b> <!-- <br> That is a haiku by the way :) :) :) :) :) :) ^ -->')
+
+    page_source.append('</div> </div>')
 
     page_source.append('\n\n<!-- HEY DON\'T CHEAT BY LOOKING AT THE SOURCE! :) -->\n\n')
 
+    page_source.append('<div class="row"> <div class="centered ten columns"> <div class="row">')
+
     for title in titles:
         if title == art_realtitle:
-            page_source.append('\n\n<form method="post" action="luce_zoom"><input type="hidden" name="score" value="{0}"><input type="hidden" name="artwork" value="correct"><input type="submit" value="{1}"></form>'.format(score, title))
+            page_source.append('\n\n<div class="four columns" style="text-align: center;"><form method="post" action="luce_zoom"><input type="hidden" name="score" value="{0}"><input type="hidden" name="artwork" value="correct"><input style="white-space: normal;" type="submit" value="{1}"></form></div>'.format(score, title))
         else:
-            page_source.append('\n\n<form method="post" action="luce_zoom"><input type="hidden" name="score" value="{0}"><input type="hidden" name="artwork" value="nope"><input type="submit" value="{1}"></form>'.format(score, title))
+            page_source.append('\n\n<div class="four columns" style="text-align: center;"><form method="post" action="luce_zoom"><input type="hidden" name="score" value="{0}"><input type="hidden" name="artwork" value="nope"><input style="white-space: normal;" type="submit" value="{1}"></form></div>'.format(score, title))
+    page_source.append('</div> </div>')
 
-    page_source.append('\n\n<iframe src="http://ids.si.edu/ids/dynamic?id={0}&container.width=1500&container.height=1500" height=2000 width=2000></iframe>'.format(art_image))
-        
+    #page_source.append('<div class="nine columns">')
+    page_source.append('<table cellpadding=4 style="vertical-align: middle; text-align: center;"> <tr> <td>')
+    page_source.append('\n\n<iframe src="http://ids.si.edu/ids/dynamic?id={0}&container.width=800&container.height=600" height=600 width=800 scrolling="no"></iframe>'.format(art_image))
+    #page_source.append('</div> <div class="three columns">')
+    page_source.append('</td><td>')
+    page_source.append('<form method="post" action="luce_zoom_score"><input type="hidden" name="score" value="{0}">Are you done playing? <br> You\'ll retire in glory. <br> Just enter your name.<br> &nbsp; <br> <input type="text" name="name" value="Enter your name"><input type="submit" value="End the game and retire in glory"></form>'.format(score))
+    page_source.append('</td></tr></table>')
+    #page_source.append('</div>')                    
+    
     return page_source

@@ -43,6 +43,10 @@ time, mark, audio, video {
 margin-left: 0;
 }
 
+.textCenter {
+text-align: center;
+}
+
 /* line 22, ../../../../../../../.rvm/gems/ruby-2.0.0-p247/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1;
