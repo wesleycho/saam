@@ -24,10 +24,10 @@ def luce_match_score(self, **kwargs):
     page_source.append('<title>Favorite artworks</title>')
         
     page_source.append('<link rel="stylesheet" type="text/css" href="/static/main.css"> <link rel="stylesheet" type="text/css" href="/static/gumby.css">')
+    page_source.append('<div class="row"> <div class="ten columns" style="text-align: center;"> <br> <a href="luce_match">Play again!</a> <br> <h2> Favorite Artworks </h2> </div> </div> ')
+
     page_source.append('<div class="row">')
-
     page_source.extend(score_table)
-
     page_source.append('</div>')
     
     return page_source
