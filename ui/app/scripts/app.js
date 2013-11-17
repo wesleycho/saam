@@ -56,7 +56,7 @@ angular.module('SmithsonianApp', modules)
       }
     })
     .state('item', {
-      url: '/item/:itemId',
+      url: '/items/:itemId',
       views: {
         'main': {
           controller: 'ObjectCtrl',
