@@ -26,5 +26,5 @@ This is some placeholder text that someone should update
 
 ##### Building Deployed Version of UI
 
-*    Run `grunt build`
-*    Run `sh init.sh`
+*    Run `grunt build` (from `ui` directory)
+*    Run `sh deploy.sh` (from the project root directory)

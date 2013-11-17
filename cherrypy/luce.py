@@ -1,3 +1,4 @@
+#!/usr/local/bin/python2.7
 
 # Cherrypy backend for LuceHack
 # 2013 November 16
@@ -26,11 +27,17 @@ class Root(object):
     from luce_match import luce_match
     luce_match.exposed = True
 
+    luce_mash = luce_match
+    luce_mash.exposed = True
+
     from luce_match_score import luce_match_score
     luce_match_score.exposed = True
 
     from luce_zoom import luce_zoom
     luce_zoom.exposed = True
+
+    from luce_zoom_score import luce_zoom_score
+    luce_zoom_score.exposed = True
 
 if __name__ == '__main__':
 
@@ -40,6 +47,7 @@ if __name__ == '__main__':
     cherrypy.config.update({'server.socket_port': 8080,
                             'server.socket_host': '127.0.0.1',
                             'log.screen': True,
+                            'log.error_file': 'site.log'
                             })
 
     conf = {'/static': {'tools.staticdir.on': True,

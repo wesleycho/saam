@@ -1,0 +1,1279 @@
+{
+  "responseHeader": {
+    "status": 0,
+    "QTime": 1,
+    "params": {
+      "applicationId": "HACK",
+      "qt": "standard",
+      "wt": "json",
+      "q": "Las Vegas"
+    }
+  },
+  "response": {
+    "numFound": 14,
+    "start": 0,
+    "docs": [
+      {
+        "indexedStructured": {
+          "object_type": [
+            "Photographs"
+          ],
+          "topic": [
+            "Parking lot",
+            "Las Vegas",
+            "Cityscapes",
+            "Vehicles",
+            "Architecture",
+            "Automobiles"
+          ],
+          "name": [
+            "Walch, Robert"
+          ],
+          "usage_flag": [
+            "permcoll"
+          ],
+          "online_media_type": [
+            "Images"
+          ],
+          "place": [
+            "Nevada"
+          ],
+          "date": [
+            "1970s"
+          ]
+        },
+        "descriptiveNonRepeating": {
+          "title_sort": "LAS VEGAS",
+          "title": {
+            "content": "Las Vegas",
+            "label": "Title"
+          },
+          "online_media": {
+            "mediaCount": "1",
+            "media": [
+              {
+                "idsId": "http:\/\/americanart.si.edu\/images\/1983\/1983.63.1605_1a.jpg",
+                "content": "http:\/\/americanart.si.edu\/images\/1983\/1983.63.1605_1a.jpg",
+                "thumbnail": "http:\/\/americanart.si.edu\/images\/1983\/1983.63.1605_1d.jpg",
+                "type": "Images"
+              }
+            ]
+          },
+          "data_source": "Smithsonian American Art Museum",
+          "record_ID": "saam_1983.63.1605",
+          "record_link": "http:\/\/americanart.si.edu\/collections\/search\/artwork\/?id=26655",
+          "unit_code": "SAAM"
+        },
+        "freetext": {
+          "topic": [
+            {
+              "content": "Architecture\\vehicle\\automobile",
+              "label": "Topic"
+            },
+            {
+              "content": "Cityscape\\Nevada\\Las Vegas",
+              "label": "Topic"
+            },
+            {
+              "content": "Architecture Exterior",
+              "label": "Topic"
+            },
+            {
+              "content": "Architecture Exterior\\other\\parking lot",
+              "label": "Topic"
+            }
+          ],
+          "dataSource": [
+            {
+              "content": "Smithsonian American Art Museum",
+              "label": "Data Source"
+            }
+          ],
+          "name": [
+            {
+              "content": "Robert Walch, born Pittsburgh, PA 1942",
+              "label": "Artist"
+            }
+          ],
+          "creditLine": [
+            {
+              "content": "Smithsonian American Art Museum, Transfer from the National Endowment for the Arts",
+              "label": "Credit Line"
+            }
+          ],
+          "physicalDescription": [
+            {
+              "content": "gelatin silver print",
+              "label": "Medium"
+            }
+          ],
+          "setName": [
+            {
+              "content": "Smithsonian American Art Museum Collection",
+              "label": "See more items in"
+            }
+          ],
+          "date": [
+            {
+              "content": "1973",
+              "label": "Date"
+            }
+          ],
+          "identifier": [
+            {
+              "content": "1983.63.1605",
+              "label": "Object number"
+            }
+          ],
+          "objectType": [
+            {
+              "content": "Photography-Photoprint",
+              "label": "Type"
+            }
+          ]
+        }
+      },
+      {
+        "indexedStructured": {
+          "object_type": [
+            "Photographs"
+          ],
+          "topic": [
+            "Las Vegas",
+            "Commercial",
+            "Swimming",
+            "Recreation",
+            "Higgins Motel",
+            "Cityscapes",
+            "Swimming pool",
+            "Architecture",
+            "Hotel",
+            "Sport and play",
+            "Water",
+            "Figure(s) in exterior"
+          ],
+          "name": [
+            "Sandhage, Douglas"
+          ],
+          "usage_flag": [
+            "permcoll"
+          ],
+          "online_media_type": [
+            "Images"
+          ],
+          "place": [
+            "Nevada"
+          ],
+          "date": [
+            "1970s"
+          ]
+        },
+        "descriptiveNonRepeating": {
+          "title_sort": "HIGGINS MOTEL, LAS VEGAS, NEVADA",
+          "title": {
+            "content": "Higgins Motel, Las Vegas, Nevada",
+            "label": "Title"
+          },
+          "online_media": {
+            "mediaCount": "1",
+            "media": [
+              {
+                "idsId": "http:\/\/americanart.si.edu\/images\/1983\/1983.63.1179_1a.jpg",
+                "content": "http:\/\/americanart.si.edu\/images\/1983\/1983.63.1179_1a.jpg",
+                "thumbnail": "http:\/\/americanart.si.edu\/images\/1983\/1983.63.1179_1d.jpg",
+                "type": "Images"
+              }
+            ]
+          },
+          "data_source": "Smithsonian American Art Museum",
+          "record_ID": "saam_1983.63.1179",
+          "record_link": "http:\/\/americanart.si.edu\/collections\/search\/artwork\/?id=21593",
+          "unit_code": "SAAM"
+        },
+        "freetext": {
+          "topic": [
+            {
+              "content": "Figure(s) in exterior\\water",
+              "label": "Topic"
+            },
+            {
+              "content": "Recreation\\sport and play\\swimming",
+              "label": "Topic"
+            },
+            {
+              "content": "Cityscape\\Nevada\\Las Vegas",
+              "label": "Topic"
+            },
+            {
+              "content": "Architecture Exterior\\commercial\\hotel",
+              "label": "Topic"
+            },
+            {
+              "content": "Architecture Exterior\\other\\swimming pool",
+              "label": "Topic"
+            },
+            {
+              "content": "Architecture Exterior\\commercial\\Higgins Motel",
+              "label": "Topic"
+            }
+          ],
+          "dataSource": [
+            {
+              "content": "Smithsonian American Art Museum",
+              "label": "Data Source"
+            }
+          ],
+          "objectRights": [
+            {
+              "content": "\u00a9 1975, Douglas Sandhage",
+              "label": "Copyright Credit Line"
+            }
+          ],
+          "name": [
+            {
+              "content": "Douglas Sandhage, born Hackensack, NJ 1947",
+              "label": "Artist"
+            }
+          ],
+          "creditLine": [
+            {
+              "content": "Smithsonian American Art Museum, Transfer from the National Endowment for the Arts",
+              "label": "Credit Line"
+            }
+          ],
+          "physicalDescription": [
+            {
+              "content": "gelatin silver print",
+              "label": "Medium"
+            }
+          ],
+          "setName": [
+            {
+              "content": "Smithsonian American Art Museum Collection",
+              "label": "See more items in"
+            }
+          ],
+          "date": [
+            {
+              "content": "1975",
+              "label": "Date"
+            }
+          ],
+          "identifier": [
+            {
+              "content": "1983.63.1179",
+              "label": "Object number"
+            }
+          ],
+          "objectType": [
+            {
+              "content": "Photography-Photoprint",
+              "label": "Type"
+            }
+          ]
+        }
+      },
+      {
+        "indexedStructured": {
+          "object_type": [
+            "Photographs"
+          ],
+          "topic": [
+            "Las Vegas",
+            "Commercial",
+            "Cityscapes",
+            "Vehicles",
+            "Architecture",
+            "Hotel",
+            "Sport and play",
+            "Automobiles",
+            "Urban",
+            "Streets",
+            "Recreation",
+            "Gambling",
+            "Fremont Street",
+            "Figure(s) in exterior"
+          ],
+          "name": [
+            "Walch, Robert"
+          ],
+          "usage_flag": [
+            "permcoll"
+          ],
+          "online_media_type": [
+            "Images"
+          ],
+          "place": [
+            "Nevada"
+          ],
+          "date": [
+            "1970s"
+          ]
+        },
+        "descriptiveNonRepeating": {
+          "title_sort": "FREMONT STREET, LAS VEGAS",
+          "title": {
+            "content": "Fremont Street, Las Vegas",
+            "label": "Title"
+          },
+          "online_media": {
+            "mediaCount": "1",
+            "media": [
+              {
+                "idsId": "http:\/\/americanart.si.edu\/images\/1983\/1983.63.1607_1a.jpg",
+                "content": "http:\/\/americanart.si.edu\/images\/1983\/1983.63.1607_1a.jpg",
+                "thumbnail": "http:\/\/americanart.si.edu\/images\/1983\/1983.63.1607_1d.jpg",
+                "type": "Images"
+              }
+            ]
+          },
+          "data_source": "Smithsonian American Art Museum",
+          "record_ID": "saam_1983.63.1607",
+          "record_link": "http:\/\/americanart.si.edu\/collections\/search\/artwork\/?id=26652",
+          "unit_code": "SAAM"
+        },
+        "freetext": {
+          "topic": [
+            {
+              "content": "Figure(s) in exterior\\urban",
+              "label": "Topic"
+            },
+            {
+              "content": "Architecture\\vehicle\\automobile",
+              "label": "Topic"
+            },
+            {
+              "content": "Cityscape\\Nevada\\Las Vegas",
+              "label": "Topic"
+            },
+            {
+              "content": "Architecture Exterior\\commercial\\hotel",
+              "label": "Topic"
+            },
+            {
+              "content": "Architecture Exterior\\commercial\\recreation",
+              "label": "Topic"
+            },
+            {
+              "content": "Recreation\\sport and play\\gambling",
+              "label": "Topic"
+            },
+            {
+              "content": "Cityscape\\street\\Fremont Street",
+              "label": "Topic"
+            }
+          ],
+          "dataSource": [
+            {
+              "content": "Smithsonian American Art Museum",
+              "label": "Data Source"
+            }
+          ],
+          "name": [
+            {
+              "content": "Robert Walch, born Pittsburgh, PA 1942",
+              "label": "Artist"
+            }
+          ],
+          "creditLine": [
+            {
+              "content": "Smithsonian American Art Museum, Transfer from the National Endowment for the Arts",
+              "label": "Credit Line"
+            }
+          ],
+          "physicalDescription": [
+            {
+              "content": "gelatin silver print",
+              "label": "Medium"
+            }
+          ],
+          "setName": [
+            {
+              "content": "Smithsonian American Art Museum Collection",
+              "label": "See more items in"
+            }
+          ],
+          "date": [
+            {
+              "content": "1973",
+              "label": "Date"
+            }
+          ],
+          "identifier": [
+            {
+              "content": "1983.63.1607",
+              "label": "Object number"
+            }
+          ],
+          "objectType": [
+            {
+              "content": "Photography-Photoprint",
+              "label": "Type"
+            }
+          ]
+        }
+      },
+      {
+        "indexedStructured": {
+          "object_type": [
+            "Photographs"
+          ],
+          "topic": [
+            "Las Vegas",
+            "Houses",
+            "Domestic",
+            "Landscapes",
+            "Architecture"
+          ],
+          "name": [
+            "Fitch, Steve"
+          ],
+          "geoLocation": [
+            {
+              "L1": {
+                "content": " North America",
+                "type": "Continent"
+              },
+              "L2": {
+                "content": "United States of America",
+                "type": "Country"
+              },
+              "L3": {
+                "content": "New Mexico",
+                "type": "State"
+              }
+            }
+          ],
+          "usage_flag": [
+            "permcoll"
+          ],
+          "online_media_type": [
+            "Images"
+          ],
+          "place": [
+            "New Mexico"
+          ],
+          "date": [
+            "1990s"
+          ]
+        },
+        "descriptiveNonRepeating": {
+          "title_sort": "EXTERIOR VIEW OF A HOUSE NEAR LAS VEGAS, EASTERN NEW MEXICO, JULY 21, 1990",
+          "title": {
+            "content": "Exterior view of a house near Las Vegas, eastern New Mexico, July 21, 1990",
+            "label": "Title"
+          },
+          "online_media": {
+            "mediaCount": "1",
+            "media": [
+              {
+                "idsId": "http:\/\/americanart.si.edu\/images\/2008\/2008.13.1_1a.jpg",
+                "content": "http:\/\/americanart.si.edu\/images\/2008\/2008.13.1_1a.jpg",
+                "thumbnail": "http:\/\/americanart.si.edu\/images\/2008\/2008.13.1_1d.jpg",
+                "type": "Images"
+              }
+            ]
+          },
+          "data_source": "Smithsonian American Art Museum",
+          "record_ID": "saam_2008.13.1",
+          "record_link": "http:\/\/americanart.si.edu\/collections\/search\/artwork\/?id=77075",
+          "unit_code": "SAAM"
+        },
+        "freetext": {
+          "topic": [
+            {
+              "content": "Architecture Exterior\\domestic\\house",
+              "label": "Topic"
+            },
+            {
+              "content": "Landscape\\New Mexico\\Las Vegas",
+              "label": "Topic"
+            }
+          ],
+          "dataSource": [
+            {
+              "content": "Smithsonian American Art Museum",
+              "label": "Data Source"
+            }
+          ],
+          "objectRights": [
+            {
+              "content": "\u00a9 1990, Steve Fitch",
+              "label": "Copyright Credit Line"
+            }
+          ],
+          "name": [
+            {
+              "content": "Steve Fitch, born Tucson, AZ 1949",
+              "label": "Artist"
+            }
+          ],
+          "creditLine": [
+            {
+              "content": "Smithsonian American Art Museum, Museum purchase made possible by David S. Purvis",
+              "label": "Credit Line"
+            }
+          ],
+          "physicalDescription": [
+            {
+              "content": "chromogenic print",
+              "label": "Medium"
+            },
+            {
+              "content": "sheet and image: 16 x 20 in. (40.6 x 50.8 cm)",
+              "label": "Dimensions"
+            }
+          ],
+          "setName": [
+            {
+              "content": "Smithsonian American Art Museum Collection",
+              "label": "See more items in"
+            }
+          ],
+          "date": [
+            {
+              "content": "1990",
+              "label": "Date"
+            }
+          ],
+          "identifier": [
+            {
+              "content": "2008.13.1",
+              "label": "Object number"
+            }
+          ],
+          "objectType": [
+            {
+              "content": "Photography-Photoprint",
+              "label": "Type"
+            }
+          ]
+        }
+      },
+      {
+        "indexedStructured": {
+          "object_type": [
+            "Photographs"
+          ],
+          "topic": [
+            "Deserts",
+            "Rock formation",
+            "Landscapes"
+          ],
+          "name": [
+            "Ruwedel, Mark"
+          ],
+          "usage_flag": [
+            "permcoll"
+          ],
+          "online_media_type": [
+            "Images"
+          ],
+          "date": [
+            "1990s"
+          ]
+        },
+        "descriptiveNonRepeating": {
+          "title_sort": "LAS VEGAS AND TONOPAH #12",
+          "title": {
+            "content": "Las Vegas and Tonopah #12",
+            "label": "Title"
+          },
+          "online_media": {
+            "mediaCount": "1",
+            "media": [
+              {
+                "idsId": "http:\/\/americanart.si.edu\/images\/2008\/2008.12.1_1a.jpg",
+                "content": "http:\/\/americanart.si.edu\/images\/2008\/2008.12.1_1a.jpg",
+                "thumbnail": "http:\/\/americanart.si.edu\/images\/2008\/2008.12.1_1d.jpg",
+                "type": "Images"
+              }
+            ]
+          },
+          "data_source": "Smithsonian American Art Museum",
+          "record_ID": "saam_2008.12.1",
+          "record_link": "http:\/\/americanart.si.edu\/collections\/search\/artwork\/?id=76936",
+          "unit_code": "SAAM"
+        },
+        "freetext": {
+          "topic": [
+            {
+              "content": "Landscape\\phenomenon\\rock formation",
+              "label": "Topic"
+            },
+            {
+              "content": "Landscape\\desert",
+              "label": "Topic"
+            }
+          ],
+          "dataSource": [
+            {
+              "content": "Smithsonian American Art Museum",
+              "label": "Data Source"
+            }
+          ],
+          "objectRights": [
+            {
+              "content": "\u00a9 1997, Mark Ruwedel",
+              "label": "Copyright Credit Line"
+            }
+          ],
+          "name": [
+            {
+              "content": "Mark Ruwedel, born Bethlehem, PA 1954",
+              "label": "Artist"
+            }
+          ],
+          "creditLine": [
+            {
+              "content": "Smithsonian American Art Museum, Museum purchase made possible by David S. Purvis",
+              "label": "Credit Line"
+            }
+          ],
+          "physicalDescription": [
+            {
+              "content": "gelatin silver print",
+              "label": "Medium"
+            },
+            {
+              "content": "sheet and image: 8 x 10 in. (20.3 x 25.4 cm) mount: 16 x 20 in. (40.6 x 50.8 cm)",
+              "label": "Dimensions"
+            }
+          ],
+          "setName": [
+            {
+              "content": "Smithsonian American Art Museum Collection",
+              "label": "See more items in"
+            }
+          ],
+          "date": [
+            {
+              "content": "1997",
+              "label": "Date"
+            }
+          ],
+          "identifier": [
+            {
+              "content": "2008.12.1",
+              "label": "Object number"
+            }
+          ],
+          "objectType": [
+            {
+              "content": "Photography-Photoprint",
+              "label": "Type"
+            }
+          ]
+        }
+      },
+      {
+        "indexedStructured": {
+          "object_type": [
+            "Decorative arts",
+            "Crafts (art genres)"
+          ],
+          "name": [
+            "Garrett, John"
+          ],
+          "usage_flag": [
+            "permcoll"
+          ],
+          "online_media_type": [
+            "Images"
+          ],
+          "date": [
+            "1980s"
+          ]
+        },
+        "descriptiveNonRepeating": {
+          "title_sort": "ALEXANDRA'S PINK SLIPPER",
+          "title": {
+            "content": "Alexandra's Pink Slipper",
+            "label": "Title"
+          },
+          "online_media": {
+            "mediaCount": "1",
+            "media": [
+              {
+                "idsId": "http:\/\/americanart.si.edu\/images\/1997\/1997.41.1_1a.jpg",
+                "content": "http:\/\/americanart.si.edu\/images\/1997\/1997.41.1_1a.jpg",
+                "thumbnail": "http:\/\/americanart.si.edu\/images\/1997\/1997.41.1_1d.jpg",
+                "type": "Images"
+              }
+            ]
+          },
+          "data_source": "Smithsonian American Art Museum",
+          "record_ID": "saam_1997.41.1",
+          "record_link": "http:\/\/americanart.si.edu\/collections\/search\/artwork\/?id=35745",
+          "unit_code": "SAAM"
+        },
+        "freetext": {
+          "dataSource": [
+            {
+              "content": "Smithsonian American Art Museum",
+              "label": "Data Source"
+            }
+          ],
+          "name": [
+            {
+              "content": "John Garrett, born El Paso, TX 1950",
+              "label": "Artist"
+            }
+          ],
+          "creditLine": [
+            {
+              "content": "Smithsonian American Art Museum, Gift of Eleanor T. and Samuel J. Rosenfeld",
+              "label": "Credit Line"
+            }
+          ],
+          "physicalDescription": [
+            {
+              "content": "aluminum, paint, beads, and plastic",
+              "label": "Medium"
+            },
+            {
+              "content": "9 3\/4 x 34 3\/4 x 10 1\/2 in. (24.8 x 88.3 x 26.7 cm)",
+              "label": "Dimensions"
+            }
+          ],
+          "setName": [
+            {
+              "content": "Smithsonian American Art Museum Collection",
+              "label": "See more items in"
+            }
+          ],
+          "notes": [
+            {
+              "content": "Alexandra's Pink Slipper was created during John Garrett's years in Southern California, where the glitter of Hollywood and the bright colors and shiny surfaces of surfer culture led him to make a series of tightly woven \"baskets\" suggesting myths and fairytales. Pink, purple, and black beads are strung on lengths of silver and black aluminum to create a form that brings to mind Liberace's costumes and Las Vegas showmanship (\"Bridge V,\" 1998).",
+              "label": "Description"
+            },
+            {
+              "content": "\"I look for interesting structures, patterns or colors. I ask myself, 'how can this be transformed? How will it look juxtaposed with . . . ?'\" Artist quoted in American Craft, April\/May 2001",
+              "label": "Description"
+            }
+          ],
+          "date": [
+            {
+              "content": "1989",
+              "label": "Date"
+            }
+          ],
+          "identifier": [
+            {
+              "content": "1997.41.1",
+              "label": "Object number"
+            }
+          ],
+          "objectType": [
+            {
+              "content": "Decorative Arts",
+              "label": "Type"
+            },
+            {
+              "content": "Crafts",
+              "label": "Type"
+            }
+          ]
+        }
+      },
+      {
+        "indexedStructured": {
+          "object_type": [
+            "Folk art",
+            "Paintings"
+          ],
+          "topic": [
+            "Detail",
+            "Roads",
+            "Tower",
+            "Highway",
+            "Architecture",
+            "Landscapes",
+            "U. S. Mint",
+            "Urban",
+            "Civic",
+            "Figure(s) in exterior"
+          ],
+          "name": [
+            "Maldonado, Alexander A."
+          ],
+          "usage_flag": [
+            "permcoll"
+          ],
+          "onPhysicalExhibit": [
+            "Yes"
+          ],
+          "online_media_type": [
+            "Images"
+          ],
+          "exhibition": [
+            {
+              "building": "SAAM"
+            }
+          ],
+          "date": [
+            "1970s"
+          ]
+        },
+        "descriptiveNonRepeating": {
+          "title_sort": "UNITED STATE MINT--IN GOD WE TRUST",
+          "title": {
+            "content": "United State Mint--In God We Trust",
+            "label": "Title"
+          },
+          "online_media": {
+            "mediaCount": "1",
+            "media": [
+              {
+                "idsId": "http:\/\/americanart.si.edu\/images\/1986\/1986.65.125_1a.jpg",
+                "content": "http:\/\/americanart.si.edu\/images\/1986\/1986.65.125_1a.jpg",
+                "thumbnail": "http:\/\/americanart.si.edu\/images\/1986\/1986.65.125_1d.jpg",
+                "type": "Images"
+              }
+            ]
+          },
+          "data_source": "Smithsonian American Art Museum",
+          "record_ID": "saam_1986.65.125",
+          "record_link": "http:\/\/americanart.si.edu\/collections\/search\/artwork\/?id=15525",
+          "unit_code": "SAAM"
+        },
+        "freetext": {
+          "topic": [
+            {
+              "content": "Figure(s) in exterior\\urban",
+              "label": "Topic"
+            },
+            {
+              "content": "Landscape\\road\\highway",
+              "label": "Topic"
+            },
+            {
+              "content": "Architecture Exterior\\detail\\tower",
+              "label": "Topic"
+            },
+            {
+              "content": "Architecture Exterior\\civic\\U. S. Mint",
+              "label": "Topic"
+            }
+          ],
+          "dataSource": [
+            {
+              "content": "Smithsonian American Art Museum",
+              "label": "Data Source"
+            }
+          ],
+          "name": [
+            {
+              "content": "Alexander A. Maldonado, born Mazatlan, Mexico 1901-died San Francisco, CA 1989",
+              "label": "Artist"
+            }
+          ],
+          "creditLine": [
+            {
+              "content": "Smithsonian American Art Museum, Gift of Herbert Waide Hemphill, Jr. and museum purchase made possible by Ralph Cross Johnson",
+              "label": "Credit Line"
+            }
+          ],
+          "physicalDescription": [
+            {
+              "content": "oil on canvas",
+              "label": "Medium"
+            },
+            {
+              "content": "14 x 18 in. (35.5 x 45.7 cm.)",
+              "label": "Dimensions"
+            }
+          ],
+          "setName": [
+            {
+              "content": "Smithsonian American Art Museum Collection",
+              "label": "See more items in"
+            },
+            {
+              "content": "Smithsonian American Art Museum, Luce Foundation Center, 3rd Floor, 23B",
+              "label": "On View"
+            },
+            {
+              "content": "Smithsonian American Art Museum, Luce Foundation Center",
+              "label": "On View"
+            },
+            {
+              "content": "Smithsonian American Art Museum, Luce Foundation Center, 3rd Floor",
+              "label": "On View"
+            }
+          ],
+          "notes": [
+            {
+              "content": "Known as the \"painter of the impossible,\" Alexander Maldonado created colorful paintings of imaginary worlds free from pollution, bigotry, and parking problems. His use of neon colors, coupled with the futuristic, fanciful architecture, has often been described as \"Las Vegas Gothic.\" In United State Mint\u2014In God We Trust, Maldonado gives us his version of what government architecture will look like in the future. The United States Mint has a facility in San Francisco, where Maldonado lived for much of his life; however, the building's severe concrete fa\u00e7ade bears no resemblance to the sleek black structure in this painting. The 5,572-foot elevation above sea level, too , is a marked difference from that of San Francisco, where the highest point is only 925 feet. The people in the foreground peer over a guardrail and across a busy highway to the Mint building atop rolling hills. By creating a number of obstacles between them and the building, Maldonado could be suggesting that the gap between upper and lower classes will not be any closer in the future. The colored dots used across the canvas are a common element throughout many of Maldonado's paintings, and he once claimed to have used over 100 colors in a single image.",
+              "label": "Description"
+            },
+            {
+              "content": "This artwork was recommended by citizen curators as part of our Fill the Gap project on Flickr. They said:",
+              "label": "Description"
+            },
+            {
+              "content": "\"I like cars.\" Alexandre, Mrs. Keier's Class",
+              "label": "Description"
+            },
+            {
+              "content": "\"It looks interesting. It also shows how money oriented the USA is.\"",
+              "label": "Description"
+            },
+            {
+              "content": "\"United State? The missing \"s\"-- You gotta showcase it! It's so sovereign.\"",
+              "label": "Description"
+            }
+          ],
+          "date": [
+            {
+              "content": "1972",
+              "label": "Date"
+            }
+          ],
+          "identifier": [
+            {
+              "content": "1986.65.125",
+              "label": "Object number"
+            }
+          ],
+          "objectType": [
+            {
+              "content": "Painting",
+              "label": "Type"
+            },
+            {
+              "content": "Folk Art",
+              "label": "Type"
+            }
+          ]
+        }
+      },
+      {
+        "indexedStructured": {
+          "object_type": [
+            "Photographs"
+          ],
+          "topic": [
+            "Las Vegas",
+            "Cityscapes"
+          ],
+          "name": [
+            "Hernandez, Anthony"
+          ],
+          "usage_flag": [
+            "permcoll"
+          ],
+          "place": [
+            "Nevada"
+          ],
+          "date": [
+            "1980s"
+          ]
+        },
+        "descriptiveNonRepeating": {
+          "title_sort": "SHOOTING SITES, LAS VEGAS #30",
+          "title": {
+            "content": "Shooting Sites, Las Vegas #30",
+            "label": "Title"
+          },
+          "data_source": "Smithsonian American Art Museum",
+          "record_ID": "saam_1989.50.1",
+          "record_link": "http:\/\/americanart.si.edu\/collections\/search\/artwork\/?id=10324",
+          "unit_code": "SAAM"
+        },
+        "freetext": {
+          "topic": [
+            {
+              "content": "Cityscape\\Nevada\\Las Vegas",
+              "label": "Topic"
+            }
+          ],
+          "dataSource": [
+            {
+              "content": "Smithsonian American Art Museum",
+              "label": "Data Source"
+            }
+          ],
+          "name": [
+            {
+              "content": "Anthony Hernandez, born Los Angeles, CA 1947",
+              "label": "Artist"
+            }
+          ],
+          "creditLine": [
+            {
+              "content": "Smithsonian American Art Museum, Gift of the Consolidated Natural Gas Company Foundation",
+              "label": "Credit Line"
+            }
+          ],
+          "physicalDescription": [
+            {
+              "content": "silver dye bleach print",
+              "label": "Medium"
+            },
+            {
+              "content": "image: 29 1\/4 x 29 in. (74.3 x 73.6 cm.)",
+              "label": "Dimensions"
+            }
+          ],
+          "setName": [
+            {
+              "content": "Smithsonian American Art Museum Collection",
+              "label": "See more items in"
+            }
+          ],
+          "date": [
+            {
+              "content": "1987, printed 1989",
+              "label": "Date"
+            }
+          ],
+          "identifier": [
+            {
+              "content": "1989.50.1",
+              "label": "Object number"
+            }
+          ],
+          "objectType": [
+            {
+              "content": "Photography-Photoprint",
+              "label": "Type"
+            }
+          ]
+        }
+      },
+      {
+        "indexedStructured": {
+          "object_type": [
+            "Photographs",
+            "Still lifes"
+          ],
+          "topic": [
+            "Las Vegas",
+            "Cityscapes",
+            "Dish"
+          ],
+          "name": [
+            "Hernandez, Anthony"
+          ],
+          "usage_flag": [
+            "permcoll"
+          ],
+          "place": [
+            "Nevada"
+          ],
+          "date": [
+            "1990s",
+            "1980s"
+          ]
+        },
+        "descriptiveNonRepeating": {
+          "title_sort": "SHOOTING SITES, LAS VEGAS #30",
+          "title": {
+            "content": "Shooting Sites, Las Vegas #30",
+            "label": "Title"
+          },
+          "data_source": "Smithsonian American Art Museum",
+          "record_ID": "saam_1991.85",
+          "record_link": "http:\/\/americanart.si.edu\/collections\/search\/artwork\/?id=32398",
+          "unit_code": "SAAM"
+        },
+        "freetext": {
+          "topic": [
+            {
+              "content": "Cityscape\\Nevada\\Las Vegas",
+              "label": "Topic"
+            },
+            {
+              "content": "Still life\\other\\dish",
+              "label": "Topic"
+            }
+          ],
+          "dataSource": [
+            {
+              "content": "Smithsonian American Art Museum",
+              "label": "Data Source"
+            }
+          ],
+          "objectRights": [
+            {
+              "content": "\u00a9 1990, Anthony Hernandez",
+              "label": "Copyright Credit Line"
+            }
+          ],
+          "name": [
+            {
+              "content": "Anthony Hernandez, born Los Angeles, CA 1947",
+              "label": "Artist"
+            }
+          ],
+          "creditLine": [
+            {
+              "content": "Smithsonian American Art Museum, Gift of the artist",
+              "label": "Credit Line"
+            }
+          ],
+          "physicalDescription": [
+            {
+              "content": "silver dye bleach print",
+              "label": "Medium"
+            },
+            {
+              "content": "image: 29 5\/8 x 29 3\/8 in. (75.2 x 74.6 cm.)",
+              "label": "Dimensions"
+            }
+          ],
+          "setName": [
+            {
+              "content": "Smithsonian American Art Museum Collection",
+              "label": "See more items in"
+            }
+          ],
+          "date": [
+            {
+              "content": "1987, printed 1990",
+              "label": "Date"
+            }
+          ],
+          "identifier": [
+            {
+              "content": "1991.85",
+              "label": "Object number"
+            }
+          ],
+          "objectType": [
+            {
+              "content": "Photography-Photoprint",
+              "label": "Type"
+            }
+          ]
+        }
+      },
+      {
+        "indexedStructured": {
+          "occupation": [
+            "artist",
+            "ceramist"
+          ],
+          "record_type": [
+            "auth_pers"
+          ],
+          "name": [
+            "Burns, Mark"
+          ],
+          "xref": [
+            "Burns,Mark A."
+          ],
+          "geoLocation": [
+            {
+              "L1": {
+                "content": " Oceania",
+                "type": "Continent"
+              },
+              "L2": {
+                "content": "United States",
+                "type": "Country"
+              }
+            },
+            {
+              "L1": {
+                "content": " Oceania",
+                "type": "Continent"
+              },
+              "L2": {
+                "content": "United States",
+                "type": "Country"
+              }
+            },
+            {
+              "L1": {
+                "content": " Oceania",
+                "type": "Continent"
+              },
+              "L2": {
+                "content": "United States",
+                "type": "Country"
+              }
+            }
+          ],
+          "place": [
+            "Las Vegas",
+            "United States",
+            "Philadelphia",
+            "Springfield",
+            "Pennsylvania",
+            "Nevada",
+            "Ohio"
+          ],
+          "date": [
+            "1950s"
+          ],
+          "culture": [
+            "Americans"
+          ]
+        },
+        "descriptiveNonRepeating": {
+          "title_sort": "BURNS, MARK",
+          "title": {
+            "content": "Mark Burns",
+            "label": "Title"
+          },
+          "data_source": "Smithsonian American Art Museum",
+          "record_ID": "auth_pers_saam_29027",
+          "record_link": "http:\/\/americanart.si.edu\/collections\/search\/artist\/?id=29027",
+          "unit_code": "SAAM"
+        },
+        "freetext": {
+          "dataSource": [
+            {
+              "content": "Smithsonian American Art Museum",
+              "label": "Data Source"
+            }
+          ],
+          "occupation": [
+            {
+              "content": "artist",
+              "label": "role(s)"
+            },
+            {
+              "content": "ceramist",
+              "label": "role(s)"
+            }
+          ],
+          "name": [
+            {
+              "content": "Mark A. Burns",
+              "label": "Variant Name"
+            }
+          ],
+          "date": [
+            {
+              "content": "1950",
+              "label": "Born"
+            }
+          ],
+          "place": [
+            {
+              "content": "Springfield, Ohio, United States",
+              "label": "Place of Birth"
+            },
+            {
+              "content": "Las Vegas, Nevada, United States",
+              "label": "Associated Place"
+            },
+            {
+              "content": "Philadelphia, Pennsylvania, United States",
+              "label": "Associated Place"
+            }
+          ],
+          "culture": [
+            {
+              "content": "American",
+              "label": "Nationality"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
