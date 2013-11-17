@@ -1,6 +1,0 @@
-[17/Nov/2013:10:28:40] ENGINE Listening for SIGTERM.
-[17/Nov/2013:10:28:40] ENGINE Bus STARTING
-[17/Nov/2013:10:28:40] ENGINE Started monitor thread 'Autoreloader'.
-[17/Nov/2013:10:28:40] ENGINE Started monitor thread '_TimeoutMonitor'.
-[17/Nov/2013:10:28:40] ENGINE Serving on 127.0.0.1:8080
-[17/Nov/2013:10:28:40] ENGINE Bus STARTED
