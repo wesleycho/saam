@@ -10074,40 +10074,45 @@ table.rounded > tbody:first-child tr:first-child td {
 }
 
 /* line 76, ../sass/_custom.scss */
-.test {
+.flow {
   width: 100%;
 }
 /* line 78, ../sass/_custom.scss */
-.test img {
+.flow img {
   width: 100%;
   height: auto;
 }
 
-/* line 91, ../sass/_custom.scss */
+/* line 83, ../sass/_custom.scss */
+.search {
+  margin-bottom: 30px;
+}
+
+/* line 94, ../sass/_custom.scss */
 #objectMeta {
   margin-top: 30px;
   margin-bottom: 30px;
 }
-/* line 94, ../sass/_custom.scss */
+/* line 97, ../sass/_custom.scss */
 #objectMeta h1 {
   font-size: 26px;
   font-size: 1.625rem;
 }
-/* line 97, ../sass/_custom.scss */
+/* line 100, ../sass/_custom.scss */
 #objectMeta h2, #objectMeta h3 {
   font-size: 18px;
   font-size: 1.125rem;
 }
-/* line 100, ../sass/_custom.scss */
+/* line 103, ../sass/_custom.scss */
 #objectMeta a {
   text-decoration: underline;
 }
-/* line 102, ../sass/_custom.scss */
+/* line 105, ../sass/_custom.scss */
 #objectMeta a:hover, #objectMeta a:focus {
   text-decoration: none;
 }
 
-/* line 107, ../sass/_custom.scss */
+/* line 110, ../sass/_custom.scss */
 .moreResources {
   border: 1px solid #4a4d50;
   display: block;
@@ -10116,22 +10121,22 @@ table.rounded > tbody:first-child tr:first-child td {
   padding-left: 30px;
   padding-top: 13px;
 }
-/* line 114, ../sass/_custom.scss */
+/* line 117, ../sass/_custom.scss */
 .moreResources:hover, .moreResources:focus {
   background: #bde6d7;
 }
-/* line 117, ../sass/_custom.scss */
+/* line 120, ../sass/_custom.scss */
 .moreResources p {
   text-decoration: none;
 }
 
-/* line 121, ../sass/_custom.scss */
+/* line 124, ../sass/_custom.scss */
 #collectObj {
   background-color: #79c0cd;
   padding-top: 30px;
   padding-bottom: 30px;
 }
-/* line 125, ../sass/_custom.scss */
+/* line 128, ../sass/_custom.scss */
 #collectObj h1 {
   font-size: 26px;
   font-size: 1.625rem;
