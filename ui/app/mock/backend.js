@@ -43,7 +43,7 @@ angular.module('mockBackend', ['ngMockE2E'])
       else {
         dataToReturn = _.cloneDeep(mockData.all);
         dataToReturn.response.docs = _.filter(dataToReturn.response.docs, function (item) {
-          return _.contains(dataToReturn.response.docs, q);
+          return contains(dataToReturn.response.docs, q);
         });
       }
 
@@ -51,4 +51,19 @@ angular.module('mockBackend', ['ngMockE2E'])
 
       return [200, dataToReturn];
     });
+
+    function contains (collection, str) {
+      for (var item in collection) {
+        if (_.contains(collection[item], str)) {
+          return true;
+        }
+        if (_(collection[item]).isArray() || _(collection[item]).isObject()) {
+          if (contains(collection[item], str)) {
+            return true;
+          }
+        }
+      }
+
+      return false;
+    }
   });
