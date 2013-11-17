@@ -10,7 +10,7 @@ angular.module('mockBackend', ['ngMockE2E'])
     $httpBackend.whenGET(/.*\.json$/).passThrough();
 
     $http.get('mock/data/new_york.json')
-      .success(setData('new_york'));
+      .success(setData('new york'));
 
     function setData (key) {
       return function (data) {
@@ -21,6 +21,6 @@ angular.module('mockBackend', ['ngMockE2E'])
     $httpBackend.whenGET(route.api + '/collections').respond(function (method, url, data) {
       var data = angular.fromJson(data);
 
-      return [200, mockData[data.q]];
+      return [200, mockData[data.q.toLowerCase()]];
     });
   });
