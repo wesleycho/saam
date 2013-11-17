@@ -55,5 +55,14 @@ angular.module('SmithsonianApp', modules)
         }
       }
     })
+    .state('item', {
+      url: '/items/:itemId',
+      views: {
+        'main': {
+          controller: 'ObjectCtrl',
+          templateUrl: 'views/object.html'
+        }
+      }
+    })
     ;
   });
