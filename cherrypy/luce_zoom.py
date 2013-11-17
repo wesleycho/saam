@@ -3,6 +3,7 @@ def luce_zoom(self, **kwargs):
 
     score = int(kwargs.get('score', 0))
     artwork = kwargs.get('artwork', 'nothing_yet')
+    oldname = kwargs.get('oldname')
 
     if artwork == 'correct':
         score += 1
@@ -45,14 +46,6 @@ def luce_zoom(self, **kwargs):
     page_source.append('<h2>Hey what is the name of this artwork?</h2>')
     page_source.append('</div> </div>')
 
-    page_source.append('<div class="row"> <div class="ten columns" style="text-align: center;">')
-    page_source.append('Your score: <b>{0}</b>'.format(score))
-
-    if artwork == 'correct':
-        page_source.append('&nbsp; <b> YOU JUST GOT A POINT / WAY TO IDENTIFY ART / LIKE A SUPERSTAR</b> <!-- <br> That is a haiku by the way :) :) :) :) :) :) ^ -->')
-
-    page_source.append('</div> </div>')
-
     page_source.append('\n\n<!-- HEY DON\'T CHEAT BY LOOKING AT THE SOURCE! :) -->\n\n')
 
     page_source.append('<div class="row"> <div class="centered ten columns"> <div class="row">')
@@ -61,16 +54,24 @@ def luce_zoom(self, **kwargs):
         if title == art_realtitle:
             page_source.append('\n\n<div class="four columns" style="text-align: center;"><form method="post" action="luce_zoom"><input type="hidden" name="score" value="{0}"><input type="hidden" name="artwork" value="correct"><input style="white-space: normal;" type="submit" value="{1}"></form></div>'.format(score, title))
         else:
-            page_source.append('\n\n<div class="four columns" style="text-align: center;"><form method="post" action="luce_zoom"><input type="hidden" name="score" value="{0}"><input type="hidden" name="artwork" value="nope"><input style="white-space: normal;" type="submit" value="{1}"></form></div>'.format(score, title))
+            page_source.append('\n\n<div class="four columns" style="text-align: center;"><form method="post" action="luce_zoom"><input type="hidden" name="score" value="{0}"><input type="hidden" name="oldname" value="{2}"><input type="hidden" name="artwork" value="nope"><input style="white-space: normal;" type="submit" value="{1}"></form></div>'.format(score, title, art_realtitle))
     page_source.append('</div> </div>')
 
-    #page_source.append('<div class="nine columns">')
     page_source.append('<table cellpadding=4 style="vertical-align: middle; text-align: center;"> <tr> <td>')
     page_source.append('\n\n<iframe src="http://ids.si.edu/ids/dynamic?id={0}&container.width=800&container.height=600" height=600 width=800 scrolling="no"></iframe>'.format(art_image))
-    #page_source.append('</div> <div class="three columns">')
+    
     page_source.append('</td><td>')
+    page_source.append('Your score: <b>{0}</b>'.format(score))
+
+    if artwork == 'correct':
+        page_source.append('&nbsp; <b> <br> <br> YOU JUST GOT A POINT <br> WAY TO IDENTIFY ART <br> LIKE A SUPERSTAR</b> <!-- <br> That is a haiku by the way :) :) :) :) :) :) ^ -->')
+    elif artwork == 'nope':
+        page_source.append('&nbsp; <b> <br> <br> That was incorrect <br> But it\'s a good chance to learn <br> Here\'s the correct name:</b><br> {0}'.format(oldname))
+
+    page_source.append('<br> <br> <br> <br> <br> <br>')
     page_source.append('<form method="post" action="luce_zoom_score"><input type="hidden" name="score" value="{0}">Are you done playing? <br> You\'ll retire in glory. <br> Just enter your name.<br> &nbsp; <br> <input type="text" name="name" value="Enter your name"><input type="submit" value="End the game and retire in glory"></form>'.format(score))
+    
     page_source.append('</td></tr></table>')
-    #page_source.append('</div>')                    
+    page_source.append('</div>')                    
     
     return page_source
