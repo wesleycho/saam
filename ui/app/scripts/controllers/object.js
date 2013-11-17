@@ -2,6 +2,7 @@
 
 angular.module('SmithsonianApp')
   .controller('ObjectCtrl', function ($scope, $state) {
-    $scope.image = $state.current.data;
+    console.log($state);
+    $scope.image = $state.current.data.image;
     console.log($scope.image);
   });

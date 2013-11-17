@@ -44,7 +44,12 @@ angular.module('SmithsonianApp')
 
     $scope.goTo = function (image) {
       $state.go('item', {
-        data: image
+        params: {
+          itemId: image.descriptiveNonRepeating.record_ID
+        },
+        data: {
+          image: image
+        }
       });
     };
 
