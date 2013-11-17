@@ -7,6 +7,10 @@ angular.module('SmithsonianApp')
 
     generateColumns();
 
+    if ($state.current.data) {
+      $scope.param.fq = $state.current.data.topic;
+    }
+
     $scope.updateFilter = function (filter) {
       return _.debounce(function () {
         var promises = [];
@@ -56,7 +60,8 @@ angular.module('SmithsonianApp')
         q: $scope.param.filter ? $scope.param.filter : '',
         rows: 10,
         start: startIdx,
-        online_media_type: 'Images'
+        online_media_type: 'Images',
+        fq: $scope.param.topic
       });
     }
 
@@ -65,7 +70,8 @@ angular.module('SmithsonianApp')
         q: filter,
         rows: 10,
         start: startIdx,
-        online_media_type: 'Images'
+        online_media_type: 'Images',
+        fq: $scope.param.topic
       });
     }
 
