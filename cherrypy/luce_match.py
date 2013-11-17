@@ -6,6 +6,15 @@
 
 def luce_match(self, **kwargs):
 
+    # If a vote was cast, save it.
+
+    art_id = kwargs.get('vote')
+    image_url = kwargs.get('image')
+    title = kwargs.get('title')
+    vote(art_id, image_url, title)
+
+    # Below: always show two artworks to be side-by-sided
+
     from luce_credentials import username, password
 
     import random
@@ -41,11 +50,11 @@ def luce_match(self, **kwargs):
     page_source.append('<div class="row"> <h2>Click the artwork you like better.</h2>')
 
     page_source.append('<div class="six columns quickMargin">')
-    page_source.append('<a href="luce_match?vote={0}"><img src="{1}" alt="{2}"></a>'.format(left_side, left_image_url, left_title))
+    page_source.append('<a href="luce_match?vote={0}&image={1}&title={2}"><img src="{1}" alt="{2}"></a>'.format(left_side, left_image_url, left_title))
     page_source.append('</div>')
 
     page_source.append('<div class="five columns">')
-    page_source.append('<a href="luce_match?vote={0}"><img src="{1}" alt="{2}"></a>'.format(right_side, right_image_url, right_title))
+    page_source.append('<a href="luce_match?vote={0}&image={1}&title={2}"><img src="{1}" alt="{2}"></a>'.format(right_side, right_image_url, right_title))
     page_source.append('</div>')
 
     page_source.append('</div>')
@@ -56,7 +65,7 @@ def luce_match(self, **kwargs):
 
     return page_source
 
-def vote(art_id):
+def vote(art_id, image, title):
 
     import psycopg2
 
@@ -71,7 +80,8 @@ def vote(art_id):
     database_connection = psycopg2.connect(database_connection_details)
     database_cursor = database_connection.cursor()
 
-    insert_query = 'insert into sidebyside (image_id) values ({0})'.format(art_id)
+    # NOTE: It's 7:11 pm.  I'm not going to worry about SQL injection.  Play nicely, friend-os.
+    insert_query = "insert into sidebyside (image_id, image_url, title) values ({0}, '{1}', '{2}')".format(art_id, image, title)
 
     database_cursor.execute(insert_query)
     database_connection.commit()

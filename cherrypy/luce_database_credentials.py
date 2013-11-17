@@ -1,1 +1,1 @@
-database_connection_details = "dbname=dbname user=user password=password"
+database_connection_details = "dbname=lucehack user=luce password=zzz"
