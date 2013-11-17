@@ -24,6 +24,15 @@ def collections(self, **kwargs):
     if start is not None:
         request_url.append('&start={0}'.format(start))
 
-    
-        
     return str(requests.get(''.join(request_url), auth=HTTPBasicAuth(username, password)).json())
+
+
+def groups(self, **kwargs):
+
+    from luce_credentials import username, password
+    import requests
+    from requests.auth import HTTPBasicAuth
+
+    
+
+    
