@@ -1,26 +1,5 @@
-<section class="head">
-  <div class="row">
-    <div class="twelve columns">
-      <h1>Object name</h1>
-      <!--<nav class="nine columns push_three">
-        <div class="three columns alpha nav">
-          <a href="#tour">Take a tour</a>
-        </div>
-        <div class="three columns nav">
-          <a href="#browse">Browse</a>
-        </div>
-        <div class="three columns nav">
-          <a href="#collect">Your Collection</a>
-        </div>
-        <div class="three columns nav">
-          <a href="#favorite">Play Art!</a>
-        </div>
-      </nav>-->
-    </div>
-  </div>
-</section>
-<section id="#object">
-  <img src="images/Construction-of-a-Dam-1_2@2x.jpg">
+<section #object>
+  <img ng-src="{{image.descriptiveNonRepeating.online_media.media[0].content}}">
   <div class="row">
     <div class="six columns push_six">
       <div class="medium info btn icon-right entypo icon-plus"><a href="#">Add to Your Collection</a></div>
@@ -32,11 +11,12 @@
 <section id="objectMeta">
   <div class="row">
     <div class="eight columns">
-      <h1>Object Name</h1>
-      <h2><a href="#">Artist Name</a></h2>
-      <h3>Year</h3>
+      <h1>{{image.descriptiveNonRepeating.title.content}}</h1>
+      <h2><a href="#">{{image.indexedStructured.name[0]}}</a></h2>
+      <h3>{{image.freetext.date[0].content}}</h3>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tristique urna id lacus vulputate cursus. Curabitur a malesuada odio. Nam pharetra iaculis dignissim. Quisque rhoncus malesuada volutpat. Mauris in tortor id augue commodo eleifend. Morbi adipiscing diam at lacus eleifend, a condimentum orci suscipit. Phasellus sit amet orci sed massa ornare dapibus. Cras et tellus rhoncus nibh </p>
       <h3>Location</h3>
+      <img src="images/luce_center_map.gif">
     </div>
     <div class="four columns">
       <a href="#">
