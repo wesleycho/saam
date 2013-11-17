@@ -10072,3 +10072,28 @@ table.rounded > tbody:first-child tr:first-child td {
   font-size: 26px;
   font-size: 1.625rem;
 }
+
+/* line 3, ../sass/main.scss */
+.ng-enter, .ng-leave {
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: linear;
+}
+
+/* line 8, ../sass/main.scss */
+.ng-enter {
+  opacity: 0;
+}
+/* line 10, ../sass/main.scss */
+.ng-enter.ng-enter-active {
+  opacity: 1;
+}
+
+/* line 14, ../sass/main.scss */
+.ng-leave {
+  opacity: 1;
+}
+/* line 16, ../sass/main.scss */
+.ng-leave.ng-leave-active {
+  opacity: 0;
+}

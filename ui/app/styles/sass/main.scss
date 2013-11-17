@@ -1,1 +1,19 @@
 @import "gumby";
+
+.ng-enter, .ng-leave {
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: linear;
+}
+.ng-enter {
+  opacity: 0;
+  &.ng-enter-active {
+    opacity: 1;
+  }
+}
+.ng-leave {
+  opacity: 1;
+  &.ng-leave-active {
+    opacity: 0;
+  }
+}
