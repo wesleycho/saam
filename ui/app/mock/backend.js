@@ -32,15 +32,19 @@ angular.module('mockBackend', ['ngMockE2E'])
 
     $httpBackend.whenGET(/http:\/\/localhost:9000\/api\/collections(\?.*)?/).respond(function (method, url) {
       var q, dataToReturn;
-      q = url.match(/q=\w*&/)[0];
+      q = url.match(/q=[\w\+]*&/)[0];
       q = q.slice(0, -1);
       q = q.substr(2);
+      q = q.replace(/\+/, ' ');
 
       if (q.toLowerCase() === '') {
-        dataToReturn = mockData.all;
+        dataToReturn = _.cloneDeep(mockData.all);
       }
       else {
-        dataToReturn = mockData[q.toLowerCase()];
+        dataToReturn = _.cloneDeep(mockData.all);
+        dataToReturn.response.docs = _.filter(dataToReturn.response.docs, function (item) {
+          return _.contains(dataToReturn.response.docs, q);
+        });
       }
 
       dataToReturn.response.docs = _.sample(dataToReturn.response.docs, 10);
