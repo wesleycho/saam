@@ -1,0 +1,66 @@
+
+<div class="ajax-text-and-image white-popup-block">
+    <style>
+        .ajax-text-and-image {
+            max-width:800px; margin: 20px auto; background: #FFF; padding: 0; line-height: 0;
+        }
+        .ajcol {
+            width: 50%; float:left;
+        }
+        .ajcol img {
+            width: 100%; height: auto;
+        }
+        @media all and (max-width:30em) {
+            .ajcol { 
+                width: 100%;
+                float:none;
+            }
+        }
+    </style>
+    <div class="ajcol" id="imageContainer">
+    </div>
+    <div class="ajcol" style="line-height: 1.231;">
+        <div style="padding: 1em">
+            <h1>This is just block of HTML23123s, loaded via ajax</h1>
+            <p>You can put absolutely any HTML here and resize it dynamically just with help of CSS.</p>
+        </div>
+    </div>
+    <div style="clear:both; line-height: 0;"></div>
+</div>
+
+<!--<script>
+
+// Read a page's GET URL variables and return them as an associative array.
+    function getUrlVars()
+    {
+        var vars = [], hash;
+        var hashes = window.location.href.slice(window.location.href.indexOf('?') + 1).split('&');
+        for (var i = 0; i < hashes.length; i++)
+        {
+            hash = hashes[i].split('=');
+            vars.push(hash[0]);
+            vars[hash[0]] = hash[1];
+        }
+        return vars;
+    }
+    var vars = getUrlVars();
+
+    var para = document.createElement("p");
+    para.innerHTML = vars["url"];
+    var container = document.getElementById("imageContainer");
+    container.appendChild(para);
+
+    if (vars["url"] !== undefined) {
+        var url = vars["url"];
+        console.log(vars["url"]);
+
+        // dynamically load image
+        var img = document.createElement("img");
+        img.onload = function(e) {
+            var container = document.getElementById("imageContainer");
+            container.appendChild(e.target);
+        }
+        img.setAttribute("src", url);
+    }
+
+</script>-->

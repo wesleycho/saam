@@ -9991,27 +9991,27 @@ table.rounded > tbody:first-child tr:first-child td {
   top: 0;
 }
 
-/* line 5, ../sass/_custom.scss */
+/* line 8, ../sass/_custom.scss */
 .floatRight {
   float: right;
 }
 
-/* line 8, ../sass/_custom.scss */
+/* line 11, ../sass/_custom.scss */
 .rightMargin {
   margin-right: 20px;
 }
 
-/* line 11, ../sass/_custom.scss */
+/* line 14, ../sass/_custom.scss */
 .paddingBottom {
   margin-bottom: 20px;
 }
 
-/* line 14, ../sass/_custom.scss */
+/* line 17, ../sass/_custom.scss */
 .alpha {
   margin-left: 0px;
 }
 
-/* line 22, ../sass/_custom.scss */
+/* line 25, ../sass/_custom.scss */
 .nav {
   border-bottom: 3px solid #4a4d50;
   display: block;
@@ -10019,24 +10019,24 @@ table.rounded > tbody:first-child tr:first-child td {
   padding-top: 3px;
   font-weight: 800;
 }
-/* line 28, ../sass/_custom.scss */
+/* line 31, ../sass/_custom.scss */
 .nav:hover, .nav:focus {
   background: #bde6d7;
   border-bottom: 3px solid #63676a;
 }
 
-/* line 37, ../sass/_custom.scss */
+/* line 40, ../sass/_custom.scss */
 .head {
   background-color: #74c9ab;
 }
 
-/* line 40, ../sass/_custom.scss */
+/* line 43, ../sass/_custom.scss */
 .hero {
   background-image: url(../../images/Construction-of-a-Dam-1_2@2x.jpg);
   padding-top: 30px;
 }
 
-/* line 44, ../sass/_custom.scss */
+/* line 47, ../sass/_custom.scss */
 .introText {
   background-color: white;
   border: black;
@@ -10044,30 +10044,30 @@ table.rounded > tbody:first-child tr:first-child td {
   padding: 20px;
 }
 
-/* line 50, ../sass/_custom.scss */
+/* line 53, ../sass/_custom.scss */
 #tour, #collect {
   background-color: white;
   padding-top: 30px;
   padding-bottom: 30px;
 }
-/* line 54, ../sass/_custom.scss */
+/* line 57, ../sass/_custom.scss */
 #tour h1, #collect h1 {
   font-size: 42px;
   font-size: 2.625rem;
 }
 
-/* line 58, ../sass/_custom.scss */
+/* line 61, ../sass/_custom.scss */
 #browse, #favorite {
   background-color: #79c0cd;
   padding-top: 30px;
   padding-bottom: 30px;
 }
-/* line 62, ../sass/_custom.scss */
+/* line 65, ../sass/_custom.scss */
 #browse h1, #favorite h1 {
   font-size: 42px;
   font-size: 2.625rem;
 }
-/* line 65, ../sass/_custom.scss */
+/* line 68, ../sass/_custom.scss */
 #browse h2, #favorite h2 {
   font-size: 26px;
   font-size: 1.625rem;
