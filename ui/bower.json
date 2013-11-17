@@ -3,12 +3,18 @@
   "version": "0.0.0",
   "dependencies": {
     "angular": "1.2.1",
+    "lodash": "2.3.0",
     "jquery": "2.0.3",
     "gumby": "2.5.15",
     "modernizr": "2.6.3",
     "angular-resource": "1.2.1",
     "angular-cookies": "1.2.1",
     "angular-sanitize": "1.2.1",
-    "bower-angular-ui-router": "0.2.0"
+    "angular-animate": "1.2.1",
+    "bower-angular-ui-router": "0.2.0",
+    "nginfinitescroll": "1.0.0"
+  },
+  "devDependencies": {
+    "angular-mocks": "1.2.1"
   }
 }

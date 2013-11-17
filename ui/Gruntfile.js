@@ -292,6 +292,20 @@ module.exports = function (grunt) {
           ]
         }
       }
+    },
+    'string-replace': {
+      dist: {
+        files: {
+          src: ['<%= yeoman.dist %>/index.html'],
+          dest: '<%= yeoman.dist %>/index.html', filter: 'isFile'
+        },
+        options: {
+          replacements: [{
+            pattern: /<!--mock-->.*<!--endmock-->/,
+            replacement: ''
+          }]
+        }
+      }
     }
   });
 
@@ -324,6 +338,7 @@ module.exports = function (grunt) {
     'autoprefixer',
     'concat',
     'copy:dist',
+    'string-replace:dist',
     'cdnify',
     'ngmin',
     'cssmin',

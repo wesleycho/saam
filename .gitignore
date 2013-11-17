@@ -1,7 +1,13 @@
+project.xml
+project.properties
+static/
 ui/node_modules
 ui/dist
 ui/.tmp
 ui/.sass-cache
+ui/app/styles/.sass-cache
 ui/app/bower_components
+cherrypy/luce_credentials*
 *.sw*
 .DS_Store
+*.pyc
