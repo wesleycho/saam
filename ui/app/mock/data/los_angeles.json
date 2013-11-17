@@ -1,0 +1,1481 @@
+{
+  "responseHeader": {
+    "status": 0,
+    "QTime": 1,
+    "params": {
+      "applicationId": "HACK",
+      "qt": "standard",
+      "wt": "json",
+      "q": "Los Angeles"
+    }
+  },
+  "response": {
+    "numFound": 1451,
+    "start": 0,
+    "docs": [
+      {
+        "indexedStructured": {
+          "object_type": [
+            "Graphic arts"
+          ],
+          "topic": [
+            "Description and travel",
+            "Horses",
+            "Landscapes",
+            "Figure"
+          ],
+          "geolocation": [
+            {
+              "L1": {
+                "content": "North America",
+                "type": "Continent"
+              },
+              "L2": "United States",
+              "L3": "California",
+              "L4": "Los Angeles County",
+              "L5": "Los Angeles"
+            }
+          ],
+          "name": [
+            "Kanemitsu, Matsumi"
+          ],
+          "geoLocation": [
+            {
+              "L1": {
+                "content": " North America",
+                "type": "Continent"
+              },
+              "L2": {
+                "content": "United States of America",
+                "type": "Country"
+              },
+              "L3": {
+                "content": "California",
+                "type": "State"
+              }
+            }
+          ],
+          "usage_flag": [
+            "permcoll"
+          ],
+          "online_media_type": [
+            "Images"
+          ],
+          "place": [
+            "California",
+            "Los Angeles"
+          ]
+        },
+        "descriptiveNonRepeating": {
+          "title_sort": "METAMORPHOSIS LOS ANGELES 1 (PORTFOLIO ILLUSTRATIONS)",
+          "title": {
+            "content": "Metamorphosis Los Angeles 1 (portfolio illustrations)",
+            "label": "Title"
+          },
+          "online_media": {
+            "mediaCount": "1",
+            "media": [
+              {
+                "idsId": "http:\/\/americanart.si.edu\/images\/1979\/1979.85.4_1a.jpg",
+                "content": "http:\/\/americanart.si.edu\/images\/1979\/1979.85.4_1a.jpg",
+                "thumbnail": "http:\/\/americanart.si.edu\/images\/1979\/1979.85.4_1d.jpg",
+                "type": "Images"
+              }
+            ]
+          },
+          "data_source": "Smithsonian American Art Museum",
+          "record_ID": "saam_1979.85.4",
+          "record_link": "http:\/\/americanart.si.edu\/collections\/search\/artwork\/?id=12916",
+          "unit_code": "SAAM"
+        },
+        "freetext": {
+          "topic": [
+            {
+              "content": "Figure\\full length",
+              "label": "Topic"
+            },
+            {
+              "content": "Landscape\\California\\Los Angeles",
+              "label": "Topic"
+            },
+            {
+              "content": "Travel\\land\\horse",
+              "label": "Topic"
+            }
+          ],
+          "dataSource": [
+            {
+              "content": "Smithsonian American Art Museum",
+              "label": "Data Source"
+            }
+          ],
+          "name": [
+            {
+              "content": "Matsumi Kanemitsu, born Ogden, UT 1922-died Los Angeles, CA 1992",
+              "label": "Artist"
+            }
+          ],
+          "physicalDescription": [
+            {
+              "content": "lithograph",
+              "label": "Medium"
+            }
+          ],
+          "setName": [
+            {
+              "content": "Smithsonian American Art Museum Collection",
+              "label": "See more items in"
+            }
+          ],
+          "identifier": [
+            {
+              "content": "1979.85.4",
+              "label": "Object number"
+            }
+          ],
+          "objectType": [
+            {
+              "content": "Graphic Arts-Print",
+              "label": "Type"
+            }
+          ]
+        }
+      },
+      {
+        "indexedStructured": {
+          "object_type": [
+            "Graphic arts"
+          ],
+          "topic": [
+            "Animals",
+            "Landscapes",
+            "Horses"
+          ],
+          "geolocation": [
+            {
+              "L1": {
+                "content": "North America",
+                "type": "Continent"
+              },
+              "L2": "United States",
+              "L3": "California",
+              "L4": "Los Angeles County",
+              "L5": "Los Angeles"
+            }
+          ],
+          "name": [
+            "Kanemitsu, Matsumi"
+          ],
+          "geoLocation": [
+            {
+              "L1": {
+                "content": " North America",
+                "type": "Continent"
+              },
+              "L2": {
+                "content": "United States of America",
+                "type": "Country"
+              },
+              "L3": {
+                "content": "California",
+                "type": "State"
+              }
+            }
+          ],
+          "usage_flag": [
+            "permcoll"
+          ],
+          "online_media_type": [
+            "Images"
+          ],
+          "place": [
+            "California",
+            "Los Angeles"
+          ]
+        },
+        "descriptiveNonRepeating": {
+          "title_sort": "METAMORPHOSIS LOS ANGELES 2 (PORTFOLIO ILLUSTRATIONS)",
+          "title": {
+            "content": "Metamorphosis Los Angeles 2 (portfolio illustrations)",
+            "label": "Title"
+          },
+          "online_media": {
+            "mediaCount": "1",
+            "media": [
+              {
+                "idsId": "http:\/\/americanart.si.edu\/images\/1979\/1979.85.7_1a.jpg",
+                "content": "http:\/\/americanart.si.edu\/images\/1979\/1979.85.7_1a.jpg",
+                "thumbnail": "http:\/\/americanart.si.edu\/images\/1979\/1979.85.7_1d.jpg",
+                "type": "Images"
+              }
+            ]
+          },
+          "data_source": "Smithsonian American Art Museum",
+          "record_ID": "saam_1979.85.7",
+          "record_link": "http:\/\/americanart.si.edu\/collections\/search\/artwork\/?id=12917",
+          "unit_code": "SAAM"
+        },
+        "freetext": {
+          "topic": [
+            {
+              "content": "Animal\\horse",
+              "label": "Topic"
+            },
+            {
+              "content": "Landscape\\California\\Los Angeles",
+              "label": "Topic"
+            }
+          ],
+          "dataSource": [
+            {
+              "content": "Smithsonian American Art Museum",
+              "label": "Data Source"
+            }
+          ],
+          "name": [
+            {
+              "content": "Matsumi Kanemitsu, born Ogden, UT 1922-died Los Angeles, CA 1992",
+              "label": "Artist"
+            }
+          ],
+          "physicalDescription": [
+            {
+              "content": "lithograph",
+              "label": "Medium"
+            }
+          ],
+          "setName": [
+            {
+              "content": "Smithsonian American Art Museum Collection",
+              "label": "See more items in"
+            }
+          ],
+          "identifier": [
+            {
+              "content": "1979.85.7",
+              "label": "Object number"
+            }
+          ],
+          "objectType": [
+            {
+              "content": "Graphic Arts-Print",
+              "label": "Type"
+            }
+          ]
+        }
+      },
+      {
+        "indexedStructured": {
+          "object_type": [
+            "Graphic arts"
+          ],
+          "topic": [
+            "Railroad",
+            "Landscapes",
+            "Occupations",
+            "Industry"
+          ],
+          "geolocation": [
+            {
+              "L1": {
+                "content": "North America",
+                "type": "Continent"
+              },
+              "L2": "United States",
+              "L3": "California",
+              "L4": "Los Angeles County",
+              "L5": "Los Angeles"
+            }
+          ],
+          "name": [
+            "Kanemitsu, Matsumi"
+          ],
+          "geoLocation": [
+            {
+              "L1": {
+                "content": " North America",
+                "type": "Continent"
+              },
+              "L2": {
+                "content": "United States of America",
+                "type": "Country"
+              },
+              "L3": {
+                "content": "California",
+                "type": "State"
+              }
+            }
+          ],
+          "usage_flag": [
+            "permcoll"
+          ],
+          "online_media_type": [
+            "Images"
+          ],
+          "place": [
+            "California",
+            "Los Angeles"
+          ]
+        },
+        "descriptiveNonRepeating": {
+          "title_sort": "METAMORPHOSIS LOS ANGELES 3 (PORTFOLIO ILLUSTRATIONS)",
+          "title": {
+            "content": "Metamorphosis Los Angeles 3 (portfolio illustrations)",
+            "label": "Title"
+          },
+          "online_media": {
+            "mediaCount": "1",
+            "media": [
+              {
+                "idsId": "http:\/\/americanart.si.edu\/images\/1979\/1979.85.8_1a.jpg",
+                "content": "http:\/\/americanart.si.edu\/images\/1979\/1979.85.8_1a.jpg",
+                "thumbnail": "http:\/\/americanart.si.edu\/images\/1979\/1979.85.8_1d.jpg",
+                "type": "Images"
+              }
+            ]
+          },
+          "data_source": "Smithsonian American Art Museum",
+          "record_ID": "saam_1979.85.8",
+          "record_link": "http:\/\/americanart.si.edu\/collections\/search\/artwork\/?id=12918",
+          "unit_code": "SAAM"
+        },
+        "freetext": {
+          "topic": [
+            {
+              "content": "Landscape\\California\\Los Angeles",
+              "label": "Topic"
+            },
+            {
+              "content": "Occupation\\industry\\railroad",
+              "label": "Topic"
+            }
+          ],
+          "dataSource": [
+            {
+              "content": "Smithsonian American Art Museum",
+              "label": "Data Source"
+            }
+          ],
+          "name": [
+            {
+              "content": "Matsumi Kanemitsu, born Ogden, UT 1922-died Los Angeles, CA 1992",
+              "label": "Artist"
+            }
+          ],
+          "physicalDescription": [
+            {
+              "content": "lithograph",
+              "label": "Medium"
+            }
+          ],
+          "setName": [
+            {
+              "content": "Smithsonian American Art Museum Collection",
+              "label": "See more items in"
+            }
+          ],
+          "identifier": [
+            {
+              "content": "1979.85.8",
+              "label": "Object number"
+            }
+          ],
+          "objectType": [
+            {
+              "content": "Graphic Arts-Print",
+              "label": "Type"
+            }
+          ]
+        }
+      },
+      {
+        "indexedStructured": {
+          "object_type": [
+            "Photographs"
+          ],
+          "topic": [
+            "Cityscapes",
+            "Landscapes",
+            "Figure male",
+            "Palm tree",
+            "Streets"
+          ],
+          "geolocation": [
+            {
+              "L1": {
+                "content": "North America",
+                "type": "Continent"
+              },
+              "L2": "United States",
+              "L3": "California",
+              "L4": "Los Angeles County",
+              "L5": "Los Angeles"
+            }
+          ],
+          "name": [
+            "Hernandez, Anthony"
+          ],
+          "geoLocation": [
+            {
+              "L1": {
+                "content": " North America",
+                "type": "Continent"
+              },
+              "L2": {
+                "content": "United States of America",
+                "type": "Country"
+              },
+              "L3": {
+                "content": "California",
+                "type": "State"
+              }
+            }
+          ],
+          "usage_flag": [
+            "permcoll"
+          ],
+          "online_media_type": [
+            "Images"
+          ],
+          "place": [
+            "California",
+            "Los Angeles"
+          ],
+          "date": [
+            "1970s"
+          ]
+        },
+        "descriptiveNonRepeating": {
+          "title_sort": "UNTITLED (LOS ANGELES)",
+          "title": {
+            "content": "Untitled (Los Angeles)",
+            "label": "Title"
+          },
+          "online_media": {
+            "mediaCount": "1",
+            "media": [
+              {
+                "idsId": "http:\/\/americanart.si.edu\/images\/1983\/1983.63.664_1a.jpg",
+                "content": "http:\/\/americanart.si.edu\/images\/1983\/1983.63.664_1a.jpg",
+                "thumbnail": "http:\/\/americanart.si.edu\/images\/1983\/1983.63.664_1d.jpg",
+                "type": "Images"
+              }
+            ]
+          },
+          "data_source": "Smithsonian American Art Museum",
+          "record_ID": "saam_1983.63.664",
+          "record_link": "http:\/\/americanart.si.edu\/collections\/search\/artwork\/?id=10325",
+          "unit_code": "SAAM"
+        },
+        "freetext": {
+          "topic": [
+            {
+              "content": "Cityscape\\street",
+              "label": "Topic"
+            },
+            {
+              "content": "Figure male\\waist length",
+              "label": "Topic"
+            },
+            {
+              "content": "Landscape\\tree\\palm tree",
+              "label": "Topic"
+            },
+            {
+              "content": "Cityscape\\California\\Los Angeles",
+              "label": "Topic"
+            }
+          ],
+          "dataSource": [
+            {
+              "content": "Smithsonian American Art Museum",
+              "label": "Data Source"
+            }
+          ],
+          "objectRights": [
+            {
+              "content": "\u00a9 1974, Anthony Hernandez",
+              "label": "Copyright Credit Line"
+            }
+          ],
+          "name": [
+            {
+              "content": "Anthony Hernandez, born Los Angeles, CA 1947",
+              "label": "Artist"
+            }
+          ],
+          "creditLine": [
+            {
+              "content": "Smithsonian American Art Museum, Transfer from the National Endowment for the Arts",
+              "label": "Credit Line"
+            }
+          ],
+          "physicalDescription": [
+            {
+              "content": "gelatin silver print",
+              "label": "Medium"
+            }
+          ],
+          "setName": [
+            {
+              "content": "Smithsonian American Art Museum Collection",
+              "label": "See more items in"
+            }
+          ],
+          "date": [
+            {
+              "content": "1974",
+              "label": "Date"
+            }
+          ],
+          "identifier": [
+            {
+              "content": "1983.63.664",
+              "label": "Object number"
+            }
+          ],
+          "objectType": [
+            {
+              "content": "Photography-Photoprint",
+              "label": "Type"
+            }
+          ]
+        }
+      },
+      {
+        "indexedStructured": {
+          "object_type": [
+            "Photographs"
+          ],
+          "topic": [
+            "Tourism",
+            "Ethnic",
+            "Figure group",
+            "Recreation",
+            "Cityscapes",
+            "Building",
+            "Landscapes"
+          ],
+          "geolocation": [
+            {
+              "L1": {
+                "content": "North America",
+                "type": "Continent"
+              },
+              "L2": "United States",
+              "L3": "California",
+              "L4": "Los Angeles County",
+              "L5": "Los Angeles"
+            }
+          ],
+          "name": [
+            "Yavno, Max"
+          ],
+          "geoLocation": [
+            {
+              "L1": {
+                "content": " North America",
+                "type": "Continent"
+              },
+              "L2": {
+                "content": "United States of America",
+                "type": "Country"
+              },
+              "L3": {
+                "content": "California",
+                "type": "State"
+              }
+            }
+          ],
+          "usage_flag": [
+            "permcoll"
+          ],
+          "online_media_type": [
+            "Images"
+          ],
+          "place": [
+            "California",
+            "Los Angeles"
+          ],
+          "date": [
+            "1970s",
+            "1980s"
+          ],
+          "culture": [
+            "Japanese"
+          ]
+        },
+        "descriptiveNonRepeating": {
+          "title_sort": "UNTITLED, FROM THE LOS ANGELES DOCUMENTARY PROJECT",
+          "title": {
+            "content": "Untitled, from the Los Angeles Documentary Project",
+            "label": "Title"
+          },
+          "online_media": {
+            "mediaCount": "1",
+            "media": [
+              {
+                "idsId": "http:\/\/americanart.si.edu\/images\/1990\/1990.38.107_1a.jpg",
+                "content": "http:\/\/americanart.si.edu\/images\/1990\/1990.38.107_1a.jpg",
+                "thumbnail": "http:\/\/americanart.si.edu\/images\/1990\/1990.38.107_1d.jpg",
+                "type": "Images"
+              }
+            ]
+          },
+          "data_source": "Smithsonian American Art Museum",
+          "record_ID": "saam_1990.38.107",
+          "record_link": "http:\/\/americanart.si.edu\/collections\/search\/artwork\/?id=31809",
+          "unit_code": "SAAM"
+        },
+        "freetext": {
+          "topic": [
+            {
+              "content": "Figure group",
+              "label": "Topic"
+            },
+            {
+              "content": "Landscape\\building",
+              "label": "Topic"
+            },
+            {
+              "content": "Ethnic\\Japanese",
+              "label": "Topic"
+            },
+            {
+              "content": "Cityscape\\California\\Los Angeles",
+              "label": "Topic"
+            },
+            {
+              "content": "Recreation\\tourism",
+              "label": "Topic"
+            }
+          ],
+          "dataSource": [
+            {
+              "content": "Smithsonian American Art Museum",
+              "label": "Data Source"
+            }
+          ],
+          "name": [
+            {
+              "content": "Max Yavno, born New York City 1911-died Los Angeles, CA 1985",
+              "label": "Artist"
+            }
+          ],
+          "creditLine": [
+            {
+              "content": "Smithsonian American Art Museum, Transfer from the National Endowment for the Arts through the Photography Museum of Los Angeles",
+              "label": "Credit Line"
+            }
+          ],
+          "physicalDescription": [
+            {
+              "content": "gelatin silver print",
+              "label": "Medium"
+            },
+            {
+              "content": "image: 19 1\/2 x 14 3\/4 in. (49.5 x 37.5 cm.)",
+              "label": "Dimensions"
+            }
+          ],
+          "setName": [
+            {
+              "content": "Smithsonian American Art Museum Collection",
+              "label": "See more items in"
+            }
+          ],
+          "date": [
+            {
+              "content": "1979-1980",
+              "label": "Date"
+            }
+          ],
+          "identifier": [
+            {
+              "content": "1990.38.107",
+              "label": "Object number"
+            }
+          ],
+          "objectType": [
+            {
+              "content": "Photography-Photoprint",
+              "label": "Type"
+            }
+          ]
+        }
+      },
+      {
+        "indexedStructured": {
+          "object_type": [
+            "Photographs"
+          ],
+          "topic": [
+            "Time",
+            "Cityscapes",
+            "Night"
+          ],
+          "geolocation": [
+            {
+              "L1": {
+                "content": "North America",
+                "type": "Continent"
+              },
+              "L2": "United States",
+              "L3": "California",
+              "L4": "Los Angeles County",
+              "L5": "Los Angeles"
+            }
+          ],
+          "name": [
+            "Yavno, Max"
+          ],
+          "geoLocation": [
+            {
+              "L1": {
+                "content": " North America",
+                "type": "Continent"
+              },
+              "L2": {
+                "content": "United States of America",
+                "type": "Country"
+              },
+              "L3": {
+                "content": "California",
+                "type": "State"
+              }
+            }
+          ],
+          "usage_flag": [
+            "permcoll"
+          ],
+          "online_media_type": [
+            "Images"
+          ],
+          "place": [
+            "California",
+            "Los Angeles"
+          ],
+          "date": [
+            "1970s",
+            "1980s"
+          ]
+        },
+        "descriptiveNonRepeating": {
+          "title_sort": "UNTITLED, FROM THE LOS ANGELES DOCUMENTARY PROJECT",
+          "title": {
+            "content": "Untitled, from the Los Angeles Documentary Project",
+            "label": "Title"
+          },
+          "online_media": {
+            "mediaCount": "1",
+            "media": [
+              {
+                "idsId": "http:\/\/americanart.si.edu\/images\/1990\/1990.38.112_1a.jpg",
+                "content": "http:\/\/americanart.si.edu\/images\/1990\/1990.38.112_1a.jpg",
+                "thumbnail": "http:\/\/americanart.si.edu\/images\/1990\/1990.38.112_1d.jpg",
+                "type": "Images"
+              }
+            ]
+          },
+          "data_source": "Smithsonian American Art Museum",
+          "record_ID": "saam_1990.38.112",
+          "record_link": "http:\/\/americanart.si.edu\/collections\/search\/artwork\/?id=31814",
+          "unit_code": "SAAM"
+        },
+        "freetext": {
+          "topic": [
+            {
+              "content": "Cityscape\\time\\night",
+              "label": "Topic"
+            },
+            {
+              "content": "Cityscape\\California\\Los Angeles",
+              "label": "Topic"
+            }
+          ],
+          "dataSource": [
+            {
+              "content": "Smithsonian American Art Museum",
+              "label": "Data Source"
+            }
+          ],
+          "name": [
+            {
+              "content": "Max Yavno, born New York City 1911-died Los Angeles, CA 1985",
+              "label": "Artist"
+            }
+          ],
+          "creditLine": [
+            {
+              "content": "Smithsonian American Art Museum, Transfer from the National Endowment for the Arts through the Photography Museum of Los Angeles",
+              "label": "Credit Line"
+            }
+          ],
+          "physicalDescription": [
+            {
+              "content": "gelatin silver print",
+              "label": "Medium"
+            },
+            {
+              "content": "image: 19 1\/2 x 15 1\/2 in. (49.5 x 39.3 cm.)",
+              "label": "Dimensions"
+            }
+          ],
+          "setName": [
+            {
+              "content": "Smithsonian American Art Museum Collection",
+              "label": "See more items in"
+            }
+          ],
+          "date": [
+            {
+              "content": "1979-1980",
+              "label": "Date"
+            }
+          ],
+          "identifier": [
+            {
+              "content": "1990.38.112",
+              "label": "Object number"
+            }
+          ],
+          "objectType": [
+            {
+              "content": "Photography-Photoprint",
+              "label": "Type"
+            }
+          ]
+        }
+      },
+      {
+        "indexedStructured": {
+          "object_type": [
+            "Writings (document genre)",
+            "Photographs"
+          ],
+          "topic": [
+            "Commercial",
+            "Cityscapes",
+            "Gas station",
+            "Architecture"
+          ],
+          "geolocation": [
+            {
+              "L1": {
+                "content": "North America",
+                "type": "Continent"
+              },
+              "L2": "United States",
+              "L3": "California",
+              "L4": "Los Angeles County",
+              "L5": "Los Angeles"
+            }
+          ],
+          "name": [
+            "Yavno, Max"
+          ],
+          "geoLocation": [
+            {
+              "L1": {
+                "content": " North America",
+                "type": "Continent"
+              },
+              "L2": {
+                "content": "United States of America",
+                "type": "Country"
+              },
+              "L3": {
+                "content": "California",
+                "type": "State"
+              }
+            }
+          ],
+          "usage_flag": [
+            "permcoll"
+          ],
+          "online_media_type": [
+            "Images"
+          ],
+          "place": [
+            "California",
+            "Los Angeles"
+          ],
+          "date": [
+            "1970s",
+            "1980s"
+          ]
+        },
+        "descriptiveNonRepeating": {
+          "title_sort": "UNTITLED, FROM THE LOS ANGELES DOCUMENTARY PROJECT",
+          "title": {
+            "content": "Untitled, from the Los Angeles Documentary Project",
+            "label": "Title"
+          },
+          "online_media": {
+            "mediaCount": "1",
+            "media": [
+              {
+                "idsId": "http:\/\/americanart.si.edu\/images\/1990\/1990.38.114_1a.jpg",
+                "content": "http:\/\/americanart.si.edu\/images\/1990\/1990.38.114_1a.jpg",
+                "thumbnail": "http:\/\/americanart.si.edu\/images\/1990\/1990.38.114_1d.jpg",
+                "type": "Images"
+              }
+            ]
+          },
+          "data_source": "Smithsonian American Art Museum",
+          "record_ID": "saam_1990.38.114",
+          "record_link": "http:\/\/americanart.si.edu\/collections\/search\/artwork\/?id=31816",
+          "unit_code": "SAAM"
+        },
+        "freetext": {
+          "topic": [
+            {
+              "content": "Miscellaneous\\written matter",
+              "label": "Topic"
+            },
+            {
+              "content": "Cityscape\\California\\Los Angeles",
+              "label": "Topic"
+            },
+            {
+              "content": "Architecture Exterior\\commercial\\gas station",
+              "label": "Topic"
+            }
+          ],
+          "dataSource": [
+            {
+              "content": "Smithsonian American Art Museum",
+              "label": "Data Source"
+            }
+          ],
+          "name": [
+            {
+              "content": "Max Yavno, born New York City 1911-died Los Angeles, CA 1985",
+              "label": "Artist"
+            }
+          ],
+          "creditLine": [
+            {
+              "content": "Smithsonian American Art Museum, Transfer from the National Endowment for the Arts through the Photography Museum of Los Angeles",
+              "label": "Credit Line"
+            }
+          ],
+          "physicalDescription": [
+            {
+              "content": "gelatin silver print",
+              "label": "Medium"
+            },
+            {
+              "content": "image: 18 3\/8 x 15 1\/2 in. (46.7 x 39.4 cm.)",
+              "label": "Dimensions"
+            }
+          ],
+          "setName": [
+            {
+              "content": "Smithsonian American Art Museum Collection",
+              "label": "See more items in"
+            }
+          ],
+          "date": [
+            {
+              "content": "1979-1980",
+              "label": "Date"
+            }
+          ],
+          "identifier": [
+            {
+              "content": "1990.38.114",
+              "label": "Object number"
+            }
+          ],
+          "objectType": [
+            {
+              "content": "Photography-Photoprint",
+              "label": "Type"
+            }
+          ]
+        }
+      },
+      {
+        "indexedStructured": {
+          "object_type": [
+            "Photographs"
+          ],
+          "topic": [
+            "Commercial",
+            "Cityscapes",
+            "Gas station",
+            "Architecture"
+          ],
+          "geolocation": [
+            {
+              "L1": {
+                "content": "North America",
+                "type": "Continent"
+              },
+              "L2": "United States",
+              "L3": "California",
+              "L4": "Los Angeles County",
+              "L5": "Los Angeles"
+            }
+          ],
+          "name": [
+            "Yavno, Max"
+          ],
+          "geoLocation": [
+            {
+              "L1": {
+                "content": " North America",
+                "type": "Continent"
+              },
+              "L2": {
+                "content": "United States of America",
+                "type": "Country"
+              },
+              "L3": {
+                "content": "California",
+                "type": "State"
+              }
+            }
+          ],
+          "usage_flag": [
+            "permcoll"
+          ],
+          "online_media_type": [
+            "Images"
+          ],
+          "place": [
+            "California",
+            "Los Angeles"
+          ],
+          "date": [
+            "1970s",
+            "1980s"
+          ]
+        },
+        "descriptiveNonRepeating": {
+          "title_sort": "UNTITLED, FROM THE LOS ANGELES DOCUMENTARY PROJECT",
+          "title": {
+            "content": "Untitled, from the Los Angeles Documentary Project",
+            "label": "Title"
+          },
+          "online_media": {
+            "mediaCount": "1",
+            "media": [
+              {
+                "idsId": "http:\/\/americanart.si.edu\/images\/1990\/1990.38.117_1a.jpg",
+                "content": "http:\/\/americanart.si.edu\/images\/1990\/1990.38.117_1a.jpg",
+                "thumbnail": "http:\/\/americanart.si.edu\/images\/1990\/1990.38.117_1d.jpg",
+                "type": "Images"
+              }
+            ]
+          },
+          "data_source": "Smithsonian American Art Museum",
+          "record_ID": "saam_1990.38.117",
+          "record_link": "http:\/\/americanart.si.edu\/collections\/search\/artwork\/?id=31819",
+          "unit_code": "SAAM"
+        },
+        "freetext": {
+          "topic": [
+            {
+              "content": "Cityscape\\California\\Los Angeles",
+              "label": "Topic"
+            },
+            {
+              "content": "Architecture Exterior\\commercial\\gas station",
+              "label": "Topic"
+            }
+          ],
+          "dataSource": [
+            {
+              "content": "Smithsonian American Art Museum",
+              "label": "Data Source"
+            }
+          ],
+          "name": [
+            {
+              "content": "Max Yavno, born New York City 1911-died Los Angeles, CA 1985",
+              "label": "Artist"
+            }
+          ],
+          "creditLine": [
+            {
+              "content": "Smithsonian American Art Museum, Transfer from the National Endowment for the Arts through the Photography Museum of Los Angeles",
+              "label": "Credit Line"
+            }
+          ],
+          "physicalDescription": [
+            {
+              "content": "gelatin silver print",
+              "label": "Medium"
+            },
+            {
+              "content": "image: 15 3\/8 x 19 3\/8 in. (39.0 x 49.2 cm.)",
+              "label": "Dimensions"
+            }
+          ],
+          "setName": [
+            {
+              "content": "Smithsonian American Art Museum Collection",
+              "label": "See more items in"
+            }
+          ],
+          "date": [
+            {
+              "content": "1979-1980",
+              "label": "Date"
+            }
+          ],
+          "identifier": [
+            {
+              "content": "1990.38.117",
+              "label": "Object number"
+            }
+          ],
+          "objectType": [
+            {
+              "content": "Photography-Photoprint",
+              "label": "Type"
+            }
+          ]
+        }
+      },
+      {
+        "indexedStructured": {
+          "object_type": [
+            "Photographs"
+          ],
+          "topic": [
+            "Commercial",
+            "Door",
+            "Detail",
+            "Rug",
+            "Steelcase",
+            "Cityscapes",
+            "Architecture",
+            "Office building"
+          ],
+          "geolocation": [
+            {
+              "L1": {
+                "content": "North America",
+                "type": "Continent"
+              },
+              "L2": "United States",
+              "L3": "California",
+              "L4": "Los Angeles County",
+              "L5": "Los Angeles"
+            }
+          ],
+          "name": [
+            "Ressler, Susan"
+          ],
+          "geoLocation": [
+            {
+              "L1": {
+                "content": " North America",
+                "type": "Continent"
+              },
+              "L2": {
+                "content": "United States of America",
+                "type": "Country"
+              },
+              "L3": {
+                "content": "California",
+                "type": "State"
+              }
+            }
+          ],
+          "usage_flag": [
+            "permcoll"
+          ],
+          "online_media_type": [
+            "Images"
+          ],
+          "place": [
+            "California",
+            "Los Angeles"
+          ],
+          "date": [
+            "1980s"
+          ]
+        },
+        "descriptiveNonRepeating": {
+          "title_sort": "STEELCASE, LOS ANGELES, FROM THE LOS ANGELES DOCUMENTARY PROJECT",
+          "title": {
+            "content": "Steelcase, Los Angeles, from the Los Angeles Documentary Project",
+            "label": "Title"
+          },
+          "online_media": {
+            "mediaCount": "1",
+            "media": [
+              {
+                "idsId": "http:\/\/americanart.si.edu\/images\/1990\/1990.38.97_1a.jpg",
+                "content": "http:\/\/americanart.si.edu\/images\/1990\/1990.38.97_1a.jpg",
+                "thumbnail": "http:\/\/americanart.si.edu\/images\/1990\/1990.38.97_1d.jpg",
+                "type": "Images"
+              }
+            ]
+          },
+          "data_source": "Smithsonian American Art Museum",
+          "record_ID": "saam_1990.38.97",
+          "record_link": "http:\/\/americanart.si.edu\/collections\/search\/artwork\/?id=32102",
+          "unit_code": "SAAM"
+        },
+        "freetext": {
+          "topic": [
+            {
+              "content": "Cityscape\\California\\Los Angeles",
+              "label": "Topic"
+            },
+            {
+              "content": "Architecture Interior\\detail\\door",
+              "label": "Topic"
+            },
+            {
+              "content": "Object\\other\\rug",
+              "label": "Topic"
+            },
+            {
+              "content": "Architecture Interior\\commercial\\office building",
+              "label": "Topic"
+            },
+            {
+              "content": "Architecture Interior\\commercial\\Steelcase",
+              "label": "Topic"
+            }
+          ],
+          "dataSource": [
+            {
+              "content": "Smithsonian American Art Museum",
+              "label": "Data Source"
+            }
+          ],
+          "objectRights": [
+            {
+              "content": "\u00a9 1980, Susan Ressler",
+              "label": "Copyright Credit Line"
+            }
+          ],
+          "name": [
+            {
+              "content": "Susan Ressler, born Phildalephia, PA 1949",
+              "label": "Artist"
+            }
+          ],
+          "creditLine": [
+            {
+              "content": "Smithsonian American Art Museum, Transfer from the National Endowment for the Arts through the Photography Museum of Los Angeles",
+              "label": "Credit Line"
+            }
+          ],
+          "physicalDescription": [
+            {
+              "content": "gelatin silver print",
+              "label": "Medium"
+            },
+            {
+              "content": "sheet: 11 x 14 in. (28.0 x 35.6 cm.)",
+              "label": "Dimensions"
+            }
+          ],
+          "setName": [
+            {
+              "content": "Smithsonian American Art Museum Collection",
+              "label": "See more items in"
+            }
+          ],
+          "date": [
+            {
+              "content": "1980",
+              "label": "Date"
+            }
+          ],
+          "identifier": [
+            {
+              "content": "1990.38.97",
+              "label": "Object number"
+            }
+          ],
+          "objectType": [
+            {
+              "content": "Photography-Photoprint",
+              "label": "Type"
+            }
+          ]
+        }
+      },
+      {
+        "indexedStructured": {
+          "object_type": [
+            "Writings (document genre)",
+            "Photographs"
+          ],
+          "topic": [
+            "Newspaper",
+            "Commercial",
+            "Flowers",
+            "Cityscapes",
+            "Trellis Enterprises",
+            "Furniture",
+            "Architecture",
+            "Couch",
+            "Office building"
+          ],
+          "geolocation": [
+            {
+              "L1": {
+                "content": "North America",
+                "type": "Continent"
+              },
+              "L2": "United States",
+              "L3": "California",
+              "L4": "Los Angeles County",
+              "L5": "Los Angeles"
+            }
+          ],
+          "name": [
+            "Ressler, Susan"
+          ],
+          "geoLocation": [
+            {
+              "L1": {
+                "content": " North America",
+                "type": "Continent"
+              },
+              "L2": {
+                "content": "United States of America",
+                "type": "Country"
+              },
+              "L3": {
+                "content": "California",
+                "type": "State"
+              }
+            }
+          ],
+          "usage_flag": [
+            "permcoll"
+          ],
+          "online_media_type": [
+            "Images"
+          ],
+          "place": [
+            "California",
+            "Los Angeles"
+          ],
+          "date": [
+            "1970s"
+          ]
+        },
+        "descriptiveNonRepeating": {
+          "title_sort": "TRELLIS ENTERPRISES, LOS ANGELES, FROM THE LOS ANGELES DOCUMENTARY PROJECT",
+          "title": {
+            "content": "Trellis Enterprises, Los Angeles, from the Los Angeles Documentary Project",
+            "label": "Title"
+          },
+          "online_media": {
+            "mediaCount": "1",
+            "media": [
+              {
+                "idsId": "http:\/\/americanart.si.edu\/images\/1990\/1990.38.96_1a.jpg",
+                "content": "http:\/\/americanart.si.edu\/images\/1990\/1990.38.96_1a.jpg",
+                "thumbnail": "http:\/\/americanart.si.edu\/images\/1990\/1990.38.96_1d.jpg",
+                "type": "Images"
+              }
+            ]
+          },
+          "data_source": "Smithsonian American Art Museum",
+          "record_ID": "saam_1990.38.96",
+          "record_link": "http:\/\/americanart.si.edu\/collections\/search\/artwork\/?id=32103",
+          "unit_code": "SAAM"
+        },
+        "freetext": {
+          "topic": [
+            {
+              "content": "Cityscape\\California\\Los Angeles",
+              "label": "Topic"
+            },
+            {
+              "content": "Object\\flower",
+              "label": "Topic"
+            },
+            {
+              "content": "Object\\furniture\\couch",
+              "label": "Topic"
+            },
+            {
+              "content": "Object\\written matter\\newspaper",
+              "label": "Topic"
+            },
+            {
+              "content": "Architecture Interior\\commercial\\office building",
+              "label": "Topic"
+            },
+            {
+              "content": "Architecture Interior\\commercial\\Trellis Enterprises",
+              "label": "Topic"
+            }
+          ],
+          "dataSource": [
+            {
+              "content": "Smithsonian American Art Museum",
+              "label": "Data Source"
+            }
+          ],
+          "objectRights": [
+            {
+              "content": "\u00a9 1979, Susan Ressler",
+              "label": "Copyright Credit Line"
+            }
+          ],
+          "name": [
+            {
+              "content": "Susan Ressler, born Phildalephia, PA 1949",
+              "label": "Artist"
+            }
+          ],
+          "creditLine": [
+            {
+              "content": "Smithsonian American Art Museum, Transfer from the National Endowment for the Arts through the Photography Museum of Los Angeles",
+              "label": "Credit Line"
+            }
+          ],
+          "physicalDescription": [
+            {
+              "content": "gelatin silver print",
+              "label": "Medium"
+            },
+            {
+              "content": "sheet: 11 x 14 in. (28.0 x 35.6 cm.)",
+              "label": "Dimensions"
+            }
+          ],
+          "setName": [
+            {
+              "content": "Smithsonian American Art Museum Collection",
+              "label": "See more items in"
+            }
+          ],
+          "date": [
+            {
+              "content": "1979",
+              "label": "Date"
+            }
+          ],
+          "identifier": [
+            {
+              "content": "1990.38.96",
+              "label": "Object number"
+            }
+          ],
+          "objectType": [
+            {
+              "content": "Photography-Photoprint",
+              "label": "Type"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
