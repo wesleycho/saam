@@ -45,6 +45,8 @@ def luce_match(self, **kwargs):
 
     page_source = []
 
+    page_source.append('<title>Favorite art choice game</title>')
+
     page_source.append('<link rel="stylesheet" type="text/css" href="/static/main.css"> <link rel="stylesheet" type="text/css" href="/static/gumby.css">')
 
     page_source.append('<div class="row"> <h2>Click the artwork you like better.</h2>')

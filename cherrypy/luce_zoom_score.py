@@ -30,6 +30,8 @@ def luce_zoom_score(self, **kwargs):
 
     page_source = []
 
+    page_source.append('<title>High scores: Identification game</title>')
+
     page_source.append('<link rel="stylesheet" type="text/css" href="/static/main.css"> <link rel="stylesheet" type="text/css" href="/static/gumby.css">')
 
     page_source.append('<div class="row">')
