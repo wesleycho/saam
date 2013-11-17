@@ -23,6 +23,7 @@ angular.module('SmithsonianApp')
         _.each(data, function (actualData, idx) {
           Array.prototype.push.apply($scope.columns[idx].images, actualData.response.docs);
         });
+        console.log($scope.columns);
       });
     };
 
