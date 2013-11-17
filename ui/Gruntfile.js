@@ -296,7 +296,8 @@ module.exports = function (grunt) {
     'string-replace': {
       dist: {
         files: {
-          '<%= yeoman.dist %>/index.html': '<%= yeoman.dist %>/index.html'
+          '<%= yeoman.dist %>/index.html': '<%= yeoman.dist %>/index.html',
+          '<%= yeoman.dist %>/styles/main.css': '<%= yeoman.dist %>/styles/main.css'
         },
         options: {
           replacements: [{
@@ -306,6 +307,10 @@ module.exports = function (grunt) {
           {
             pattern: /dev = true/g,
             replacement: 'dev = false'
+          },
+          {
+            pattern: /background-image:url\(.*\);/g,
+            replacement: 'background-image:url\("$1"\);'
           }]
         }
       }
