@@ -1,5 +1,6 @@
 <section class="row">
   <div class="twelve columns search">
+    <h3 ng-show="param.fq">Filtering by Topic: {{param.fq}}</h3>
     <h3>Enter a search term here or just browse</h3>
     <input ng-model="param.filter" ng-change="updateFilter(param.filter)">
   </div>
