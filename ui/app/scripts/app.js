@@ -27,5 +27,33 @@ angular.module('SmithsonianApp', modules)
           templateUrl: 'views/main.html'
         }
       }
-    });
+    })
+    .state('tour', {
+      url: '/tour',
+      views: {
+        'main': {
+          controller: 'TourCtrl',
+          templateUrl: 'views/tour.html'
+        }
+      }
+    })
+    .state('browse', {
+      url: '/browse',
+      views: {
+        'main': {
+          controller: 'BrowseCtrl',
+          templateUrl: 'views/browse.html'
+        }
+      }
+    })
+    .state('favorite', {
+      url: '/favorite',
+      views: {
+        'main': {
+          controller: 'FavoriteCtrl',
+          templateUrl: 'views/favorite.html'
+        }
+      }
+    })
+    ;
   });
