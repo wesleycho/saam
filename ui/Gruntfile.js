@@ -309,7 +309,7 @@ module.exports = function (grunt) {
             replacement: 'dev = false'
           },
           {
-          pattern: 'background-image:url(../../images/Construction-of-a-Dam-1_2@2x.jpg);',
+            pattern: 'background-image:url(../../images/Construction-of-a-Dam-1_2@2x.jpg);',
             replacement: "background-image:url(images/Construction-of-a-Dam-1_2@2x.jpg);"
           }]
         }
