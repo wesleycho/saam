@@ -302,6 +302,10 @@ module.exports = function (grunt) {
           replacements: [{
             pattern: /<!-- mock -->[\s\S]*<!-- endmock -->/g,
             replacement: ''
+          },
+          {
+            pattern: /dev = true/g,
+            replacement: 'dev = false'
           }]
         }
       }
