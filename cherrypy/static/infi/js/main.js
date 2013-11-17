@@ -14,6 +14,7 @@
     var rows = 30;
     var start = 0;
     var url;
+    var currentId;
     var allData = [];
 
     /**
@@ -84,7 +85,7 @@
         for (var i = 0; i < docs.length; i++) {
             var descriptiveNonRepeating = docs[i].descriptiveNonRepeating;
             var image = descriptiveNonRepeating.online_media.media[0].content;
-            var thumbnail = descriptiveNonRepeating.online_media.media[0].thumbNail;
+            var thumbnail = descriptiveNonRepeating.online_media.media[0].thumbnail;
             var title = descriptiveNonRepeating.title.content;
             var id = i + start;
             html += '<li>';
@@ -109,14 +110,8 @@
             var id = parseInt(srcElement.dataset.id) - start;
             var item = dataArray[id];
 
-            var descriptiveNonRepeating = item.descriptiveNonRepeating;
-            var image = descriptiveNonRepeating.online_media.media[0].content;
-            var thumbnail = descriptiveNonRepeating.online_media.media[0].thumbNail;
-            var title = descriptiveNonRepeating.title.content;
-
-            $('#title').text(title);
-
             url = srcElement.src;
+            currentId = id;
             console.log(item);
             e.preventDefault();
         });
@@ -130,10 +125,23 @@
                 ajaxContentAdded: function(e) {
                     // dynamically load image
                     var img = document.createElement("img");
+                    var item = allData[0][currentId];
                     img.onload = function(e) {
                         var container = document.getElementById("imageContainer");
                         container.appendChild(e.target);
                     }
+                    var descriptiveNonRepeating = item.descriptiveNonRepeating;
+                    var image = descriptiveNonRepeating.online_media.media[0].content;
+                    var thumbnail = descriptiveNonRepeating.online_media.media[0].thumbNail;
+                    var title = descriptiveNonRepeating.title.content;
+                    var freetext = item.freetext;
+                    var date = freetext.date[0].content;
+                    var description = freetext.physicalDescription[0].content;
+
+                    $('#title').text(title);
+                    $('#date').text(date);
+                    $('#description').text(description);
+
                     img.setAttribute("src", url);
                 }
             }
