@@ -38,6 +38,9 @@ def luce_zoom(self, **kwargs):
 
     page_source.append('Your score: <b>{0}</b>'.format(score))
 
+    if artwork == 'correct':
+        page_source.append('&nbsp; <b> YOU JUST GOT A POINT / WAY TO IDENTIFY ART / LIKE A SUPERSTAR</b> <br> That is a haiku by the way :) :) :) :) :) :) ^')
+
     page_source.append('\n\n<!-- HEY DON\'T CHEAT BY LOOKING AT THE SOURCE! :) -->\n\n')
 
     for title in titles:
