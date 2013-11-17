@@ -88,8 +88,11 @@
 
             html += '<li>';
 
+            //                    <a class="ajax-popup" data-url='http://americanart.si.edu/images/1935/1935.13.271_1a.jpg' href='image.html'>Load another content via ajax</a>
+
             // Image tag (preview in Wookmark are 200px wide, so we calculate the height based on that).
-            html += '<img src="' + image + '" width="200" height="200">';
+            
+            html += '<img class="ajax-popup" src="' + image + '" width="200" height="200">';
 
             // Image title.
             html += '<p>' + title + '</p>';
@@ -101,9 +104,10 @@
         // Add image HTML to the page.
         $('#tiles').append(html);
 
-        $('.ajax-popup').click(function(e) {
+        $('.img-pop').click(function(e) {
             var srcElement = e.srcElement;
-            url = srcElement.dataset["url"];
+            url = srcElement.src;
+            console.log(url);
         });
 
         // Apply layout.
@@ -111,23 +115,23 @@
     }
     ;
 
-    $('#tiles').magnificPopup({
-        delegate: 'img',
-        type: 'image',
-        tLoading: 'Loading image #%curr%...',
-        mainClass: 'mfp-img-mobile',
-        gallery: {
-            enabled: true,
-            navigateByImgClick: true,
-            preload: [0, 1] // Will preload 0 - before current, and 1 after the current image
-        },
-        image: {
-            tError: '<a href="%url%">The image #%curr%</a> could not be loaded.',
-            titleSrc: function(item) {
-                return item.el.attr('title') + '<small>by Marsel Van Oosten</small>';
-            }
-        }
-    });
+//    $('#tiles').magnificPopup({
+//        delegate: 'img',
+//        type: 'image',
+//        tLoading: 'Loading image #%curr%...',
+//        mainClass: 'mfp-img-mobile',
+//        gallery: {
+//            enabled: true,
+//            navigateByImgClick: true,
+//            preload: [0, 1] // Will preload 0 - before current, and 1 after the current image
+//        },
+//        image: {
+//            tError: '<a href="%url%">The image #%curr%</a> could not be loaded.',
+//            titleSrc: function(item) {
+//                return item.el.attr('title') + '<small>by Marsel Van Oosten</small>';
+//            }
+//        }
+//    });
 
     // Capture scroll event.
     $(document).bind('scroll', onScroll);
