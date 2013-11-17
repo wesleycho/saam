@@ -17,9 +17,12 @@ def luce_learn_more(self, **kwargs):
     page_source = []
 
     page_source.append('<title>Learn about these artworks</title>')
-    page_source.append('<link rel="stylesheet" type="text/css" href="/static/main.css"> <link rel="stylesheet" type="text/css" href="/static/gumby.css">')
+    page_source.append('<link rel="stylesheet" type="text/css" href="/static/main.css"> <link rel="stylesheet" type="text/css" href="/static/gumby.css">\n\n')
 
-    page_source.append('<div class="row"> <div class="ten columns" style="text-align: center;"> <h2> Learn more! </h2></div> </div>')
+    with open('addthis_button.txt') as addthisbutton_file:
+        page_source.append(addthisbutton_file.read())
+
+    page_source.append('\n\n<div class="row"> <div class="ten columns" style="text-align: center;"> <h2> Learn more! </h2></div> </div>')
 
     for art_id in art_ids:
 
