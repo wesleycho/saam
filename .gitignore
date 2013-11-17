@@ -11,3 +11,4 @@ cherrypy/luce_credentials*
 *.sw*
 .DS_Store
 *.pyc
+*.log
