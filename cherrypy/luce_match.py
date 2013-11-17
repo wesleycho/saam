@@ -11,7 +11,8 @@ def luce_match(self, **kwargs):
     art_id = kwargs.get('vote')
     image_url = kwargs.get('image')
     title = kwargs.get('title')
-    vote(art_id, image_url, title)
+    ssid = kwargs.get('id')
+    vote(art_id, image_url, title, ssid)
 
     # Below: always show two artworks to be side-by-sided
 
@@ -40,8 +41,11 @@ def luce_match(self, **kwargs):
     left_title = left_response['response']['docs'][0]['descriptiveNonRepeating']['title']['content']
     right_title = right_response['response']['docs'][0]['descriptiveNonRepeating']['title']['content']
 
-##    left_url = left_response['response']['docs'][0]['descriptiveNonRepeating']['record_link']
-##    right_url = right_response['response']['docs'][0]['descriptiveNonRepeating']['record_link']
+    left_url = left_response['response']['docs'][0]['descriptiveNonRepeating']['record_link']
+    right_url = right_response['response']['docs'][0]['descriptiveNonRepeating']['record_link']
+
+    left_ss_id = left_url[left_url.index('=')+1:]
+    right_ss_id = right_url[right_url.index('=')+1:]
 
     ## ABOVE: COLLECT AND PROCESS
     ## BELOW: DISPLAY
@@ -55,11 +59,11 @@ def luce_match(self, **kwargs):
     page_source.append('<div class="row"> <h2>Click the artwork you like better.</h2>')
 
     page_source.append('<div class="six columns quickMargin">')
-    page_source.append(u'<a href="luce_match?vote={0}&image={1}&title={2}"><img src="{1}" alt="{2}"></a>'.format(left_side, left_image_url, left_title).encode('ascii', 'ignore'))
+    page_source.append(u'<a href="luce_match?vote={0}&image={1}&title={2}&id={3}"><img src="{1}" alt="{2}"></a>'.format(left_side, left_image_url, left_title, left_ss_id).encode('ascii', 'ignore'))
     page_source.append('</div>')
 
     page_source.append('<div class="five columns">')
-    page_source.append(u'<a href="luce_match?vote={0}&image={1}&title={2}"><img src="{1}" alt="{2}"></a>'.format(right_side, right_image_url, right_title).encode('ascii', 'ignore'))
+    page_source.append(u'<a href="luce_match?vote={0}&image={1}&title={2}&id={3}"><img src="{1}" alt="{2}"></a>'.format(right_side, right_image_url, right_title, right_ss_id).encode('ascii', 'ignore'))
     page_source.append('</div>')
 
     page_source.append('</div>')
@@ -70,12 +74,13 @@ def luce_match(self, **kwargs):
 
     return page_source
 
-def vote(art_id, image, title):
+def vote(art_id, image, title, ss_id):
 
     import psycopg2
 
     try:
         art_id = int(art_id)
+        ss_id = int(ss_id)
         assert 0 < art_id <= 31114 # Luce has this many images
     except Exception:
         return False
@@ -86,7 +91,7 @@ def vote(art_id, image, title):
     database_cursor = database_connection.cursor()
 
     # NOTE: It's 7:11 pm.  I'm not going to worry about SQL injection.  Play nicely, friend-os.
-    insert_query = u"insert into sidebyside (image_id, image_url, title) values ({0}, '{1}', '{2}')".format(art_id, image, title.replace("'","''")).encode('ascii','ignore')
+    insert_query = u"insert into sidebyside (image_id, image_url, title, ssid) values ({0}, '{1}', '{2}', '{3}')".format(art_id, image, title.replace("'","''"), ss_id).encode('ascii','ignore')
 
     database_cursor.execute(insert_query)
     database_connection.commit()
