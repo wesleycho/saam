@@ -1,6 +1,6 @@
 'use strict';
 
-dev = true;
+var dev = true;
 
 angular.module('SmithsonianApp', [
   'ngCookies',
