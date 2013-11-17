@@ -1,11 +1,12 @@
 <section class="row">
-  <div class="one columns">
+  <div class="twelve columns">
+    <h3>Enter a search term here or just browse</h3>
     <input ng-model="param.filter" ng-change="updateFilter(param.filter)">
   </div>
 </section>
 <section class="row" infinite-scroll="requestMoreItems()" infinite-scroll-distance="10">
   <div class="two columns" ng-repeat="column in columns">
-    <div ng-repeat="image in column.images">
+    <div class="test" ng-repeat="image in column.images">
       <img ng-src="{{image.descriptiveNonRepeating.online_media.media[0].thumbnail}}" alt="{{image.descriptiveNonRepeating.title.content}}">
     </div>
   </div>
