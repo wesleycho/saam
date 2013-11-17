@@ -1,0 +1,95 @@
+<!doctype html>
+<html ng-app="SmithsonianApp">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <!-- build:css(.tmp) styles/main.css -->
+        <link rel="stylesheet" href="styles/stylesheets/main.css">
+        <!-- endbuild -->
+    <script src="bower_components/modernizr/modernizr.js"></script>
+</head>
+<body>
+  <section class="head">
+    <div class="row">
+      <div class="twelve columns">
+        <h1>Object name</h1>
+        <!--<nav class="nine columns push_three">
+          <div class="three columns alpha nav">
+            <a href="#tour">Take a tour</a>
+          </div>
+          <div class="three columns nav">
+            <a href="#browse">Browse</a>
+          </div>
+          <div class="three columns nav">
+            <a href="#collect">Your Collection</a>
+          </div>
+          <div class="three columns nav">
+            <a href="#favorite">Play Art!</a>
+          </div>
+        </nav>-->
+      </div>
+    </div>
+  </section>
+  <section id="#object">
+    <img src="images/Construction-of-a-Dam-1_2@2x.jpg">
+    <div class="row">
+      <div class="six columns push_six">
+        <div class="medium info btn icon-right entypo icon-plus"><a href="#">Add to Your Collection</a></div>
+        <div class="medium info btn icon-right icon-arrow-right"><a href="#">Share</a></div>
+        <div class="medium info btn icon-right entypo icon-heart"><a href="#">Favorite</a></div>
+      </div>
+    </div>
+  </section>
+  <section id="objectMeta">
+  </section>
+  <section id="collect">
+    <div class="row">
+      <div class="twelve columns paddingBottom">
+        <h1>Your Collection</h1>
+      </div>
+      <div class="">
+        <p>You can create your own collection here. Click on the 'add to collection' button as your browse. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae odio dapibus, ornare risus et, rhoncus risus. Suspendisse cursus nisi vel dui tincidunt convallis. Mauris at augue facilisis, luctus ante non, congue nibh. Ut sodales eget nibh a tincidunt.</p>
+      </div>
+      <div class="four columns alpha">
+        <img src="images/Placer-Mining.jpg">
+      </div>
+      <div class="four columns">
+        <img src="images/Placer-Mining.jpg">
+      </div>
+      <div class="four columns">
+        <img src="images/Placer-Mining.jpg">
+      </div>
+    </div>
+  </section>
+
+        <!-- build:js scripts/plugins.js -->
+        <script src="bower_components/jquery/jquery.js"></script>
+        <script gumby-touch="bower_components/gumby/js/libs" src="bower_components/gumby/js/libs/gumby.js"></script>
+        <script src="bower_components/angular/angular.js"></script>
+        <!-- endbuild -->
+
+        <!-- build:js scripts/modules.js -->
+        <script src="bower_components/angular-resource/angular-resource.js"></script>
+        <script src="bower_components/angular-cookies/angular-cookies.js"></script>
+        <script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
+        <script src="bower_components/angular-animate/angular-animate.js"></script>
+        <script src="bower_components/bower-angular-ui-router/angular-ui-router.js"></script>
+        <script src="bower_components/nginfinitescroll/build/ng-infinite-scroll.js"></script>
+        <!-- endbuild -->
+        <!--mock-->
+        <script src="bower_components/angular-mocks/angular-mocks.js"></script>
+        <!--endmock-->
+
+        <!-- build:js({.tmp,app}) scripts/scripts.js -->
+        <script src="scripts/app.js"></script>
+        <script src="scripts/controllers/images.js"></script>
+        <script src="scripts/services/collection.js"></script>
+        <script src="scripts/services/list.js"></script>
+        <!-- endbuild -->
+</body>
+</html>
