@@ -1,7 +1,7 @@
 'use strict';
 
 angular.module('SmithsonianApp')
-  .controller('BrowseCtrl', function ($scope, $q, Collection) {
+  .controller('BrowseCtrl', function ($scope, $q, $state, Collection) {
     var itemPage = 0;
     $scope.param = {};
 
@@ -39,6 +39,12 @@ angular.module('SmithsonianApp')
 
       $q.all(promises).then(function (data) {
         fillColumns(data);
+      });
+    };
+
+    $scope.goTo = function (image) {
+      $state.go('item', {
+        data: image
       });
     };
 
