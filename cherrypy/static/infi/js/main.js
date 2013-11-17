@@ -13,6 +13,8 @@
     };
     var rows = 20;
     var start = 0;
+    var currentImage;
+    var url;
 
     /**
      * When scrolled all the way to the bottom, add more tiles.
@@ -99,6 +101,11 @@
         // Add image HTML to the page.
         $('#tiles').append(html);
 
+        $('.ajax-popup').click(function(e) {
+            var srcElement = e.srcElement;
+            url = srcElement.dataset["url"];
+        });
+
         // Apply layout.
         applyLayout();
     }
@@ -129,9 +136,9 @@
         type: 'ajax',
         closeBtnInside: false,
         callbacks: {
+            open: function(e) {
+            },
             ajaxContentAdded: function(e) {
-                var url = "http://americanart.si.edu/images/1935/1935.13.271_1a.jpg";
-
                 // dynamically load image
                 var img = document.createElement("img");
                 img.onload = function(e) {
