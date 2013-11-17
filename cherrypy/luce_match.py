@@ -40,6 +40,9 @@ def luce_match(self, **kwargs):
     left_title = left_response['response']['docs'][0]['descriptiveNonRepeating']['title']['content']
     right_title = right_response['response']['docs'][0]['descriptiveNonRepeating']['title']['content']
 
+##    left_url = left_response['response']['docs'][0]['descriptiveNonRepeating']['record_link']
+##    right_url = right_response['response']['docs'][0]['descriptiveNonRepeating']['record_link']
+
     ## ABOVE: COLLECT AND PROCESS
     ## BELOW: DISPLAY
 
@@ -61,9 +64,9 @@ def luce_match(self, **kwargs):
 
     page_source.append('</div>')
 
-    page_source.append('<div class="row">')
-    page_source.append('<h6><a href="luce_match_score">View the all-time favorites</a></h6>')
-    page_source.append('</div>')
+    page_source.append('<div class="row"> <div class="six columns" style="text-align: center;">')
+    page_source.append('<h4><a href="luce_match_score">View the all-time favorites</a></h4> <a href="learn_more?id1={0}&id2={1}" target="_blank"><h4>Learn more about these artworks</h4></a>'.format(left_side, right_side))
+    page_source.append('</div> </div>')
 
     return page_source
 
