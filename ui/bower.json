@@ -11,6 +11,7 @@
     "angular-cookies": "1.2.1",
     "angular-sanitize": "1.2.1",
     "angular-animate": "1.2.1",
-    "bower-angular-ui-router": "0.2.0"
+    "bower-angular-ui-router": "0.2.0",
+    "nginfinitescroll": "1.0.0"
   }
 }
