@@ -26,7 +26,7 @@ def collections(self, **kwargs):
     if start is not None:
         request_url.append('&start={0}'.format(start))
 
-    return json.dumps(str(requests.get(''.join(request_url), auth=HTTPBasicAuth(username, password)).json()))
+    return json.dumps(requests.get(''.join(request_url), auth=HTTPBasicAuth(username, password)).json())
 
 
 ##def groups(self, **kwargs):
