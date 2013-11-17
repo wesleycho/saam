@@ -1,0 +1,1571 @@
+{
+  "responseHeader": {
+    "status": 0,
+    "QTime": 1,
+    "params": {
+      "applicationId": "HACK",
+      "qt": "standard",
+      "wt": "json",
+      "q": "New York"
+    }
+  },
+  "response": {
+    "numFound": 13271,
+    "start": 0,
+    "docs": [
+      {
+        "indexedStructured": {
+          "object_type": [
+            "Graphic arts"
+          ],
+          "topic": [
+            "Governors Island",
+            "Rivers",
+            "Cityscapes",
+            "New York Harbor",
+            "Architecture",
+            "Sailboats",
+            "Waterscapes",
+            "Ellis Island",
+            "Boats and boating",
+            "Battery",
+            "Landscapes",
+            "Rowboat",
+            "Harbors",
+            "Coasts"
+          ],
+          "name": [
+            "Sherman and Smith"
+          ],
+          "geoLocation": [
+            {
+              "L1": {
+                "content": " North America",
+                "type": "Continent"
+              },
+              "L2": {
+                "content": "United States of America",
+                "type": "Country"
+              },
+              "L3": {
+                "content": "New York",
+                "type": "State"
+              }
+            },
+            {
+              "L1": {
+                "content": " North America",
+                "type": "Continent"
+              }
+            },
+            {
+              "L1": {
+                "content": " North America",
+                "type": "Continent"
+              },
+              "L2": {
+                "content": "United States of America",
+                "type": "Country"
+              },
+              "L3": {
+                "content": "New York",
+                "type": "State"
+              },
+              "Other": {
+                "content": "Hudson River",
+                "type": "River"
+              }
+            }
+          ],
+          "usage_flag": [
+            "permcoll"
+          ],
+          "online_media_type": [
+            "Images"
+          ],
+          "place": [
+            "Manhattan",
+            "New York",
+            "East River (New York, NY)",
+            "Hudson River"
+          ]
+        },
+        "descriptiveNonRepeating": {
+          "title_sort": "S.W., VIEW OF NEW YORK FROM BEDLOW'S I.",
+          "title": {
+            "content": "S.W., View of New York from Bedlow's I.",
+            "label": "Title"
+          },
+          "online_media": {
+            "mediaCount": "1",
+            "media": [
+              {
+                "idsId": "http:\/\/americanart.si.edu\/images\/1978\/1978.152.82_1a.jpg",
+                "content": "http:\/\/americanart.si.edu\/images\/1978\/1978.152.82_1a.jpg",
+                "thumbnail": "http:\/\/americanart.si.edu\/images\/1978\/1978.152.82_1d.jpg",
+                "type": "Images"
+              }
+            ]
+          },
+          "data_source": "Smithsonian American Art Museum",
+          "record_ID": "saam_1978.152.82",
+          "record_link": "http:\/\/americanart.si.edu\/collections\/search\/artwork\/?id=22276",
+          "unit_code": "SAAM"
+        },
+        "freetext": {
+          "topic": [
+            {
+              "content": "Cityscape\\New York\\New York",
+              "label": "Topic"
+            },
+            {
+              "content": "Waterscape\\coast",
+              "label": "Topic"
+            },
+            {
+              "content": "Architecture\\boat\\sailboat",
+              "label": "Topic"
+            },
+            {
+              "content": "Architecture\\boat\\rowboat",
+              "label": "Topic"
+            },
+            {
+              "content": "Waterscape\\harbor\\New York Harbor",
+              "label": "Topic"
+            },
+            {
+              "content": "Waterscape\\river\\East River",
+              "label": "Topic"
+            },
+            {
+              "content": "Waterscape\\river\\Hudson River",
+              "label": "Topic"
+            },
+            {
+              "content": "Cityscape\\New York\\Manhattan",
+              "label": "Topic"
+            },
+            {
+              "content": "Landscape\\New York\\Ellis Island",
+              "label": "Topic"
+            },
+            {
+              "content": "Landscape\\New York\\Governors Island",
+              "label": "Topic"
+            },
+            {
+              "content": "Cityscape\\New York\\Battery",
+              "label": "Topic"
+            }
+          ],
+          "dataSource": [
+            {
+              "content": "Smithsonian American Art Museum",
+              "label": "Data Source"
+            }
+          ],
+          "name": [
+            {
+              "content": "Sherman and Smith",
+              "label": "Artist"
+            }
+          ],
+          "creditLine": [
+            {
+              "content": "Smithsonian American Art Museum, Gift of Olin Dows",
+              "label": "Credit Line"
+            }
+          ],
+          "physicalDescription": [
+            {
+              "content": "engraving",
+              "label": "Medium"
+            }
+          ],
+          "setName": [
+            {
+              "content": "Smithsonian American Art Museum Collection",
+              "label": "See more items in"
+            }
+          ],
+          "identifier": [
+            {
+              "content": "1978.152.82",
+              "label": "Object number"
+            }
+          ],
+          "objectType": [
+            {
+              "content": "Graphic Arts-Print",
+              "label": "Type"
+            }
+          ]
+        }
+      },
+      {
+        "indexedStructured": {
+          "object_type": [
+            "Graphic arts"
+          ],
+          "topic": [
+            "Animals",
+            "Lakes",
+            "Time",
+            "Bridges",
+            "Parks",
+            "Swan",
+            "Landscapes",
+            "Architecture",
+            "Birds",
+            "Evening"
+          ],
+          "geolocation": [
+            {
+              "L1": {
+                "content": "North America",
+                "type": "Continent"
+              },
+              "L2": "United States",
+              "other": {
+                "content": "Central Park",
+                "type": "Park"
+              },
+              "L3": "New York",
+              "L4": "New York County",
+              "L5": "New York"
+            }
+          ],
+          "name": [
+            "Wolf, Henry"
+          ],
+          "geoLocation": [
+            {
+              "L1": {
+                "content": " North America",
+                "type": "Continent"
+              },
+              "L2": {
+                "content": "United States of America",
+                "type": "Country"
+              },
+              "L3": {
+                "content": "New York",
+                "type": "State"
+              }
+            }
+          ],
+          "usage_flag": [
+            "permcoll"
+          ],
+          "online_media_type": [
+            "Images"
+          ],
+          "place": [
+            "Manhattan",
+            "New York",
+            "Central Park (New York, N.Y.)"
+          ],
+          "date": [
+            "1910s"
+          ]
+        },
+        "descriptiveNonRepeating": {
+          "title_sort": "EVENING, SWAN LAKE, CENTRAL PARK, NEW YORK",
+          "title": {
+            "content": "Evening, Swan Lake, Central Park, New York",
+            "label": "Title"
+          },
+          "online_media": {
+            "mediaCount": "1",
+            "media": [
+              {
+                "idsId": "http:\/\/americanart.si.edu\/images\/1973\/1973.130.273_1a.jpg",
+                "content": "http:\/\/americanart.si.edu\/images\/1973\/1973.130.273_1a.jpg",
+                "thumbnail": "http:\/\/americanart.si.edu\/images\/1973\/1973.130.273_1d.jpg",
+                "type": "Images"
+              }
+            ]
+          },
+          "data_source": "Smithsonian American Art Museum",
+          "record_ID": "saam_1973.130.273",
+          "record_link": "http:\/\/americanart.si.edu\/collections\/search\/artwork\/?id=27963",
+          "unit_code": "SAAM"
+        },
+        "freetext": {
+          "topic": [
+            {
+              "content": "Architecture\\bridge",
+              "label": "Topic"
+            },
+            {
+              "content": "Landscape\\lake",
+              "label": "Topic"
+            },
+            {
+              "content": "Landscape\\time\\evening",
+              "label": "Topic"
+            },
+            {
+              "content": "Animal\\bird\\swan",
+              "label": "Topic"
+            },
+            {
+              "content": "Landscape\\park\\Central Park",
+              "label": "Topic"
+            },
+            {
+              "content": "Landscape\\New York\\New York",
+              "label": "Topic"
+            },
+            {
+              "content": "Landscape\\New York\\Manhattan",
+              "label": "Topic"
+            }
+          ],
+          "dataSource": [
+            {
+              "content": "Smithsonian American Art Museum",
+              "label": "Data Source"
+            }
+          ],
+          "name": [
+            {
+              "content": "Henry Wolf, born Eckwersheim, Alsace 1852-died New York City 1916",
+              "label": "Artist"
+            }
+          ],
+          "creditLine": [
+            {
+              "content": "Smithsonian American Art Museum, Transfer from the Archives of American Art, Smithsonian Institution",
+              "label": "Credit Line"
+            }
+          ],
+          "physicalDescription": [
+            {
+              "content": "wood engraving on paper",
+              "label": "Medium"
+            }
+          ],
+          "setName": [
+            {
+              "content": "Smithsonian American Art Museum Collection",
+              "label": "See more items in"
+            }
+          ],
+          "date": [
+            {
+              "content": "1911",
+              "label": "Date"
+            }
+          ],
+          "identifier": [
+            {
+              "content": "1973.130.273",
+              "label": "Object number"
+            }
+          ],
+          "objectType": [
+            {
+              "content": "Graphic Arts-Print",
+              "label": "Type"
+            }
+          ]
+        }
+      },
+      {
+        "indexedStructured": {
+          "object_type": [
+            "Photographs"
+          ],
+          "topic": [
+            "Ethnic",
+            "Spanish Harlem",
+            "Cityscapes",
+            "Flags",
+            "Urban",
+            "Figure(s) in exterior"
+          ],
+          "geolocation": [
+            {
+              "L1": {
+                "content": "North America",
+                "type": "Continent"
+              },
+              "L2": "United States",
+              "other": {
+                "content": "Harlem",
+                "type": "Neighborhood"
+              },
+              "L3": "New York",
+              "L4": "New York County",
+              "L5": "New York"
+            }
+          ],
+          "name": [
+            "Rodr\u00edguez, Joseph"
+          ],
+          "geoLocation": [
+            {
+              "L1": {
+                "content": " North America",
+                "type": "Continent"
+              },
+              "L2": {
+                "content": "United States of America",
+                "type": "Country"
+              },
+              "L3": {
+                "content": "New York",
+                "type": "State"
+              }
+            }
+          ],
+          "usage_flag": [
+            "permcoll"
+          ],
+          "online_media_type": [
+            "Images"
+          ],
+          "place": [
+            "New York",
+            "Harlem (New York, N.Y.)"
+          ],
+          "date": [
+            "1980s"
+          ],
+          "culture": [
+            "Hispanics"
+          ]
+        },
+        "descriptiveNonRepeating": {
+          "title_sort": "PUERTO RICAN FLAG, FROM THE SERIES SPANISH HARLEM",
+          "title": {
+            "content": "Puerto Rican Flag, from the series Spanish Harlem",
+            "label": "Title"
+          },
+          "online_media": {
+            "mediaCount": "1",
+            "media": [
+              {
+                "idsId": "http:\/\/americanart.si.edu\/images\/1996\/1996.81.4_1a.jpg",
+                "content": "http:\/\/americanart.si.edu\/images\/1996\/1996.81.4_1a.jpg",
+                "thumbnail": "http:\/\/americanart.si.edu\/images\/1996\/1996.81.4_1d.jpg",
+                "type": "Images"
+              }
+            ]
+          },
+          "data_source": "Smithsonian American Art Museum",
+          "record_ID": "saam_1996.81.4",
+          "record_link": "http:\/\/americanart.si.edu\/collections\/search\/artwork\/?id=35372",
+          "unit_code": "SAAM"
+        },
+        "freetext": {
+          "topic": [
+            {
+              "content": "Cityscape\\New York\\New York",
+              "label": "Topic"
+            },
+            {
+              "content": "Figure(s) in exterior\\urban",
+              "label": "Topic"
+            },
+            {
+              "content": "Ethnic\\Hispanic",
+              "label": "Topic"
+            },
+            {
+              "content": "Cityscape\\New York\\Harlem",
+              "label": "Topic"
+            },
+            {
+              "content": "Object\\other\\flag",
+              "label": "Topic"
+            },
+            {
+              "content": "Cityscape\\New York\\Spanish Harlem",
+              "label": "Topic"
+            }
+          ],
+          "dataSource": [
+            {
+              "content": "Smithsonian American Art Museum",
+              "label": "Data Source"
+            }
+          ],
+          "objectRights": [
+            {
+              "content": "\u00a9 1986, Joseph Rodriguez",
+              "label": "Copyright Credit Line"
+            }
+          ],
+          "name": [
+            {
+              "content": "Joseph Rodr\u00edguez, born New York City 1951",
+              "label": "Artist"
+            }
+          ],
+          "creditLine": [
+            {
+              "content": "Smithsonian American Art Museum, Gift of the artist",
+              "label": "Credit Line"
+            }
+          ],
+          "physicalDescription": [
+            {
+              "content": "chromogenic print",
+              "label": "Medium"
+            },
+            {
+              "content": "image: 12 x 18 in. (30.5 x 45.7 cm.)",
+              "label": "Dimensions"
+            }
+          ],
+          "setName": [
+            {
+              "content": "Smithsonian American Art Museum Collection",
+              "label": "See more items in"
+            }
+          ],
+          "date": [
+            {
+              "content": "1986",
+              "label": "Date"
+            }
+          ],
+          "identifier": [
+            {
+              "content": "1996.81.4",
+              "label": "Object number"
+            }
+          ],
+          "objectType": [
+            {
+              "content": "Photography-Photoprint",
+              "label": "Type"
+            }
+          ]
+        }
+      },
+      {
+        "indexedStructured": {
+          "object_type": [
+            "Graphic arts"
+          ],
+          "topic": [
+            "City Hall",
+            "Cityscapes",
+            "Parks",
+            "Architecture",
+            "Landscapes",
+            "Urban",
+            "Civic",
+            "Figure(s) in exterior"
+          ],
+          "name": [
+            "Archer, J."
+          ],
+          "geoLocation": [
+            {
+              "L1": {
+                "content": " North America",
+                "type": "Continent"
+              },
+              "L2": {
+                "content": "United States of America",
+                "type": "Country"
+              },
+              "L3": {
+                "content": "New York",
+                "type": "State"
+              }
+            }
+          ],
+          "usage_flag": [
+            "permcoll"
+          ],
+          "online_media_type": [
+            "Images"
+          ],
+          "place": [
+            "Manhattan",
+            "New York"
+          ]
+        },
+        "descriptiveNonRepeating": {
+          "title_sort": "THE PARK AND CITY HALL, NEW YORK, AMERICAN",
+          "title": {
+            "content": "The Park and City Hall, New York, American",
+            "label": "Title"
+          },
+          "online_media": {
+            "mediaCount": "1",
+            "media": [
+              {
+                "idsId": "http:\/\/americanart.si.edu\/images\/1978\/1978.152.96_1a.jpg",
+                "content": "http:\/\/americanart.si.edu\/images\/1978\/1978.152.96_1a.jpg",
+                "thumbnail": "http:\/\/americanart.si.edu\/images\/1978\/1978.152.96_1d.jpg",
+                "type": "Images"
+              }
+            ]
+          },
+          "data_source": "Smithsonian American Art Museum",
+          "record_ID": "saam_1978.152.96",
+          "record_link": "http:\/\/americanart.si.edu\/collections\/search\/artwork\/?id=540",
+          "unit_code": "SAAM"
+        },
+        "freetext": {
+          "topic": [
+            {
+              "content": "Cityscape\\New York\\New York",
+              "label": "Topic"
+            },
+            {
+              "content": "Figure(s) in exterior\\urban",
+              "label": "Topic"
+            },
+            {
+              "content": "Landscape\\park",
+              "label": "Topic"
+            },
+            {
+              "content": "Cityscape\\New York\\Manhattan",
+              "label": "Topic"
+            },
+            {
+              "content": "Architecture Exterior\\civic\\City Hall",
+              "label": "Topic"
+            }
+          ],
+          "dataSource": [
+            {
+              "content": "Smithsonian American Art Museum",
+              "label": "Data Source"
+            }
+          ],
+          "name": [
+            {
+              "content": "J. Archer, n.d.",
+              "label": "Artist"
+            }
+          ],
+          "creditLine": [
+            {
+              "content": "Smithsonian American Art Museum, Gift of Olin Dows",
+              "label": "Credit Line"
+            }
+          ],
+          "physicalDescription": [
+            {
+              "content": "engraving",
+              "label": "Medium"
+            }
+          ],
+          "setName": [
+            {
+              "content": "Smithsonian American Art Museum Collection",
+              "label": "See more items in"
+            }
+          ],
+          "identifier": [
+            {
+              "content": "1978.152.96",
+              "label": "Object number"
+            }
+          ],
+          "objectType": [
+            {
+              "content": "Graphic Arts-Print",
+              "label": "Type"
+            }
+          ]
+        }
+      },
+      {
+        "indexedStructured": {
+          "object_type": [
+            "Graphic arts"
+          ],
+          "topic": [
+            "Commercial",
+            "Astor House",
+            "Cityscapes",
+            "Vehicles",
+            "Cart",
+            "Architecture",
+            "Hotel",
+            "Broadway",
+            "Urban",
+            "Streets",
+            "Figure(s) in exterior"
+          ],
+          "name": [
+            "Dirk, A."
+          ],
+          "geoLocation": [
+            {
+              "L1": {
+                "content": " North America",
+                "type": "Continent"
+              },
+              "L2": {
+                "content": "United States of America",
+                "type": "Country"
+              },
+              "L3": {
+                "content": "New York",
+                "type": "State"
+              }
+            }
+          ],
+          "usage_flag": [
+            "permcoll"
+          ],
+          "online_media_type": [
+            "Images"
+          ],
+          "place": [
+            "Manhattan",
+            "New York"
+          ]
+        },
+        "descriptiveNonRepeating": {
+          "title_sort": "ASTOR-HOUSE, BROADWAY, NEW YORK, AMERICAN",
+          "title": {
+            "content": "Astor-House, Broadway, New York, American",
+            "label": "Title"
+          },
+          "online_media": {
+            "mediaCount": "1",
+            "media": [
+              {
+                "idsId": "http:\/\/americanart.si.edu\/images\/1978\/1978.152.94_1a.jpg",
+                "content": "http:\/\/americanart.si.edu\/images\/1978\/1978.152.94_1a.jpg",
+                "thumbnail": "http:\/\/americanart.si.edu\/images\/1978\/1978.152.94_1d.jpg",
+                "type": "Images"
+              }
+            ]
+          },
+          "data_source": "Smithsonian American Art Museum",
+          "record_ID": "saam_1978.152.94",
+          "record_link": "http:\/\/americanart.si.edu\/collections\/search\/artwork\/?id=6868",
+          "unit_code": "SAAM"
+        },
+        "freetext": {
+          "topic": [
+            {
+              "content": "Cityscape\\New York\\New York",
+              "label": "Topic"
+            },
+            {
+              "content": "Figure(s) in exterior\\urban",
+              "label": "Topic"
+            },
+            {
+              "content": "Architecture\\vehicle\\cart",
+              "label": "Topic"
+            },
+            {
+              "content": "Cityscape\\street\\Broadway",
+              "label": "Topic"
+            },
+            {
+              "content": "Cityscape\\New York\\Manhattan",
+              "label": "Topic"
+            },
+            {
+              "content": "Architecture Exterior\\commercial\\hotel",
+              "label": "Topic"
+            },
+            {
+              "content": "Architecture Exterior\\commercial\\Astor House",
+              "label": "Topic"
+            }
+          ],
+          "dataSource": [
+            {
+              "content": "Smithsonian American Art Museum",
+              "label": "Data Source"
+            }
+          ],
+          "name": [
+            {
+              "content": "A. Dirk",
+              "label": "Artist"
+            }
+          ],
+          "creditLine": [
+            {
+              "content": "Smithsonian American Art Museum, Gift of Olin Dows",
+              "label": "Credit Line"
+            }
+          ],
+          "physicalDescription": [
+            {
+              "content": "engraving",
+              "label": "Medium"
+            }
+          ],
+          "setName": [
+            {
+              "content": "Smithsonian American Art Museum Collection",
+              "label": "See more items in"
+            }
+          ],
+          "identifier": [
+            {
+              "content": "1978.152.94",
+              "label": "Object number"
+            }
+          ],
+          "objectType": [
+            {
+              "content": "Graphic Arts-Print",
+              "label": "Type"
+            }
+          ]
+        }
+      },
+      {
+        "indexedStructured": {
+          "object_type": [
+            "Graphic arts"
+          ],
+          "topic": [
+            "Commercial",
+            "Wall Street",
+            "Cityscapes",
+            "Vehicles",
+            "Cart",
+            "Architecture",
+            "Banks and banking",
+            "Urban",
+            "Merchants' Exchange",
+            "Streets",
+            "Figure(s) in exterior"
+          ],
+          "name": [
+            "Engels, W."
+          ],
+          "geoLocation": [
+            {
+              "L1": {
+                "content": " North America",
+                "type": "Continent"
+              },
+              "L2": {
+                "content": "United States of America",
+                "type": "Country"
+              },
+              "L3": {
+                "content": "New York",
+                "type": "State"
+              }
+            }
+          ],
+          "usage_flag": [
+            "permcoll"
+          ],
+          "online_media_type": [
+            "Images"
+          ],
+          "place": [
+            "Manhattan",
+            "New York"
+          ]
+        },
+        "descriptiveNonRepeating": {
+          "title_sort": "MERCHANTS' EXCHANGE, NEW YORK",
+          "title": {
+            "content": "Merchants' Exchange, New York",
+            "label": "Title"
+          },
+          "online_media": {
+            "mediaCount": "1",
+            "media": [
+              {
+                "idsId": "http:\/\/americanart.si.edu\/images\/1978\/1978.152.81_1a.jpg",
+                "content": "http:\/\/americanart.si.edu\/images\/1978\/1978.152.81_1a.jpg",
+                "thumbnail": "http:\/\/americanart.si.edu\/images\/1978\/1978.152.81_1d.jpg",
+                "type": "Images"
+              }
+            ]
+          },
+          "data_source": "Smithsonian American Art Museum",
+          "record_ID": "saam_1978.152.81",
+          "record_link": "http:\/\/americanart.si.edu\/collections\/search\/artwork\/?id=8035",
+          "unit_code": "SAAM"
+        },
+        "freetext": {
+          "topic": [
+            {
+              "content": "Cityscape\\New York\\New York",
+              "label": "Topic"
+            },
+            {
+              "content": "Figure(s) in exterior\\urban",
+              "label": "Topic"
+            },
+            {
+              "content": "Cityscape\\street\\Wall Street",
+              "label": "Topic"
+            },
+            {
+              "content": "Architecture\\vehicle\\cart",
+              "label": "Topic"
+            },
+            {
+              "content": "Cityscape\\New York\\Manhattan",
+              "label": "Topic"
+            },
+            {
+              "content": "Architecture Exterior\\commercial\\bank",
+              "label": "Topic"
+            },
+            {
+              "content": "Architecture Exterior\\commercial\\Merchants' Exchange",
+              "label": "Topic"
+            }
+          ],
+          "dataSource": [
+            {
+              "content": "Smithsonian American Art Museum",
+              "label": "Data Source"
+            }
+          ],
+          "name": [
+            {
+              "content": "W. Engels",
+              "label": "Artist"
+            }
+          ],
+          "creditLine": [
+            {
+              "content": "Smithsonian American Art Museum, Gift of Olin Dows",
+              "label": "Credit Line"
+            }
+          ],
+          "physicalDescription": [
+            {
+              "content": "lithograph",
+              "label": "Medium"
+            }
+          ],
+          "setName": [
+            {
+              "content": "Smithsonian American Art Museum Collection",
+              "label": "See more items in"
+            }
+          ],
+          "identifier": [
+            {
+              "content": "1978.152.81",
+              "label": "Object number"
+            }
+          ],
+          "objectType": [
+            {
+              "content": "Graphic Arts-Print",
+              "label": "Type"
+            }
+          ]
+        }
+      },
+      {
+        "indexedStructured": {
+          "object_type": [
+            "Graphic arts"
+          ],
+          "topic": [
+            "Animals",
+            "Skyscraper",
+            "Commercial",
+            "New York Bay",
+            "Bay",
+            "Gulls",
+            "Cityscapes",
+            "Tugboat",
+            "Architecture",
+            "Birds",
+            "Waterscapes",
+            "Boats and boating"
+          ],
+          "name": [
+            "Ruzicka, Rudolph"
+          ],
+          "geoLocation": [
+            {
+              "L1": {
+                "content": " North America",
+                "type": "Continent"
+              },
+              "L2": {
+                "content": "United States of America",
+                "type": "Country"
+              },
+              "L3": {
+                "content": "New York",
+                "type": "State"
+              }
+            }
+          ],
+          "usage_flag": [
+            "permcoll"
+          ],
+          "online_media_type": [
+            "Images"
+          ],
+          "place": [
+            "Manhattan",
+            "New York"
+          ]
+        },
+        "descriptiveNonRepeating": {
+          "title_sort": "LOWER MANHATTAN",
+          "title": {
+            "content": "Lower Manhattan",
+            "label": "Title"
+          },
+          "online_media": {
+            "mediaCount": "1",
+            "media": [
+              {
+                "idsId": "http:\/\/americanart.si.edu\/images\/1981\/1981.12.7_1a.jpg",
+                "content": "http:\/\/americanart.si.edu\/images\/1981\/1981.12.7_1a.jpg",
+                "thumbnail": "http:\/\/americanart.si.edu\/images\/1981\/1981.12.7_1d.jpg",
+                "type": "Images"
+              }
+            ]
+          },
+          "data_source": "Smithsonian American Art Museum",
+          "record_ID": "saam_1981.12.7",
+          "record_link": "http:\/\/americanart.si.edu\/collections\/search\/artwork\/?id=21432",
+          "unit_code": "SAAM"
+        },
+        "freetext": {
+          "topic": [
+            {
+              "content": "Cityscape\\New York\\New York",
+              "label": "Topic"
+            },
+            {
+              "content": "Animal\\bird\\gull",
+              "label": "Topic"
+            },
+            {
+              "content": "Architecture\\boat\\tugboat",
+              "label": "Topic"
+            },
+            {
+              "content": "Cityscape\\New York\\Manhattan",
+              "label": "Topic"
+            },
+            {
+              "content": "Waterscape\\bay\\New York Bay",
+              "label": "Topic"
+            },
+            {
+              "content": "Architecture Exterior\\commercial\\skyscraper",
+              "label": "Topic"
+            }
+          ],
+          "dataSource": [
+            {
+              "content": "Smithsonian American Art Museum",
+              "label": "Data Source"
+            }
+          ],
+          "name": [
+            {
+              "content": "Rudolph Ruzicka, born Kourim, Bohemia 1833-died Hanover, NH 1978",
+              "label": "Artist"
+            }
+          ],
+          "creditLine": [
+            {
+              "content": "Smithsonian American Art Museum, Museum purchase",
+              "label": "Credit Line"
+            }
+          ],
+          "physicalDescription": [
+            {
+              "content": "color wood engraving",
+              "label": "Medium"
+            }
+          ],
+          "setName": [
+            {
+              "content": "Smithsonian American Art Museum Collection",
+              "label": "See more items in"
+            }
+          ],
+          "identifier": [
+            {
+              "content": "1981.12.7",
+              "label": "Object number"
+            }
+          ],
+          "objectType": [
+            {
+              "content": "Graphic Arts-Print",
+              "label": "Type"
+            }
+          ]
+        }
+      },
+      {
+        "indexedStructured": {
+          "object_type": [
+            "Graphic arts"
+          ],
+          "topic": [
+            "Skyscraper",
+            "Commercial",
+            "Cityscapes",
+            "Architecture"
+          ],
+          "name": [
+            "Ruzicka, Rudolph"
+          ],
+          "geoLocation": [
+            {
+              "L1": {
+                "content": " North America",
+                "type": "Continent"
+              },
+              "L2": {
+                "content": "United States of America",
+                "type": "Country"
+              },
+              "L3": {
+                "content": "New York",
+                "type": "State"
+              }
+            }
+          ],
+          "usage_flag": [
+            "permcoll"
+          ],
+          "online_media_type": [
+            "Images"
+          ],
+          "place": [
+            "Manhattan",
+            "New York"
+          ]
+        },
+        "descriptiveNonRepeating": {
+          "title_sort": "THE SKYSCRAPERS, NEW YORK",
+          "title": {
+            "content": "The Skyscrapers, New York",
+            "label": "Title"
+          },
+          "online_media": {
+            "mediaCount": "1",
+            "media": [
+              {
+                "idsId": "http:\/\/americanart.si.edu\/images\/1981\/1981.12.9_1a.jpg",
+                "content": "http:\/\/americanart.si.edu\/images\/1981\/1981.12.9_1a.jpg",
+                "thumbnail": "http:\/\/americanart.si.edu\/images\/1981\/1981.12.9_1d.jpg",
+                "type": "Images"
+              }
+            ]
+          },
+          "data_source": "Smithsonian American Art Museum",
+          "record_ID": "saam_1981.12.9",
+          "record_link": "http:\/\/americanart.si.edu\/collections\/search\/artwork\/?id=21433",
+          "unit_code": "SAAM"
+        },
+        "freetext": {
+          "topic": [
+            {
+              "content": "Cityscape\\New York\\New York",
+              "label": "Topic"
+            },
+            {
+              "content": "Cityscape\\New York\\Manhattan",
+              "label": "Topic"
+            },
+            {
+              "content": "Architecture Exterior\\commercial\\skyscraper",
+              "label": "Topic"
+            }
+          ],
+          "dataSource": [
+            {
+              "content": "Smithsonian American Art Museum",
+              "label": "Data Source"
+            }
+          ],
+          "name": [
+            {
+              "content": "Rudolph Ruzicka, born Kourim, Bohemia 1833-died Hanover, NH 1978",
+              "label": "Artist"
+            }
+          ],
+          "creditLine": [
+            {
+              "content": "Smithsonian American Art Museum, Museum purchase",
+              "label": "Credit Line"
+            }
+          ],
+          "physicalDescription": [
+            {
+              "content": "color woodcut",
+              "label": "Medium"
+            }
+          ],
+          "setName": [
+            {
+              "content": "Smithsonian American Art Museum Collection",
+              "label": "See more items in"
+            }
+          ],
+          "identifier": [
+            {
+              "content": "1981.12.9",
+              "label": "Object number"
+            }
+          ],
+          "objectType": [
+            {
+              "content": "Graphic Arts-Print",
+              "label": "Type"
+            }
+          ]
+        }
+      },
+      {
+        "indexedStructured": {
+          "object_type": [
+            "Graphic arts"
+          ],
+          "topic": [
+            "New Deal, 1933-1939",
+            "Figure group",
+            "Bridges",
+            "Cityscapes",
+            "Truck",
+            "Vehicles",
+            "Architecture",
+            "Works Progress Administration, Federal Art Project",
+            "Children"
+          ],
+          "name": [
+            "Freeman, Don"
+          ],
+          "geoLocation": [
+            {
+              "L1": {
+                "content": " North America",
+                "type": "Continent"
+              },
+              "L2": {
+                "content": "United States of America",
+                "type": "Country"
+              },
+              "L3": {
+                "content": "New York",
+                "type": "State"
+              }
+            },
+            {
+              "L1": {
+                "content": " North America",
+                "type": "Continent"
+              },
+              "L2": {
+                "content": "United States of America",
+                "type": "Country"
+              },
+              "L3": {
+                "content": "New York",
+                "type": "State"
+              },
+              "L5": {
+                "content": "New York City",
+                "type": "City"
+              }
+            }
+          ],
+          "usage_flag": [
+            "permcoll"
+          ],
+          "online_media_type": [
+            "Images"
+          ],
+          "place": [
+            "New York City",
+            "New York"
+          ],
+          "date": [
+            "1930s"
+          ]
+        },
+        "descriptiveNonRepeating": {
+          "title_sort": "SCHOOL'S OUT",
+          "title": {
+            "content": "School's Out",
+            "label": "Title"
+          },
+          "online_media": {
+            "mediaCount": "1",
+            "media": [
+              {
+                "idsId": "http:\/\/americanart.si.edu\/images\/1968\/1968.98.9_1a.jpg",
+                "content": "http:\/\/americanart.si.edu\/images\/1968\/1968.98.9_1a.jpg",
+                "thumbnail": "http:\/\/americanart.si.edu\/images\/1968\/1968.98.9_1d.jpg",
+                "type": "Images"
+              }
+            ]
+          },
+          "data_source": "Smithsonian American Art Museum",
+          "record_ID": "saam_1968.98.9",
+          "record_link": "http:\/\/americanart.si.edu\/collections\/search\/artwork\/?id=8626",
+          "unit_code": "SAAM"
+        },
+        "freetext": {
+          "topic": [
+            {
+              "content": "Cityscape\\New York\\New York",
+              "label": "Topic"
+            },
+            {
+              "content": "Architecture\\bridge",
+              "label": "Topic"
+            },
+            {
+              "content": "Architecture\\vehicle\\truck",
+              "label": "Topic"
+            },
+            {
+              "content": "New Deal\\Works Progress Administration, Federal Art Project\\New York City",
+              "label": "Topic"
+            },
+            {
+              "content": "Figure group\\children",
+              "label": "Topic"
+            }
+          ],
+          "dataSource": [
+            {
+              "content": "Smithsonian American Art Museum",
+              "label": "Data Source"
+            }
+          ],
+          "name": [
+            {
+              "content": "Don Freeman, born San Diego, CA 1908-died New York City 1978",
+              "label": "Artist"
+            }
+          ],
+          "creditLine": [
+            {
+              "content": "Smithsonian American Art Museum, Gift of Audrey McMahon",
+              "label": "Credit Line"
+            }
+          ],
+          "physicalDescription": [
+            {
+              "content": "lithograph on paper",
+              "label": "Medium"
+            },
+            {
+              "content": "image: 11 1\/4 x 13 5\/8 in. (28.6 x 34.6 cm)",
+              "label": "Dimensions"
+            }
+          ],
+          "setName": [
+            {
+              "content": "Smithsonian American Art Museum Collection",
+              "label": "See more items in"
+            }
+          ],
+          "date": [
+            {
+              "content": "1936",
+              "label": "Date"
+            }
+          ],
+          "identifier": [
+            {
+              "content": "1968.98.9",
+              "label": "Object number"
+            }
+          ],
+          "objectType": [
+            {
+              "content": "Graphic Arts-Print",
+              "label": "Type"
+            }
+          ]
+        }
+      },
+      {
+        "indexedStructured": {
+          "object_type": [
+            "Paintings"
+          ],
+          "topic": [
+            "Windows",
+            "Figure group",
+            "Detail",
+            "Cityscapes",
+            "Seasons",
+            "Women",
+            "Parks",
+            "Architecture",
+            "Landscapes",
+            "Summer"
+          ],
+          "geolocation": [
+            {
+              "L1": {
+                "content": "North America",
+                "type": "Continent"
+              },
+              "L2": "United States",
+              "other": {
+                "content": "Central Park",
+                "type": "Park"
+              },
+              "L3": "New York",
+              "L4": "New York County",
+              "L5": "New York"
+            }
+          ],
+          "name": [
+            "Kroll, Leon"
+          ],
+          "geoLocation": [
+            {
+              "L1": {
+                "content": " North America",
+                "type": "Continent"
+              },
+              "L2": {
+                "content": "United States of America",
+                "type": "Country"
+              },
+              "L3": {
+                "content": "New York",
+                "type": "State"
+              }
+            }
+          ],
+          "usage_flag": [
+            "permcoll"
+          ],
+          "online_media_type": [
+            "Images"
+          ],
+          "place": [
+            "New York",
+            "Central Park (New York, N.Y.)"
+          ],
+          "date": [
+            "1930s"
+          ]
+        },
+        "descriptiveNonRepeating": {
+          "title_sort": "SUMMER--NEW YORK",
+          "title": {
+            "content": "Summer--New York",
+            "label": "Title"
+          },
+          "online_media": {
+            "mediaCount": "1",
+            "media": [
+              {
+                "idsId": "http:\/\/americanart.si.edu\/images\/1988\/1988.4_1a.jpg",
+                "content": "http:\/\/americanart.si.edu\/images\/1988\/1988.4_1a.jpg",
+                "thumbnail": "http:\/\/americanart.si.edu\/images\/1988\/1988.4_1d.jpg",
+                "type": "Images"
+              }
+            ]
+          },
+          "data_source": "Smithsonian American Art Museum",
+          "record_ID": "saam_1988.4",
+          "record_link": "http:\/\/americanart.si.edu\/collections\/search\/artwork\/?id=14011",
+          "unit_code": "SAAM"
+        },
+        "freetext": {
+          "topic": [
+            {
+              "content": "Cityscape\\New York\\New York",
+              "label": "Topic"
+            },
+            {
+              "content": "Figure group\\female",
+              "label": "Topic"
+            },
+            {
+              "content": "Cityscape\\season\\summer",
+              "label": "Topic"
+            },
+            {
+              "content": "Landscape\\park\\Central Park",
+              "label": "Topic"
+            },
+            {
+              "content": "Architecture Interior\\detail\\window",
+              "label": "Topic"
+            }
+          ],
+          "dataSource": [
+            {
+              "content": "Smithsonian American Art Museum",
+              "label": "Data Source"
+            }
+          ],
+          "name": [
+            {
+              "content": "Leon Kroll, born New York City 1884-died Gloucester, MA 1974",
+              "label": "Artist"
+            }
+          ],
+          "creditLine": [
+            {
+              "content": "Smithsonian American Art Museum, Bequest of Genevieve L. Kroll",
+              "label": "Credit Line"
+            }
+          ],
+          "physicalDescription": [
+            {
+              "content": "oil on canvas",
+              "label": "Medium"
+            },
+            {
+              "content": "59 x 76 in. (149.8 x 193.0 cm.)",
+              "label": "Dimensions"
+            }
+          ],
+          "setName": [
+            {
+              "content": "Smithsonian American Art Museum Collection",
+              "label": "See more items in"
+            }
+          ],
+          "date": [
+            {
+              "content": "1931",
+              "label": "Date"
+            }
+          ],
+          "identifier": [
+            {
+              "content": "1988.4",
+              "label": "Object number"
+            }
+          ],
+          "objectType": [
+            {
+              "content": "Painting",
+              "label": "Type"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
