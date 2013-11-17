@@ -18,6 +18,7 @@ def luce_zoom_score(self, **kwargs):
     if name != 'Art Enthusiast' and score != -9999:
         insert_high_score_query = "insert into zoom_highscores (name, score) values ('{0}', {1})".format(name, score)
         database_cursor.execute(insert_high_score_query)
+        database_connection.commit()
 
     high_score_query = "select name, score from zoom_highscores order by score desc limit 50"
     database_cursor.execute(high_score_query)
