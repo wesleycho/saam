@@ -8,11 +8,11 @@ angular.module('SmithsonianApp')
       });
 
     return {
-      get: function (id, params) {
+      get: function (params, id) {
         var defaultParams;
         
         defaultParams = {
-          start: 0            
+          start: 0 
         };
 
         params = _.extend(defaultParams, params);
@@ -21,20 +21,20 @@ angular.module('SmithsonianApp')
           params = _.extend(params, {id: id});
         }
 
-        return Collection.get(params);
+        return Collection.get(params).$promise;
       },
       getTags: function (id, params) {
         params = _.extend(params, {id: id});
-        return Tags.get(params);
+        return Tags.get(params).$promise;
       },
       createTag: function (id, data) {
-        return Tags.save({id: id}, data);
+        return Tags.save({id: id}, data).$promise;
       },
       modifyTag: function (id, data) {
-        return Tags.update({id: id}, data);
+        return Tags.update({id: id}, data).$promise;
       },
       deleteTag: function (id, data) {
-        return Tags.delete({id: id}, data);
+        return Tags.delete({id: id}, data).$promise;
       }
     };
 

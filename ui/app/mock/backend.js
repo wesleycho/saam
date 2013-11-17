@@ -9,6 +9,8 @@ angular.module('mockBackend', ['ngMockE2E'])
     $httpBackend.whenGET(/.*\.js$/).passThrough();
     $httpBackend.whenGET(/.*\.json$/).passThrough();
 
+    $http.get('mock/data/all.json')
+      .success(setData('all'));
     $http.get('mock/data/new_york.json')
       .success(setData('new york'));
     $http.get('mock/data/dc.json')
@@ -28,9 +30,21 @@ angular.module('mockBackend', ['ngMockE2E'])
       };
     }
 
-    $httpBackend.whenGET(route.api + '/collections').respond(function (method, url, data) {
-      var data = angular.fromJson(data);
+    $httpBackend.whenGET(/http:\/\/localhost:9000\/api\/collections(\?.*)?/).respond(function (method, url) {
+      var q, dataToReturn;
+      q = url.match(/q=\w*&/)[0];
+      q = q.slice(0, -1);
+      q = q.substr(2);
 
-      return [200, mockData[data.q.toLowerCase()]];
+      if (q.toLowerCase() === '') {
+        dataToReturn = mockData.all;
+      }
+      else {
+        dataToReturn = mockData[q.toLowerCase()];
+      }
+
+      dataToReturn.response.docs = _.sample(dataToReturn.response.docs, 10);
+
+      return [200, dataToReturn];
     });
   });
