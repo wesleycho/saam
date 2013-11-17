@@ -2,10 +2,12 @@
 def luce_zoom(self, **kwargs):
 
     score = int(kwargs.get('score', 0))
-    artwork = kwargs.get('artwork', 'nope')
+    artwork = kwargs.get('artwork', 'nothing_yet')
 
     if artwork == 'correct':
         score += 1
+    elif artwork == 'nope':
+        score -= 1    
 
     import psycopg2
     import random
@@ -37,6 +39,8 @@ def luce_zoom(self, **kwargs):
     page_source.append('<h2>Hey what is the name of this artwork?</h2>')
 
     page_source.append('Your score: <b>{0}</b>'.format(score))
+
+    page_source.append('<form method="post" action="luce_zoom_score"><input type="hidden" name="score" value="{0}"><input type="submit" value="End the game and retire in glory"></form><hr>'.format(score))
 
     if artwork == 'correct':
         page_source.append('&nbsp; <b> YOU JUST GOT A POINT / WAY TO IDENTIFY ART / LIKE A SUPERSTAR</b> <br> That is a haiku by the way :) :) :) :) :) :) ^')
