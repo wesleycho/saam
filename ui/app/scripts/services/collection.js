@@ -4,7 +4,7 @@ angular.module('SmithsonianApp')
   .service('Collection', function ($resource, route) {
     var Collection = $resource(route.api + '/collections/:id'),
       Tags = $resource(route.api + '/collections/:id/tags', {}, {
-        update: {method: 'PUT', '/:tagId'}
+        update: {method: 'PUT', url: '/:tagId'}
       });
 
     return {
