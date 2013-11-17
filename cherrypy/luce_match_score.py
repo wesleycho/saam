@@ -20,6 +20,8 @@ def luce_match_score(self, **kwargs):
         score_table.append('<tr> <td>#{0}</td> <td><img src="{1}" alt="{2}"></td> <td>{2}</td> <td><b>{3}</b></td> </tr>'.format(rank, row[1], row[2], row[3]))
 
     page_source = []
+    
+    page_source.append('<title>Favorite artworks</title>')
         
     page_source.append('<link rel="stylesheet" type="text/css" href="/static/main.css"> <link rel="stylesheet" type="text/css" href="/static/gumby.css">')
     page_source.append('<div class="row">')

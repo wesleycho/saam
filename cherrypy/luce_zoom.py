@@ -34,6 +34,8 @@ def luce_zoom(self, **kwargs):
 
     page_source = []
 
+    page_source.append('<title>Identification game</title>')
+
     page_source.append('<link rel="stylesheet" type="text/css" href="/static/main.css"> <link rel="stylesheet" type="text/css" href="/static/gumby.css">')
 
     page_source.append('<h2>Hey what is the name of this artwork?</h2>')
