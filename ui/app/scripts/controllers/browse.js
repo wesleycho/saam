@@ -3,13 +3,12 @@
 angular.module('SmithsonianApp')
   .controller('BrowseCtrl', function ($scope, $q, Collection) {
     var itemPage = 0;
-    $scope.columns = [];
     $scope.param = {};
 
     generateColumns();
 
     $scope.updateFilter = function (filter) {
-      return _.debounce(function (filter) {
+      return _.debounce(function () {
         var promises = [];
         itemPage = 0;
 
@@ -21,11 +20,10 @@ angular.module('SmithsonianApp')
         });
 
         $q.all(promises).then(function (data) {
-          $scope.columns = [];
           generateColumns();
           fillColumns(data);
         });
-      }, 200);
+      }, 200)();
     };
 
     $scope.requestMoreItems = function () {
@@ -40,7 +38,7 @@ angular.module('SmithsonianApp')
       });
 
       $q.all(promises).then(function (data) {
-        fillData(data);
+        fillColumns(data);
       });
     };
 
@@ -61,12 +59,13 @@ angular.module('SmithsonianApp')
     }
 
     function generateColumns () {
+      $scope.columns = [];
       _.each(_.range(0, 6), function (idx) {
         $scope.columns.push({ images: [] });
       });
     }
 
-    function fillData (data) {
+    function fillColumns (data) {
       _.each(data, function (actualData, idx) {
         Array.prototype.push.apply($scope.columns[idx].images, actualData.response.docs);
       });
