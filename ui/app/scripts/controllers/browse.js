@@ -4,6 +4,9 @@ angular.module('SmithsonianApp')
   .controller('BrowseCtrl', function ($scope, $q, Collection) {
     var itemPage = 0;
     $scope.columns = [];
+    _.each(_.range(0, 6), function (idx) {
+      $scope.columns.push({ images: [] });
+    });
 
     $scope.requestMoreItems = function () {
       var promises;
@@ -17,8 +20,8 @@ angular.module('SmithsonianApp')
       });
 
       $q.all(promises).then(function (data) {
-        _.each(data, function (actualData) {
-          $scope.columns.push(actualData.response.docs);
+        _.each(data, function (actualData, idx) {
+          Array.prototype.push.apply($scope.columns[idx].images, actualData.response.docs);
         });
       });
     };
