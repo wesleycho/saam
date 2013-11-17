@@ -46,7 +46,8 @@ angular.module('SmithsonianApp')
       return Collection.get({
         q: $scope.param.filter ? $scope.param.filter : '',
         rows: 10,
-        start: startIdx
+        start: startIdx,
+        online_media_type: 'Images'
       });
     }
 
@@ -54,7 +55,8 @@ angular.module('SmithsonianApp')
       return Collection.get({
         q: filter,
         rows: 10,
-        start: startIdx
+        start: startIdx,
+        online_media_type: 'Images'
       });
     }
 
