@@ -310,7 +310,7 @@ module.exports = function (grunt) {
           },
           {
             pattern: /background-image:url\(.*\);/g,
-            replacement: 'background-image:url\($1\);'
+            replacement: 'background-image:url\("$1"\);'
           }]
         }
       }
