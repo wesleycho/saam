@@ -1,0 +1,1034 @@
+{
+  "responseHeader": {
+    "status": 0,
+    "QTime": 0,
+    "params": {
+      "applicationId": "HACK",
+      "qt": "standard",
+      "wt": "json",
+      "q": "DC"
+    }
+  },
+  "response": {
+    "numFound": 3463,
+    "start": 0,
+    "docs": [
+      {
+        "indexedStructured": {
+          "object_type": [
+            "Paintings"
+          ],
+          "topic": [
+            "Ethnic",
+            "Weapons",
+            "Firearms",
+            "Figure male",
+            "Clothing and dress"
+          ],
+          "name": [
+            "Prince, George"
+          ],
+          "usage_flag": [
+            "permcoll"
+          ],
+          "online_media_type": [
+            "Images"
+          ],
+          "culture": [
+            "Native Americans",
+            "Indians of North America"
+          ]
+        },
+        "descriptiveNonRepeating": {
+          "title_sort": "WHITE MAN IN CHIPPEWA COSTUME",
+          "title": {
+            "content": "White Man in Chippewa Costume",
+            "label": "Title"
+          },
+          "online_media": {
+            "mediaCount": "1",
+            "media": [
+              {
+                "idsId": "http:\/\/americanart.si.edu\/images\/1985\/1985.66.362,055_1a.jpg",
+                "content": "http:\/\/americanart.si.edu\/images\/1985\/1985.66.362,055_1a.jpg",
+                "thumbnail": "http:\/\/americanart.si.edu\/images\/1985\/1985.66.362,055_1d.jpg",
+                "type": "Images"
+              }
+            ]
+          },
+          "data_source": "Smithsonian American Art Museum",
+          "record_ID": "saam_1985.66.362_055",
+          "record_link": "http:\/\/americanart.si.edu\/collections\/search\/artwork\/?id=20266",
+          "unit_code": "SAAM"
+        },
+        "freetext": {
+          "topic": [
+            {
+              "content": "Dress\\ethnic\\Indian dress",
+              "label": "Topic"
+            },
+            {
+              "content": "Figure male\\full length",
+              "label": "Topic"
+            },
+            {
+              "content": "Object\\weapon\\gun",
+              "label": "Topic"
+            }
+          ],
+          "dataSource": [
+            {
+              "content": "Smithsonian American Art Museum",
+              "label": "Data Source"
+            }
+          ],
+          "name": [
+            {
+              "content": "George Prince, born Washington, DC 1848-died Washington, DC 1929",
+              "label": "Artist"
+            }
+          ],
+          "creditLine": [
+            {
+              "content": "Smithsonian American Art Museum, Bequest of Victor Justice Evans",
+              "label": "Credit Line"
+            }
+          ],
+          "setName": [
+            {
+              "content": "Smithsonian American Art Museum Collection",
+              "label": "See more items in"
+            }
+          ],
+          "identifier": [
+            {
+              "content": "1985.66.362,055",
+              "label": "Object number"
+            }
+          ],
+          "objectType": [
+            {
+              "content": "Painting",
+              "label": "Type"
+            }
+          ]
+        }
+      },
+      {
+        "indexedStructured": {
+          "object_type": [
+            "Graphic arts"
+          ],
+          "topic": [
+            "Ethnic",
+            "Figure group",
+            "Religion",
+            "Rites and ceremonies",
+            "Architecture",
+            "Revival",
+            "Church"
+          ],
+          "name": [
+            "Taylor, Prentiss"
+          ],
+          "usage_flag": [
+            "permcoll"
+          ],
+          "online_media_type": [
+            "Images"
+          ],
+          "culture": [
+            "African Americans"
+          ]
+        },
+        "descriptiveNonRepeating": {
+          "title_sort": "EXPERIENCE MEETING--MASSYDONNY",
+          "title": {
+            "content": "Experience Meeting--Massydonny",
+            "label": "Title"
+          },
+          "online_media": {
+            "mediaCount": "1",
+            "media": [
+              {
+                "idsId": "http:\/\/americanart.si.edu\/images\/1974\/1974.44.11_1a.jpg",
+                "content": "http:\/\/americanart.si.edu\/images\/1974\/1974.44.11_1a.jpg",
+                "thumbnail": "http:\/\/americanart.si.edu\/images\/1974\/1974.44.11_1d.jpg",
+                "type": "Images"
+              }
+            ]
+          },
+          "data_source": "Smithsonian American Art Museum",
+          "record_ID": "saam_1974.44.11",
+          "record_link": "http:\/\/americanart.si.edu\/collections\/search\/artwork\/?id=23870",
+          "unit_code": "SAAM"
+        },
+        "freetext": {
+          "topic": [
+            {
+              "content": "Figure group",
+              "label": "Topic"
+            },
+            {
+              "content": "Ethnic\\African-American",
+              "label": "Topic"
+            },
+            {
+              "content": "Ceremony\\religion\\revival",
+              "label": "Topic"
+            },
+            {
+              "content": "Architecture Interior\\religious\\church",
+              "label": "Topic"
+            }
+          ],
+          "dataSource": [
+            {
+              "content": "Smithsonian American Art Museum",
+              "label": "Data Source"
+            }
+          ],
+          "name": [
+            {
+              "content": "Prentiss Taylor, born Washington, DC 1907-died Washington, DC 1991",
+              "label": "Artist"
+            }
+          ],
+          "creditLine": [
+            {
+              "content": "Smithsonian American Art Museum, Gift of Irina A. Reed",
+              "label": "Credit Line"
+            }
+          ],
+          "physicalDescription": [
+            {
+              "content": "lithograph",
+              "label": "Medium"
+            }
+          ],
+          "setName": [
+            {
+              "content": "Smithsonian American Art Museum Collection",
+              "label": "See more items in"
+            }
+          ],
+          "identifier": [
+            {
+              "content": "1974.44.11",
+              "label": "Object number"
+            }
+          ],
+          "objectType": [
+            {
+              "content": "Graphic Arts-Print",
+              "label": "Type"
+            }
+          ]
+        }
+      },
+      {
+        "indexedStructured": {
+          "object_type": [
+            "Graphic arts"
+          ],
+          "topic": [
+            "Figure group",
+            "Cityscapes",
+            "Vehicles",
+            "Cart",
+            "Architecture",
+            "Streets"
+          ],
+          "name": [
+            "Taylor, Prentiss"
+          ],
+          "usage_flag": [
+            "permcoll"
+          ],
+          "online_media_type": [
+            "Images"
+          ]
+        },
+        "descriptiveNonRepeating": {
+          "title_sort": "FLIGHT AND INACTION",
+          "title": {
+            "content": "Flight and Inaction",
+            "label": "Title"
+          },
+          "online_media": {
+            "mediaCount": "1",
+            "media": [
+              {
+                "idsId": "http:\/\/americanart.si.edu\/images\/1974\/1974.44.41_1a.jpg",
+                "content": "http:\/\/americanart.si.edu\/images\/1974\/1974.44.41_1a.jpg",
+                "thumbnail": "http:\/\/americanart.si.edu\/images\/1974\/1974.44.41_1d.jpg",
+                "type": "Images"
+              }
+            ]
+          },
+          "data_source": "Smithsonian American Art Museum",
+          "record_ID": "saam_1974.44.41",
+          "record_link": "http:\/\/americanart.si.edu\/collections\/search\/artwork\/?id=23871",
+          "unit_code": "SAAM"
+        },
+        "freetext": {
+          "topic": [
+            {
+              "content": "Figure group",
+              "label": "Topic"
+            },
+            {
+              "content": "Cityscape\\street",
+              "label": "Topic"
+            },
+            {
+              "content": "Architecture\\vehicle\\cart",
+              "label": "Topic"
+            }
+          ],
+          "dataSource": [
+            {
+              "content": "Smithsonian American Art Museum",
+              "label": "Data Source"
+            }
+          ],
+          "name": [
+            {
+              "content": "Prentiss Taylor, born Washington, DC 1907-died Washington, DC 1991",
+              "label": "Artist"
+            }
+          ],
+          "creditLine": [
+            {
+              "content": "Smithsonian American Art Museum, Gift of Irina A. Reed",
+              "label": "Credit Line"
+            }
+          ],
+          "setName": [
+            {
+              "content": "Smithsonian American Art Museum Collection",
+              "label": "See more items in"
+            }
+          ],
+          "identifier": [
+            {
+              "content": "1974.44.41",
+              "label": "Object number"
+            }
+          ],
+          "objectType": [
+            {
+              "content": "Graphic Arts-Print",
+              "label": "Type"
+            }
+          ]
+        }
+      },
+      {
+        "indexedStructured": {
+          "object_type": [
+            "Graphic arts"
+          ],
+          "topic": [
+            "Architecture",
+            "Nudity",
+            "Landscapes",
+            "Figure male",
+            "Quarry",
+            "Water"
+          ],
+          "name": [
+            "Taylor, Prentiss"
+          ],
+          "usage_flag": [
+            "permcoll"
+          ],
+          "online_media_type": [
+            "Images"
+          ]
+        },
+        "descriptiveNonRepeating": {
+          "title_sort": "FLOODED QUARRY",
+          "title": {
+            "content": "Flooded Quarry",
+            "label": "Title"
+          },
+          "online_media": {
+            "mediaCount": "1",
+            "media": [
+              {
+                "idsId": "http:\/\/americanart.si.edu\/images\/1974\/1974.44.14_1a.jpg",
+                "content": "http:\/\/americanart.si.edu\/images\/1974\/1974.44.14_1a.jpg",
+                "thumbnail": "http:\/\/americanart.si.edu\/images\/1974\/1974.44.14_1d.jpg",
+                "type": "Images"
+              }
+            ]
+          },
+          "data_source": "Smithsonian American Art Museum",
+          "record_ID": "saam_1974.44.14",
+          "record_link": "http:\/\/americanart.si.edu\/collections\/search\/artwork\/?id=23872",
+          "unit_code": "SAAM"
+        },
+        "freetext": {
+          "topic": [
+            {
+              "content": "Landscape\\water",
+              "label": "Topic"
+            },
+            {
+              "content": "Figure male\\nude",
+              "label": "Topic"
+            },
+            {
+              "content": "Figure male\\knee length",
+              "label": "Topic"
+            },
+            {
+              "content": "Architecture Exterior\\other\\quarry",
+              "label": "Topic"
+            }
+          ],
+          "dataSource": [
+            {
+              "content": "Smithsonian American Art Museum",
+              "label": "Data Source"
+            }
+          ],
+          "name": [
+            {
+              "content": "Prentiss Taylor, born Washington, DC 1907-died Washington, DC 1991",
+              "label": "Artist"
+            }
+          ],
+          "creditLine": [
+            {
+              "content": "Smithsonian American Art Museum, Gift of Irina A. Reed",
+              "label": "Credit Line"
+            }
+          ],
+          "setName": [
+            {
+              "content": "Smithsonian American Art Museum Collection",
+              "label": "See more items in"
+            }
+          ],
+          "identifier": [
+            {
+              "content": "1974.44.14",
+              "label": "Object number"
+            }
+          ],
+          "objectType": [
+            {
+              "content": "Graphic Arts-Print",
+              "label": "Type"
+            }
+          ]
+        }
+      },
+      {
+        "indexedStructured": {
+          "object_type": [
+            "Graphic arts"
+          ],
+          "topic": [
+            "Figure group",
+            "Angels",
+            "Popsicle",
+            "Religion",
+            "Statues",
+            "Monuments",
+            "Foodstuff"
+          ],
+          "name": [
+            "Taylor, Prentiss"
+          ],
+          "usage_flag": [
+            "permcoll"
+          ],
+          "online_media_type": [
+            "Images"
+          ]
+        },
+        "descriptiveNonRepeating": {
+          "title_sort": "PALETAS",
+          "title": {
+            "content": "Paletas",
+            "label": "Title"
+          },
+          "online_media": {
+            "mediaCount": "1",
+            "media": [
+              {
+                "idsId": "http:\/\/americanart.si.edu\/images\/1974\/1974.44.31_1a.jpg",
+                "content": "http:\/\/americanart.si.edu\/images\/1974\/1974.44.31_1a.jpg",
+                "thumbnail": "http:\/\/americanart.si.edu\/images\/1974\/1974.44.31_1d.jpg",
+                "type": "Images"
+              }
+            ]
+          },
+          "data_source": "Smithsonian American Art Museum",
+          "record_ID": "saam_1974.44.31",
+          "record_link": "http:\/\/americanart.si.edu\/collections\/search\/artwork\/?id=23884",
+          "unit_code": "SAAM"
+        },
+        "freetext": {
+          "topic": [
+            {
+              "content": "Figure group",
+              "label": "Topic"
+            },
+            {
+              "content": "Monument\\statue",
+              "label": "Topic"
+            },
+            {
+              "content": "Religion\\angel",
+              "label": "Topic"
+            },
+            {
+              "content": "Object\\foodstuff\\popsicle",
+              "label": "Topic"
+            }
+          ],
+          "dataSource": [
+            {
+              "content": "Smithsonian American Art Museum",
+              "label": "Data Source"
+            }
+          ],
+          "name": [
+            {
+              "content": "Prentiss Taylor, born Washington, DC 1907-died Washington, DC 1991",
+              "label": "Artist"
+            }
+          ],
+          "creditLine": [
+            {
+              "content": "Smithsonian American Art Museum, Gift of Irina A. Reed",
+              "label": "Credit Line"
+            }
+          ],
+          "setName": [
+            {
+              "content": "Smithsonian American Art Museum Collection",
+              "label": "See more items in"
+            }
+          ],
+          "identifier": [
+            {
+              "content": "1974.44.31",
+              "label": "Object number"
+            }
+          ],
+          "objectType": [
+            {
+              "content": "Graphic Arts-Print",
+              "label": "Type"
+            }
+          ]
+        }
+      },
+      {
+        "indexedStructured": {
+          "object_type": [
+            "Graphic arts"
+          ],
+          "topic": [
+            "Construction",
+            "Architecture",
+            "Landscapes",
+            "Occupations",
+            "Industry"
+          ],
+          "name": [
+            "Taylor, Prentiss"
+          ],
+          "usage_flag": [
+            "permcoll"
+          ],
+          "online_media_type": [
+            "Images"
+          ]
+        },
+        "descriptiveNonRepeating": {
+          "title_sort": "PAVING CUTTERS' TENTS",
+          "title": {
+            "content": "Paving Cutters' Tents",
+            "label": "Title"
+          },
+          "online_media": {
+            "mediaCount": "1",
+            "media": [
+              {
+                "idsId": "http:\/\/americanart.si.edu\/images\/1974\/1974.44.26_1a.jpg",
+                "content": "http:\/\/americanart.si.edu\/images\/1974\/1974.44.26_1a.jpg",
+                "thumbnail": "http:\/\/americanart.si.edu\/images\/1974\/1974.44.26_1d.jpg",
+                "type": "Images"
+              }
+            ]
+          },
+          "data_source": "Smithsonian American Art Museum",
+          "record_ID": "saam_1974.44.26",
+          "record_link": "http:\/\/americanart.si.edu\/collections\/search\/artwork\/?id=23885",
+          "unit_code": "SAAM"
+        },
+        "freetext": {
+          "topic": [
+            {
+              "content": "Occupation\\industry\\construction",
+              "label": "Topic"
+            },
+            {
+              "content": "Landscape",
+              "label": "Topic"
+            },
+            {
+              "content": "Architecture Exterior\\industry\\construction",
+              "label": "Topic"
+            }
+          ],
+          "dataSource": [
+            {
+              "content": "Smithsonian American Art Museum",
+              "label": "Data Source"
+            }
+          ],
+          "name": [
+            {
+              "content": "Prentiss Taylor, born Washington, DC 1907-died Washington, DC 1991",
+              "label": "Artist"
+            }
+          ],
+          "creditLine": [
+            {
+              "content": "Smithsonian American Art Museum, Gift of Irina A. Reed",
+              "label": "Credit Line"
+            }
+          ],
+          "setName": [
+            {
+              "content": "Smithsonian American Art Museum Collection",
+              "label": "See more items in"
+            }
+          ],
+          "identifier": [
+            {
+              "content": "1974.44.26",
+              "label": "Object number"
+            }
+          ],
+          "objectType": [
+            {
+              "content": "Graphic Arts-Print",
+              "label": "Type"
+            }
+          ]
+        }
+      },
+      {
+        "indexedStructured": {
+          "object_type": [
+            "Graphic arts"
+          ],
+          "topic": [
+            "Entertainers",
+            "Figure group",
+            "Men",
+            "Quartet",
+            "Music"
+          ],
+          "name": [
+            "Taylor, Prentiss"
+          ],
+          "usage_flag": [
+            "permcoll"
+          ],
+          "online_media_type": [
+            "Images"
+          ]
+        },
+        "descriptiveNonRepeating": {
+          "title_sort": "PRO ARTE PLAYING SCHOENBERG",
+          "title": {
+            "content": "Pro Arte Playing Schoenberg",
+            "label": "Title"
+          },
+          "online_media": {
+            "mediaCount": "1",
+            "media": [
+              {
+                "idsId": "http:\/\/americanart.si.edu\/images\/1974\/1974.44.40_1a.jpg",
+                "content": "http:\/\/americanart.si.edu\/images\/1974\/1974.44.40_1a.jpg",
+                "thumbnail": "http:\/\/americanart.si.edu\/images\/1974\/1974.44.40_1d.jpg",
+                "type": "Images"
+              }
+            ]
+          },
+          "data_source": "Smithsonian American Art Museum",
+          "record_ID": "saam_1974.44.40",
+          "record_link": "http:\/\/americanart.si.edu\/collections\/search\/artwork\/?id=23887",
+          "unit_code": "SAAM"
+        },
+        "freetext": {
+          "topic": [
+            {
+              "content": "Figure group\\male",
+              "label": "Topic"
+            },
+            {
+              "content": "Performing arts\\music\\quartet",
+              "label": "Topic"
+            }
+          ],
+          "dataSource": [
+            {
+              "content": "Smithsonian American Art Museum",
+              "label": "Data Source"
+            }
+          ],
+          "name": [
+            {
+              "content": "Prentiss Taylor, born Washington, DC 1907-died Washington, DC 1991",
+              "label": "Artist"
+            }
+          ],
+          "creditLine": [
+            {
+              "content": "Smithsonian American Art Museum, Gift of Irina A. Reed",
+              "label": "Credit Line"
+            }
+          ],
+          "setName": [
+            {
+              "content": "Smithsonian American Art Museum Collection",
+              "label": "See more items in"
+            }
+          ],
+          "identifier": [
+            {
+              "content": "1974.44.40",
+              "label": "Object number"
+            }
+          ],
+          "objectType": [
+            {
+              "content": "Graphic Arts-Print",
+              "label": "Type"
+            }
+          ]
+        }
+      },
+      {
+        "indexedStructured": {
+          "object_type": [
+            "Graphic arts"
+          ],
+          "topic": [
+            "Detail",
+            "Roads",
+            "Furniture",
+            "Religion",
+            "Architecture",
+            "Landscapes",
+            "Bench",
+            "Church",
+            "Fence",
+            "Path"
+          ],
+          "name": [
+            "Taylor, Prentiss"
+          ],
+          "usage_flag": [
+            "permcoll"
+          ],
+          "online_media_type": [
+            "Images"
+          ]
+        },
+        "descriptiveNonRepeating": {
+          "title_sort": "PUBLIC WAY",
+          "title": {
+            "content": "Public Way",
+            "label": "Title"
+          },
+          "online_media": {
+            "mediaCount": "1",
+            "media": [
+              {
+                "idsId": "http:\/\/americanart.si.edu\/images\/1974\/1974.44.15_1a.jpg",
+                "content": "http:\/\/americanart.si.edu\/images\/1974\/1974.44.15_1a.jpg",
+                "thumbnail": "http:\/\/americanart.si.edu\/images\/1974\/1974.44.15_1d.jpg",
+                "type": "Images"
+              }
+            ]
+          },
+          "data_source": "Smithsonian American Art Museum",
+          "record_ID": "saam_1974.44.15",
+          "record_link": "http:\/\/americanart.si.edu\/collections\/search\/artwork\/?id=23888",
+          "unit_code": "SAAM"
+        },
+        "freetext": {
+          "topic": [
+            {
+              "content": "Landscape\\road\\path",
+              "label": "Topic"
+            },
+            {
+              "content": "Object\\furniture\\bench",
+              "label": "Topic"
+            },
+            {
+              "content": "Architecture Exterior\\detail\\fence",
+              "label": "Topic"
+            },
+            {
+              "content": "Architecture Exterior\\religious\\church",
+              "label": "Topic"
+            }
+          ],
+          "dataSource": [
+            {
+              "content": "Smithsonian American Art Museum",
+              "label": "Data Source"
+            }
+          ],
+          "name": [
+            {
+              "content": "Prentiss Taylor, born Washington, DC 1907-died Washington, DC 1991",
+              "label": "Artist"
+            }
+          ],
+          "creditLine": [
+            {
+              "content": "Smithsonian American Art Museum, Gift of Irina A. Reed",
+              "label": "Credit Line"
+            }
+          ],
+          "setName": [
+            {
+              "content": "Smithsonian American Art Museum Collection",
+              "label": "See more items in"
+            }
+          ],
+          "identifier": [
+            {
+              "content": "1974.44.15",
+              "label": "Object number"
+            }
+          ],
+          "objectType": [
+            {
+              "content": "Graphic Arts-Print",
+              "label": "Type"
+            }
+          ]
+        }
+      },
+      {
+        "indexedStructured": {
+          "object_type": [
+            "Graphic arts"
+          ],
+          "topic": [
+            "Wharf",
+            "Shipyard",
+            "Landscapes",
+            "Architecture",
+            "Sailboats",
+            "Industry",
+            "Boats and boating"
+          ],
+          "name": [
+            "Taylor, Prentiss"
+          ],
+          "usage_flag": [
+            "permcoll"
+          ],
+          "online_media_type": [
+            "Images"
+          ]
+        },
+        "descriptiveNonRepeating": {
+          "title_sort": "ROCKY NECK RAILWAYS",
+          "title": {
+            "content": "Rocky Neck Railways",
+            "label": "Title"
+          },
+          "online_media": {
+            "mediaCount": "1",
+            "media": [
+              {
+                "idsId": "http:\/\/americanart.si.edu\/images\/1974\/1974.44.20_1a.jpg",
+                "content": "http:\/\/americanart.si.edu\/images\/1974\/1974.44.20_1a.jpg",
+                "thumbnail": "http:\/\/americanart.si.edu\/images\/1974\/1974.44.20_1d.jpg",
+                "type": "Images"
+              }
+            ]
+          },
+          "data_source": "Smithsonian American Art Museum",
+          "record_ID": "saam_1974.44.20",
+          "record_link": "http:\/\/americanart.si.edu\/collections\/search\/artwork\/?id=23890",
+          "unit_code": "SAAM"
+        },
+        "freetext": {
+          "topic": [
+            {
+              "content": "Architecture\\boat\\sailboat",
+              "label": "Topic"
+            },
+            {
+              "content": "Landscape\\wharf",
+              "label": "Topic"
+            },
+            {
+              "content": "Architecture Exterior\\industry\\shipyard",
+              "label": "Topic"
+            }
+          ],
+          "dataSource": [
+            {
+              "content": "Smithsonian American Art Museum",
+              "label": "Data Source"
+            }
+          ],
+          "name": [
+            {
+              "content": "Prentiss Taylor, born Washington, DC 1907-died Washington, DC 1991",
+              "label": "Artist"
+            }
+          ],
+          "creditLine": [
+            {
+              "content": "Smithsonian American Art Museum, Gift of Irina A. Reed",
+              "label": "Credit Line"
+            }
+          ],
+          "setName": [
+            {
+              "content": "Smithsonian American Art Museum Collection",
+              "label": "See more items in"
+            }
+          ],
+          "identifier": [
+            {
+              "content": "1974.44.20",
+              "label": "Object number"
+            }
+          ],
+          "objectType": [
+            {
+              "content": "Graphic Arts-Print",
+              "label": "Type"
+            }
+          ]
+        }
+      },
+      {
+        "indexedStructured": {
+          "object_type": [
+            "Graphic arts"
+          ],
+          "topic": [
+            "Animals",
+            "Snake",
+            "Foundry",
+            "Architecture",
+            "Reptile",
+            "Ruins",
+            "Statues",
+            "Monuments",
+            "Industry"
+          ],
+          "name": [
+            "Taylor, Prentiss"
+          ],
+          "usage_flag": [
+            "permcoll"
+          ],
+          "online_media_type": [
+            "Images"
+          ]
+        },
+        "descriptiveNonRepeating": {
+          "title_sort": "ROXBURY FOUNDRY",
+          "title": {
+            "content": "Roxbury Foundry",
+            "label": "Title"
+          },
+          "online_media": {
+            "mediaCount": "1",
+            "media": [
+              {
+                "idsId": "http:\/\/americanart.si.edu\/images\/1974\/1974.44.12_1a.jpg",
+                "content": "http:\/\/americanart.si.edu\/images\/1974\/1974.44.12_1a.jpg",
+                "thumbnail": "http:\/\/americanart.si.edu\/images\/1974\/1974.44.12_1d.jpg",
+                "type": "Images"
+              }
+            ]
+          },
+          "data_source": "Smithsonian American Art Museum",
+          "record_ID": "saam_1974.44.12",
+          "record_link": "http:\/\/americanart.si.edu\/collections\/search\/artwork\/?id=23891",
+          "unit_code": "SAAM"
+        },
+        "freetext": {
+          "topic": [
+            {
+              "content": "Monument\\statue",
+              "label": "Topic"
+            },
+            {
+              "content": "Animal\\reptile\\snake",
+              "label": "Topic"
+            },
+            {
+              "content": "Architecture Exterior\\ruins",
+              "label": "Topic"
+            },
+            {
+              "content": "Architecture Exterior\\industry\\foundry",
+              "label": "Topic"
+            }
+          ],
+          "dataSource": [
+            {
+              "content": "Smithsonian American Art Museum",
+              "label": "Data Source"
+            }
+          ],
+          "name": [
+            {
+              "content": "Prentiss Taylor, born Washington, DC 1907-died Washington, DC 1991",
+              "label": "Artist"
+            }
+          ],
+          "creditLine": [
+            {
+              "content": "Smithsonian American Art Museum, Gift of Irina A. Reed",
+              "label": "Credit Line"
+            }
+          ],
+          "setName": [
+            {
+              "content": "Smithsonian American Art Museum Collection",
+              "label": "See more items in"
+            }
+          ],
+          "identifier": [
+            {
+              "content": "1974.44.12",
+              "label": "Object number"
+            }
+          ],
+          "objectType": [
+            {
+              "content": "Graphic Arts-Print",
+              "label": "Type"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
