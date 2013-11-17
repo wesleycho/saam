@@ -26,7 +26,8 @@ class Root(object):
     from luce_match import luce_match
     luce_match.exposed = True
 
-
+    from luce_match_score import luce_match_score
+    luce_match_score.exposed = True
 
 if __name__ == '__main__':
 
@@ -36,8 +37,6 @@ if __name__ == '__main__':
     cherrypy.config.update({'server.socket_port': 8080,
                             'server.socket_host': '127.0.0.1',
                             'log.screen': True,
-##                            'tools.staticdir.on': True,
-##                            'tools.staticdir.root': static_dir
                             })
 
     conf = {'/static': {'tools.staticdir.on': True,
