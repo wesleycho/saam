@@ -1,3 +1,8 @@
+<section class="row">
+  <div class="one columns">
+    <input ng-model="param.filter" ng-change="updateFilter(param.filter)">
+  </div>
+</section>
 <section class="row" infinite-scroll="requestMoreItems()" infinite-scroll-distance="10">
   <div class="two columns" ng-repeat="column in columns">
     <div ng-repeat="image in column.images">
