@@ -7,7 +7,8 @@ angular.module('SmithsonianApp', [
   'ngResource',
   'ngSanitize',
   'ngAnimate',
-  'ui.router'
+  'ui.router',
+  'infinite-scroll'
 ])
   .value('route', {
     api: dev ? 'http://localhost:9000/api' : 'http://localhost:8080/api'
