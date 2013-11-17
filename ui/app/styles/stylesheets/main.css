@@ -17,7 +17,7 @@
 * Free to use under the MIT license.
 * http://www.opensource.org/licenses/mit-license.php
 */
-/* line 17, ../../../../../../.rvm/gems/ruby-2.0.0-p247/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 17, ../../../../../../../.rvm/gems/ruby-2.0.0-p247/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -39,45 +39,45 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 22, ../../../../../../.rvm/gems/ruby-2.0.0-p247/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 22, ../../../../../../../.rvm/gems/ruby-2.0.0-p247/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1;
 }
 
-/* line 24, ../../../../../../.rvm/gems/ruby-2.0.0-p247/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../../../../../../.rvm/gems/ruby-2.0.0-p247/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 26, ../../../../../../.rvm/gems/ruby-2.0.0-p247/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../../../../../../.rvm/gems/ruby-2.0.0-p247/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 28, ../../../../../../.rvm/gems/ruby-2.0.0-p247/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../../../../../../.rvm/gems/ruby-2.0.0-p247/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 30, ../../../../../../.rvm/gems/ruby-2.0.0-p247/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../../../../../../.rvm/gems/ruby-2.0.0-p247/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 103, ../../../../../../.rvm/gems/ruby-2.0.0-p247/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 103, ../../../../../../../.rvm/gems/ruby-2.0.0-p247/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 32, ../../../../../../.rvm/gems/ruby-2.0.0-p247/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 32, ../../../../../../../.rvm/gems/ruby-2.0.0-p247/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 116, ../../../../../../.rvm/gems/ruby-2.0.0-p247/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 116, ../../../../../../../.rvm/gems/ruby-2.0.0-p247/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block;
 }
@@ -92,12 +92,12 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   float: left;
 }
 
-/* line 61, ../../../../../../.rvm/gems/ruby-2.0.0-p247/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
+/* line 61, ../../../../../../../.rvm/gems/ruby-2.0.0-p247/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
 * html {
   font-size: 100%;
 }
 
-/* line 64, ../../../../../../.rvm/gems/ruby-2.0.0-p247/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
+/* line 64, ../../../../../../../.rvm/gems/ruby-2.0.0-p247/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
 html {
   font-size: 16px;
   line-height: 1.625em;
@@ -8292,7 +8292,7 @@ img {
   background: #44951e;
 }
 /* line 103, ../sass/ui/_buttons.scss */
-.btn.metro, .metro .btn, .metro .skiplink, .btn.metro:hover, .metro .btn:hover, .metro .skiplink:hover, .skiplink.metro:hover, .btn.metro:active, .metro .btn:active, .metro .skiplink:active, .skiplink.metro:active, .skiplink.metro {
+.btn.metro, .metro .btn, .metro .skiplink, .btn.metro:hover, .skiplink.metro:hover, .btn.metro:active, .skiplink.metro:active, .skiplink.metro {
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
   -ms-border-radius: 0;
@@ -8308,7 +8308,7 @@ img {
   border-radius: 4px;
 }
 /* line 103, ../sass/ui/_buttons.scss */
-.btn.pretty, .pretty .btn, .pretty .skiplink, .btn.pretty:hover, .pretty .btn:hover, .pretty .skiplink:hover, .skiplink.pretty:hover, .btn.pretty:active, .pretty .btn:active, .pretty .skiplink:active, .skiplink.pretty:active, .skiplink.pretty {
+.btn.pretty, .pretty .btn, .pretty .skiplink, .btn.pretty:hover, .skiplink.pretty:hover, .btn.pretty:active, .skiplink.pretty:active, .skiplink.pretty {
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   -ms-border-radius: 4px;
@@ -10069,6 +10069,60 @@ table.rounded > tbody:first-child tr:first-child td {
 }
 /* line 68, ../sass/_custom.scss */
 #browse h2, #favorite h2 {
+  font-size: 26px;
+  font-size: 1.625rem;
+}
+
+/* line 78, ../sass/_custom.scss */
+#objectMeta {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+/* line 81, ../sass/_custom.scss */
+#objectMeta h1 {
+  font-size: 26px;
+  font-size: 1.625rem;
+}
+/* line 84, ../sass/_custom.scss */
+#objectMeta h2, #objectMeta h3 {
+  font-size: 18px;
+  font-size: 1.125rem;
+}
+/* line 87, ../sass/_custom.scss */
+#objectMeta a {
+  text-decoration: underline;
+}
+/* line 89, ../sass/_custom.scss */
+#objectMeta a:hover, #objectMeta a:focus {
+  text-decoration: none;
+}
+
+/* line 94, ../sass/_custom.scss */
+.moreResources {
+  border: 1px solid #4a4d50;
+  display: block;
+  margin-left: 20px;
+  margin-bottom: 25px;
+  padding-left: 30px;
+  padding-top: 13px;
+}
+/* line 101, ../sass/_custom.scss */
+.moreResources:hover, .moreResources:focus {
+  background: #bde6d7;
+}
+/* line 104, ../sass/_custom.scss */
+.moreResources p {
+  text-decoration: none;
+}
+
+/* line 108, ../sass/_custom.scss */
+#collectObj {
+  background-color: #79c0cd;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+/* line 112, ../sass/_custom.scss */
+#collectObj h1 {
   font-size: 26px;
   font-size: 1.625rem;
 }

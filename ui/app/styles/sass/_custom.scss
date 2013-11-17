@@ -76,4 +76,42 @@ $secondary-color: #79C0CD;
 #object {
 }
 #objectMeta {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  h1 {
+    @include font-size($large);
+  }
+  h2, h3 {
+    @include font-size($med);
+  }
+  a {
+  text-decoration: underline;
+  &:hover, &:focus {
+    text-decoration: none;
+  }
 }
+}
+.moreResources {
+  border: 1px solid $navbar-color;
+  display: block;
+  margin-left: 20px;
+  margin-bottom: 25px;
+  padding-left: 30px;
+  padding-top: 13px;
+  &:hover, &:focus {
+    background: lighten($primary-color, 20%);
+  }
+  p {
+  text-decoration: none; 
+  }
+}
+#collectObj {
+  background-color: $secondary-color;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  h1 {
+    @include font-size($large);
+  }
+}
+
+
