@@ -17,6 +17,10 @@ angular.module('mockBackend', ['ngMockE2E'])
       .success(setData('san francisco'));
     $http.get('mock/data/los_angeles.json')
       .success(setData('los angeles'));
+    $http.get('mock/data/chicago.json')
+      .success(setData('chicago'));
+    $http.get('mock/data/las_vegas.json')
+      .success(setData('las vegas'));
 
     function setData (key) {
       return function (data) {
