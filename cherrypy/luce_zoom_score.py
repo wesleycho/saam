@@ -34,10 +34,10 @@ def luce_zoom_score(self, **kwargs):
 
     page_source.append('<link rel="stylesheet" type="text/css" href="/static/main.css"> <link rel="stylesheet" type="text/css" href="/static/gumby.css">')
 
-    page_source.append('<div class="row">')
-    page_source.append('<table> <tr> <h2>WALL OF CHAMPIONS</h2> </tr> ')
+    page_source.append('<div class="row"> <div class="eight columns" style="text-align: center">')
+    page_source.append('<h2>WALL OF CHAMPIONS</h2> <BR> Nice score you\'ve got there <BR> But it would be a real shame <br> If something happened <br> <a href="luce_zoom">Play again!</a> <br> &nbsp; <br> <table>')
     page_source.extend(score_table)
-    page_source.append('</table> <a href="luce_zoom">Play again!</a></div>')
+    page_source.append('</table> </div> </div>')
 
     return page_source
 

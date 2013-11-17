@@ -27,8 +27,8 @@ class Root(object):
     from luce_match import luce_match
     luce_match.exposed = True
 
-    luce_mash = luce_match
-    luce_mash.exposed = True
+    lucemash = luce_mash = luce_match
+    lucemash.exposed = luce_mash.exposed = True
 
     from luce_match_score import luce_match_score
     luce_match_score.exposed = True
