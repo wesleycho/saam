@@ -1,6 +1,5 @@
 project.xml
 project.properties
-static/
 ui/node_modules
 ui/dist
 ui/.tmp
