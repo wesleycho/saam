@@ -5,6 +5,8 @@ def collections(self, **kwargs):
     import requests
     from requests.auth import HTTPBasicAuth
 
+    import json
+
     q = kwargs.get('q')
     rows = kwargs.get('rows')
     fq = kwargs.get('fq')
@@ -24,14 +26,14 @@ def collections(self, **kwargs):
     if start is not None:
         request_url.append('&start={0}'.format(start))
 
-    return str(requests.get(''.join(request_url), auth=HTTPBasicAuth(username, password)).json())
+    return json.dumps(str(requests.get(''.join(request_url), auth=HTTPBasicAuth(username, password)).json()))
 
 
-def groups(self, **kwargs):
-
-    from luce_credentials import username, password
-    import requests
-    from requests.auth import HTTPBasicAuth
+##def groups(self, **kwargs):
+##
+##    from luce_credentials import username, password
+##    import requests
+##    from requests.auth import HTTPBasicAuth
 
     
 
