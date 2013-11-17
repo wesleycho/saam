@@ -39,6 +39,9 @@ class Root(object):
     from luce_zoom_score import luce_zoom_score
     luce_zoom_score.exposed = True
 
+    from luce_learn_more import luce_learn_more as learn_more
+    learn_more.exposed = True
+
 if __name__ == '__main__':
 
     import os.path
