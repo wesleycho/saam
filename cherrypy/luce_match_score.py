@@ -17,7 +17,7 @@ def luce_match_score(self, **kwargs):
     rank = 0
     for row in database_cursor.fetchall():
         rank += 1
-        score_table.append('<tr> <td>#{0}</td> <td><img src="{1}" alt="{2}"></td> <td>{2}</td> <td><b>{3}</b></td> </tr>'.format(rank, row[1], row[2], row[3]))
+        score_table.append('<tr> <td>#{0}</td> <td><a href="http://americanart.si.edu/collections/search/artwork/?id={1}" target="_blank"><img src="{2}" alt="{3}"></a></td> <td>{3}</td> <td><b>{4}</b></td> </tr>'.format(rank, row[0], row[1], row[2], row[3]))
 
     page_source = []
     
